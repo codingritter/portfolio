@@ -1,0 +1,96 @@
+html{
+    background-image: url(Bilder/background.png);
+}
+#wrapper{
+    width:100%;
+    max-width: 80%;
+    margin-left:10%;
+}
+header h1{
+    text-align: center;
+}
+header h2{
+    text-align: center;
+    
+}
+.naviButtons{
+    text-align: center;
+   
+}
+button{
+    height:30px;
+    width:100px;
+}
+button:hover{
+    background-color:darkolivegreen;
+}
+main img[alt=profilbild]{
+    border-style: solid;
+    position: relative;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:100px;
+   width:220px;
+   height:300px;
+   border-radius: 5%;
+
+}
+main h1{
+    margin-top:100px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 26px;
+}
+main h2{
+    font-size: 16px;
+    
+}
+#uebermich{
+    margin-bottom: 0px;
+   font-weight: bold;
+   line-height: 2.0;
+}
+#lebenslauf {
+    line-height: 2.0;
+    font-weight: bold;
+}
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+}
+#inhaltDiv img {
+    border-style: solid;
+    width:300px;
+    height:200px;
+}
+#inhaltDiv img:hover{
+    width:330px;
+    height:230px;
+}
+#inhaltDiv h2 {
+    margin-top: 50px;
+}
+#beschreibung {
+    margin-top: 30px;
+    width: 300px;
+}
+#inhaltDiv {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#elementDiv{
+    margin-right: 40px;
+}
+#kontaktfeld img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100px;
+    height:100px;
+}
+#kontaktfeld img:hover{
+    width:120px;
+    height:120px;
+}

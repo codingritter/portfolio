@@ -1,0 +1,15 @@
+        {
+    "informationen": {
+        "uebermich": "Marcel Ritter Buisan</li> <li>Geburtsdatum: 10.06.2001</li> <li>Medieninformatik Student im 3 Semester</li> <li> Hochschule Furtwangen im Schwarzwald"
+    },
+    "projekte" : [
+        {"name": "Eisdielen Webseite", "bild": "Bilder/eisdielenWebseite.jpg", "beschreibung": "Als Endprojekt des zweiten Semesters mussten wir einen Eisdielen Webshop programmieren", "link": "https://rittermarcel.github.io/GIS-SoSe-2020/Abgaben/endprojekt/index.html"},
+        {"name": "Unterwasserszene", "bild": "Bilder/unterwasserszene.png", "beschreibung": "Unterwasserszene in Blender modelliert. Mit Animationen", "link": "https://drive.google.com/file/d/1nSqekvnw4IBgiJkRac42vcK1HZuMb7gW/view?usp=sharing"}
+    ],
+        "weiterbildungen" : [
+            {"name": "Udemy Kurs", "bild":"Bilder/udemyabschlussbescheinigung.jpg", "beschreibung": "Angular Online Kurs auf Udemy abgeschlossen", "link": "Bilder/udemyabschlussbescheinigung.jpg"}
+    ]
+        }
+    
+  
+     
