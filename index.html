@@ -2,59 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-    <script src="inhaltJson.js" defer></script>
-    <title>Portfolio-Marcel Ritter</title>
-
-    <!--Google Analytics start-->
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-H67P4YL6E8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-H67P4YL6E8');
-</script>
-<!--Google Analytics Ende-->
+    <script src="script.js"></script>
+    <title>Über mich</title>
 </head>
 <body>
-    <div id="wrapper">
-    <header>
-        <h1>Portfolio</h1>
-        <h2>Marcel Ritter Buisan</h2>
-        <div class="naviButtons">
-        <button id="ueberMichButton">Über mich</button>
-        <button id="projekteButton">Projekte</button>
-        <button id="kontaktButton">Kontakt</button>
+    <div class="header">
+        <div class="whiteBox">
+            <div class="introTextBox">
+                <h3>Hallo, ich bin </h3>
+                <h2 class="name" style="color: rgb(47, 192, 105);"> Marcel</h2>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                <button id="viewPortfolioButton">Portfolio anzeigen</button>
+            </div>
+        </div>
+        <div class="greenBox">
+
+        </div>
     </div>
-    </header>
-    <main >
-    <img src="Bilder/bewerbungsfoto.jpg" alt="profilbild">
-    <h1 id="uebermichAnker">Über mich</h1>
-    
-        <ul>
-    <li id="uebermich"></li>
-   <li id="lebenslauf">Lebenslauf: <a href="https://codingritter.github.io/projekte/portfolio/lebenslaufMarcelRitterBuisan.pdf" target="_blank">Lebenslauf.pdf</a>
-</li>
-</ul>
+    <div class="aboutMeSection">
+        <div class="aboutMeText">
+            <p class="sectionTeaser">Ein bisschen was zu mir</p>
+            <h3 class="aboutMeTitel" style="color: rgb(47, 192, 105);">Über mich</h3>
+            <h3 class="textTitel">Meine Geschichte</h3>
+            <p style="font-size: 12px;" class="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <button id="viewPortfolioButton">Lebenslauf herunterladen</button>
 
-<div id="projekte">
-<h1 id="projekteAnker">Projekte</h1>
-</div>
-<div id="kurse">
-<h1 id="abgeschlosseneKurseAnker">Weiterbildungen</h1>
-</div>
-<h1 id="kontaktAnker">Kontakt</h1>
-<div id="kontaktfeld">
-<img src="Bilder/mail.png" alt="mail logo" id="mail">
-</div>
-</main>
-</div>
-<footer>
-
-</footer>
+        </div>
+    </div>
 </body>
 </html>
