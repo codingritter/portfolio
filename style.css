@@ -143,6 +143,7 @@ p {
     position: relative;
     width: 180px;
     margin-left: 25px;
+    margin-bottom: 25px;
     height: 150px;
     border-radius: 3px;
 
@@ -165,9 +166,25 @@ p {
     font-size: 8px;
 
 }
-.portfolio {
+
+.zertifikate {
     position: relative;
     top:120vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+justify-content: center;
+
+}
+#zertifikateBoxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.portfolio {
+    position: relative;
+    top:140vh;
     position: relative;
     text-align: center;
     display: flex;

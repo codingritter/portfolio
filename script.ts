@@ -12,6 +12,7 @@ function handleLoad(_event: Event) {
     buttonContact.addEventListener("click", contactEmail);
 
     let skillBoxes: HTMLDivElement = <HTMLDivElement>document.getElementById("skillBoxes");
+    let zertifikateBoxes: HTMLDivElement = <HTMLDivElement>document.getElementById("zertifikateBoxes");
     let portfolioBoxes: HTMLDivElement = <HTMLDivElement>document.getElementById("portfolioBoxes");
 
 
@@ -22,6 +23,25 @@ function handleLoad(_event: Event) {
         let boxDiv: HTMLDivElement = document.createElement("div");
         boxDiv.setAttribute("class", "box");
         skillBoxes.appendChild(boxDiv);
+        let boxContent: HTMLDivElement = document.createElement("div");
+        boxContent.setAttribute("class", "boxContent");
+        boxDiv.appendChild(boxContent);
+        let boxImage: HTMLImageElement = document.createElement("img");
+        boxImage.setAttribute("src", jsonImport.skills[i].image);
+        boxDiv.appendChild(boxImage);
+        let boxTitel: HTMLParagraphElement = document.createElement("h3");
+        boxTitel.innerHTML = jsonImport.skills[i].titel;
+        boxDiv.appendChild(boxTitel);
+        let boxText: HTMLParagraphElement = document.createElement("p");
+        boxText.innerHTML = jsonImport.skills[i].content;
+        boxDiv.appendChild(boxText);
+    }
+
+    //Zertifikate
+    for (let i:number = 0; i< jsonImport.skills.length; i++) {
+        let boxDiv: HTMLDivElement = document.createElement("div");
+        boxDiv.setAttribute("class", "box");
+        zertifikateBoxes.appendChild(boxDiv);
         let boxContent: HTMLDivElement = document.createElement("div");
         boxContent.setAttribute("class", "boxContent");
         boxDiv.appendChild(boxContent);

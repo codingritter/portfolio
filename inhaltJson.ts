@@ -11,6 +11,11 @@ portfolio: [{
     titel: string;
     content: string;
 }];
+zertifikate: [{
+    image: string;
+    titel: string;
+    content: string;
+}];
 }
 
 export let jsonImport: JsonImport;
