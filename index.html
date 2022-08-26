@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <script src="inhaltJson.js"></script>
     <title>Über mich</title>
 </head>
 <body>
@@ -13,8 +14,8 @@
         <div class="whiteBox">
             <div class="introTextBox">
                 <h3>Hallo, ich bin </h3>
-                <h2 class="name" style="color: rgb(47, 192, 105);"> Marcel</h2>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                <h2 class="name" style="color: rgb(27, 164, 109);"> Marcel</h2>
+                <p style="font-size:13px;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
                 <button id="viewPortfolioButton">Portfolio anzeigen</button>
             </div>
         </div>
@@ -25,11 +26,37 @@
     <div class="aboutMeSection">
         <div class="aboutMeText">
             <p class="sectionTeaser">Ein bisschen was zu mir</p>
-            <h3 class="aboutMeTitel" style="color: rgb(47, 192, 105);">Über mich</h3>
+            <h3 class="aboutMeTitel" style="color: rgb(27, 164, 109);">Über mich</h3>
             <h3 class="textTitel">Meine Geschichte</h3>
             <p style="font-size: 12px;" class="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-            <a href="lebenslaufMarcelRitterBuisan.pdf" download="Lebenslauf_Marcel_Ritter_Buisan"><button id="viewPortfolioButton">Lebenslauf herunterladen</button></a>
+            <div class="buttonGroup">
+            <a href="lebenslaufMarcelRitterBuisan.pdf" download="Lebenslauf_Marcel_Ritter_Buisan"><button id="Button">Lebenslauf herunterladen</button></a>
+           <button id="ButtonContact">Kontakt</button>
 
+        </div>
+        </div>
+    </div>
+
+    <div class="skills">
+        <div class="centerAlign">
+        <p class="sectionTeaser">Was ich kann</p>
+            <h3 class="aboutMeTitel" style="color: rgb(27, 164, 109);">Skills</h3>
+            <div class="skillBoxes">
+                <div class="box">
+                    <div class="boxContent">
+                        <img src="Bilder/websiteCoding.png" alt="Web Programmierung">
+                        <h3>Web Design</h3>
+                        <p>HTML, CSS</p>
+                    </div>
+                </div>
+                    <div class="box">
+                        <div class="boxContent">
+                            <img src="Bilder/websiteCoding.png" alt="Web Programmierung">
+                            <h3>Web Design</h3>
+                            <p>HTML, CSS</p>
+                        </div>
+                </div>
+            
         </div>
     </div>
 </body>

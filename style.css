@@ -21,7 +21,7 @@ html {
 }
 
 .greenBox {
-    background-color: rgb(47, 192, 105);
+    background-color: rgb(27, 164, 109);
     position: relative;
     width: 40vw;
     height: 70vh;
@@ -53,9 +53,23 @@ p {
 
 }
 
+#Button {
+    margin-top: 10px;
+    background-color: rgb(27, 164, 109);
+    border: none;
+    margin-right: 15px;
+    border-radius: 3px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor:pointer;
+}
 #viewPortfolioButton {
     margin-top: 10px;
-    background-color: rgb(47, 192, 105);
+    background-color: rgb(27, 164, 109);
     border: none;
     border-radius: 3px;
     color: white;
@@ -66,11 +80,30 @@ p {
     font-size: 16px;
     cursor:pointer;
 }
+#ButtonContact {
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1.5px solid;
+    border-radius: 3px;
+    border-color: black;
+    color: black;
+    padding: 13.5px 30.5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor:pointer; 
+}
+#ButtonContact:hover {
+    background-color: rgb(27, 164, 109);
+    color: white;
+}
 .aboutMeSection {
     position: relative;
+    margin-top: 50px;
     top:80vh;
     position: relative;
-    left: 45vw;
+    left: 50vw;
     text-align: left;
     width: 40%;
 }
@@ -84,4 +117,54 @@ p {
 }
 .textTitel {
     margin-bottom: 30px;
+    font-size: 13px;
+}
+.text {
+    font-size: 10px;
+    color: gray;
+}
+.skills {
+        position: relative;
+        top:100vh;
+        position: relative;
+        text-align: center;
+        display: flex;
+  justify-content: center;
+    
+}
+.skillBoxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box {
+    background-color: white;
+    position: relative;
+    width: 180px;
+    margin-left: 25px;
+    height: 150px;
+    border-radius: 3px;
+
+}
+.box :hover {
+    background-color: rgb(27, 164, 109);
+
+}
+.boxContent {
+    text-align: left;
+    margin-left: 10px;
+}
+.box img {
+    margin-top: 20px;
+    width: 70px;
+    height: 50px;
+}
+.box h3 {
+    font-size: 11px;
+}
+.box p {
+    margin-top: 15px;
+    font-size: 8px;
+
 }
