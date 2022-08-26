@@ -132,7 +132,7 @@ p {
   justify-content: center;
     
 }
-.skillBoxes {
+#skillBoxes {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -147,10 +147,7 @@ p {
     border-radius: 3px;
 
 }
-.box :hover {
-    background-color: rgb(27, 164, 109);
 
-}
 .boxContent {
     text-align: left;
     margin-left: 10px;
@@ -167,4 +164,19 @@ p {
     margin-top: 15px;
     font-size: 8px;
 
+}
+.portfolio {
+    position: relative;
+    top:120vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+justify-content: center;
+
+}
+#portfolioBoxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }

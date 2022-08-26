@@ -1,6 +1,12 @@
 {
         "skills" : [
-            {"image": "Udemy Kurs", "titel":"Bilder/udemyabschlussbescheinigung.jpg", "content": "Angular Online Kurs auf Udemy abgeschlossen"}
+            {"image": "Bilder/websiteCoding.png", "titel":"Web Design", "content": "HTML, CSS"},
+            {"image": "Bilder/websiteCoding.png", "titel":"Web Programmierung", "content": "Typescript, Angular"},
+            {"image": "Bilder/websiteCoding.png", "titel":"Video Bearbeitung", "content": "Erfahrung mit Adobe Premiere, DaVinci Resolve und Magix"},
+            {"image": "Bilder/websiteCoding.png", "titel":"Fitness", "content": "Trainingspläne erstellen"}
+
+
+
     ]
         }
     

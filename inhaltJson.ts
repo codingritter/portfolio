@@ -6,6 +6,11 @@ skills: [{
     titel: string;
     content: string;
 }];
+portfolio: [{
+    image: string;
+    titel: string;
+    content: string;
+}];
 }
 
 export let jsonImport: JsonImport;
