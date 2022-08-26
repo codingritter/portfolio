@@ -25,6 +25,10 @@ html {
     position: relative;
     width: 40vw;
     height: 70vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .introTextBox {
@@ -196,4 +200,12 @@ justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+.bild {
+    position: relative;
+    z-index: 3;
+    right:8vw;
+    top: 6.6vh;
+    max-width: 70%;
+    height:auto;
 }
