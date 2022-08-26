@@ -1,6 +1,9 @@
 // tslint:disable-next-line: no-namespace
 namespace Portfolio{
 export function main(): void {
+window.addEventListener("load", handleLoad);
+
+function handleLoad(_event: Event) {
     console.log("hey");
     let viewPortfolioButton: HTMLButtonElement = <HTMLButtonElement>document.getElementById("viewPortfolioButton");
     viewPortfolioButton.addEventListener("click", viewPortfolio);
@@ -53,7 +56,7 @@ export function main(): void {
     }
 
     
-
+}
 function viewPortfolio() {
     location.href = "#portfolioTitel";
 }
