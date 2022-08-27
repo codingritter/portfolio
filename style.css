@@ -25,10 +25,24 @@ html {
     position: relative;
     width: 40vw;
     height: 70vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
+}
+.bild {
+    max-height: 100%;  
+        max-width: 100%; 
+        position: absolute;  
+        top: 0;  
+        bottom: 0;  
+        left: 0;  
+        right: 0px;  
+        margin: auto;
+}
+.bildBereich {
+    position: absolute;
+    width: 100vw;
+    top:0px;
+    left:11%;
+    height: 70vh;
+    z-index: 3;
 }
 
 .introTextBox {
@@ -201,11 +215,22 @@ justify-content: center;
     flex-wrap: wrap;
     justify-content: center;
 }
-.bild {
+/* .flex {
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+    border: 1px solid black;
     position: relative;
-    z-index: 3;
-    right:8vw;
-    top: 6.6vh;
-    max-width: 70%;
-    height:auto;
+
 }
+.bildClass {
+    width: 350px;
+        height: 400px;
+        vertical-align: middle;
+        text-align: center;
+        display: table-cell;
+        
+        
+} */
+
+
