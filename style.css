@@ -251,8 +251,8 @@ p {
     .bild {
         max-height: 90%;
     max-width: 90%;
-        top: 8vh;
-        bottom: 7px;
+        top: 7vh;
+        bottom: 0px;
         left: 0;
         right: 0px;
     }
@@ -334,8 +334,8 @@ p {
         .bild {
             max-height: 70%;
         max-width: 70%;
-            top: 22.5vh;
-            bottom: 7px;
+            top: 21vh;
+            bottom: 0px;
             left: 100px;
             right: 0px;
         }
