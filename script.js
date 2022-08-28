@@ -13,60 +13,27 @@ var Portfolio;
             let skillBoxes = document.getElementById("skillBoxes");
             let zertifikateBoxes = document.getElementById("zertifikateBoxes");
             let portfolioBoxes = document.getElementById("portfolioBoxes");
-            console.log(Portfolio.jsonImport.skills[0].image);
+            let kategorien = [skillBoxes, zertifikateBoxes, portfolioBoxes];
+            let kategorienLength = [Portfolio.jsonImport.skills.length, Portfolio.jsonImport.zertifikate.length, Portfolio.jsonImport.portfolio.length];
             //Skills
-            for (let i = 0; i < Portfolio.jsonImport.skills.length; i++) {
-                let boxDiv = document.createElement("div");
-                boxDiv.setAttribute("class", "box");
-                skillBoxes.appendChild(boxDiv);
-                let boxContent = document.createElement("div");
-                boxContent.setAttribute("class", "boxContent");
-                boxDiv.appendChild(boxContent);
-                let boxImage = document.createElement("img");
-                boxImage.setAttribute("src", Portfolio.jsonImport.skills[i].image);
-                boxDiv.appendChild(boxImage);
-                let boxTitel = document.createElement("h3");
-                boxTitel.innerHTML = Portfolio.jsonImport.skills[i].titel;
-                boxDiv.appendChild(boxTitel);
-                let boxText = document.createElement("p");
-                boxText.innerHTML = Portfolio.jsonImport.skills[i].content;
-                boxDiv.appendChild(boxText);
-            }
-            //Zertifikate
-            for (let i = 0; i < Portfolio.jsonImport.skills.length; i++) {
-                let boxDiv = document.createElement("div");
-                boxDiv.setAttribute("class", "box");
-                zertifikateBoxes.appendChild(boxDiv);
-                let boxContent = document.createElement("div");
-                boxContent.setAttribute("class", "boxContent");
-                boxDiv.appendChild(boxContent);
-                let boxImage = document.createElement("img");
-                boxImage.setAttribute("src", Portfolio.jsonImport.skills[i].image);
-                boxDiv.appendChild(boxImage);
-                let boxTitel = document.createElement("h3");
-                boxTitel.innerHTML = Portfolio.jsonImport.skills[i].titel;
-                boxDiv.appendChild(boxTitel);
-                let boxText = document.createElement("p");
-                boxText.innerHTML = Portfolio.jsonImport.skills[i].content;
-                boxDiv.appendChild(boxText);
-            }
-            //Portfolio
-            for (let i = 0; i < Portfolio.jsonImport.skills.length; i++) {
-                let boxDiv = document.createElement("div");
-                boxDiv.setAttribute("class", "box");
-                portfolioBoxes.appendChild(boxDiv);
-                let boxContent = document.createElement("div");
-                boxContent.setAttribute("class", "boxContent");
-                boxDiv.appendChild(boxContent);
-                let boxImage = document.createElement("img");
-                boxImage.setAttribute("src", Portfolio.jsonImport.skills[i].image);
-                boxDiv.appendChild(boxImage);
-                let boxTitel = document.createElement("h3");
-                boxTitel.innerHTML = Portfolio.jsonImport.skills[i].titel;
-                boxDiv.appendChild(boxTitel);
-                let boxText = document.createElement("p");
-                boxText.innerHTML = Portfolio.jsonImport.skills[i].content;
-                boxDiv.appendChild(boxText);
+            for (let i = 0; i < kategorien.length; i++) {
+                for (let y = 0; y < kategorienLength[i]; y++) {
+                    let boxDiv = document.createElement("div");
+                    boxDiv.setAttribute("class", "box");
+                    kategorien[i].appendChild(boxDiv);
+                    let boxContent = document.createElement("div");
+                    boxContent.setAttribute("class", "boxContent");
+                    boxDiv.appendChild(boxContent);
+                    let boxImage = document.createElement("img");
+                    boxImage.setAttribute("src", Portfolio.jsonImport.skills[i].image);
+                    boxDiv.appendChild(boxImage);
+                    let boxTitel = document.createElement("h3");
+                    boxTitel.innerHTML = Portfolio.jsonImport.skills[i].titel;
+                    boxDiv.appendChild(boxTitel);
+                    let boxText = document.createElement("p");
+                    boxText.innerHTML = Portfolio.jsonImport.skills[i].content;
+                    boxDiv.appendChild(boxText);
+                }
             }
         }
         function viewPortfolio() {

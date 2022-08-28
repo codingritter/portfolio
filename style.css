@@ -1,8 +1,29 @@
 html {
     background-color: rgb(199, 231, 241);
     font-family: Verdana, Arial, Tahoma, Serif;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
+
+.bild {
+    max-height: 102%;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 7px;
+    left: 0;
+    right: 0px;
+    margin: auto;
+}
+
+.bildBereich {
+    position: absolute;
+    width: 100vw;
+    top: 0px;
+    left: 10%;
+    height: 70vh;
+    z-index: 3;
+}
+
 
 .header {
     position: absolute;
@@ -26,24 +47,6 @@ html {
     width: 40vw;
     height: 70vh;
 }
-.bild {
-    max-height: 100%;  
-        max-width: 100%; 
-        position: absolute;  
-        top: 0;  
-        bottom: 0;  
-        left: 0;  
-        right: 0px;  
-        margin: auto;
-}
-.bildBereich {
-    position: absolute;
-    width: 100vw;
-    top:0px;
-    left:11%;
-    height: 70vh;
-    z-index: 3;
-}
 
 .introTextBox {
     position: relative;
@@ -51,6 +54,9 @@ html {
     top: 10vh;
     text-align: left;
     width: 60%;
+}
+.introText {
+    font-size: 13px;
 }
 
 h3 {
@@ -83,8 +89,9 @@ p {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    cursor:pointer;
+    cursor: pointer;
 }
+
 #viewPortfolioButton {
     margin-top: 10px;
     background-color: rgb(27, 164, 109);
@@ -96,8 +103,9 @@ p {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    cursor:pointer;
+    cursor: pointer;
 }
+
 #ButtonContact {
     margin-top: 20px;
     background-color: transparent;
@@ -110,58 +118,65 @@ p {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    cursor:pointer; 
+    cursor: pointer;
 }
+
 #ButtonContact:hover {
     background-color: rgb(27, 164, 109);
     color: white;
 }
+
 .aboutMeSection {
     position: relative;
     margin-top: 50px;
-    top:80vh;
+    top: 80vh;
     position: relative;
     left: 50vw;
     text-align: left;
     width: 40%;
 }
+
 .sectionTeaser {
     font-size: 10px;
 }
+
 .aboutMeTitel {
     margin-top: 20px;
     font-size: 25px;
     margin-bottom: 30px;
 }
+
 .textTitel {
     margin-bottom: 30px;
     font-size: 13px;
 }
+
 .text {
     font-size: 10px;
     color: gray;
 }
+
 .skills {
-        position: relative;
-        top:100vh;
-        position: relative;
-        text-align: center;
-        display: flex;
-  justify-content: center;
-    
+    position: relative;
+    top: 100vh;
+    text-align: center;
+
 }
+
 #skillBoxes {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .box {
     background-color: white;
     position: relative;
     width: 180px;
-    margin-left: 25px;
     margin-bottom: 25px;
+    margin-right: 12.5px;
+    margin-left: 12.5px;
     height: 150px;
     border-radius: 3px;
 
@@ -171,14 +186,17 @@ p {
     text-align: left;
     margin-left: 10px;
 }
+
 .box img {
     margin-top: 20px;
     width: 70px;
     height: 50px;
 }
+
 .box h3 {
     font-size: 11px;
 }
+
 .box p {
     margin-top: 15px;
     font-size: 8px;
@@ -187,50 +205,161 @@ p {
 
 .zertifikate {
     position: relative;
-    top:120vh;
-    position: relative;
+    top: 120vh;
     text-align: center;
-    display: flex;
-justify-content: center;
 
 }
+
 #zertifikateBoxes {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .portfolio {
     position: relative;
-    top:140vh;
-    position: relative;
+    top: 140vh;
     text-align: center;
-    display: flex;
-justify-content: center;
 
 }
+
 #portfolioBoxes {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
-/* .flex {
-    width: 250px;
-    height: 200px;
-    margin: 20px;
-    border: 1px solid black;
-    position: relative;
+
+
+
+
+@media (max-width: 800px) {
+    .whiteBox {
+        background-color: white;
+        position: relative;
+        width: 60vw;
+        height: 70vh;
+    }
+    
+    .greenBox {
+        background-color: rgb(27, 164, 109);
+        position: relative;
+        width: 40vw;
+        height: 70vh;
+    }
+    .bild {
+        max-height: 90%;
+    max-width: 90%;
+        top: 8vh;
+        bottom: 7px;
+        left: 0;
+        right: 0px;
+    }
+   
+    h3 {
+        font-size: 13px;
+        line-height: 10px;
+    
+    }
+    
+    h2 {
+        font-size: 40px;
+    }
+    .introTextBox {
+        width: 50%;
+    }
+    .introText {
+        font-size: 12px;
+    }
+    
+    p {
+        font-size: 11.25px;
+    
+    }
+    
+    #Button {
+        padding: 10px 22px;
+        font-size: 16px;
+    }
+    
+    #viewPortfolioButton {
+        padding: 10px 22px;
+        font-size: 13px;
+    }
+    
+    #ButtonContact {
+        margin-top: 20px;
+        background-color: transparent;
+        border: 1.5px solid;
+        border-radius: 3px;
+        border-color: black;
+        color: black;
+        padding: 8.5px 20.5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    
+    .aboutMeSection {
+        position: relative;
+        margin-top: 50px;
+        top: 80vh;
+        position: relative;
+        left: 50vw;
+        text-align: left;
+        width: 40%;
+    }
+    
+    .sectionTeaser {
+        font-size: 10px;
+    }
+    
+    .aboutMeTitel {
+        margin-top: 20px;
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+ 
+    
+    
+    
+   
+    
+  
+    @media (max-width: 550px) { 
+        .bild {
+            max-height: 70%;
+        max-width: 70%;
+            top: 22.5vh;
+            bottom: 7px;
+            left: 100px;
+            right: 0px;
+        }
+        h3 {
+            font-size: 13px;
+            line-height: 10px;
+        
+        }
+        
+        h2 {
+            margin-top: -10px;
+            line-height: 60px;
+            font-size: 40px;
+        }
+        .introTextBox {
+            position: relative;
+            left: 10vw;
+            top: 10vh;
+            text-align: left;
+            width: 60%;
+        }
+        .introText {
+            font-size: 12px;
+        }
+    }
 
 }
-.bildClass {
-    width: 350px;
-        height: 400px;
-        vertical-align: middle;
-        text-align: center;
-        display: table-cell;
-        
-        
-} */
-
-
