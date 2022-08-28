@@ -331,13 +331,22 @@ p {
     
   
     @media (max-width: 550px) { 
+        .bildBereich {
+            position: absolute;
+            margin-top: 20px;
+            width: 100vw;
+            top: 0px;
+            left: 10%;
+            height: 70vh;
+            z-index: 3;
+        }
         .bild {
-            max-height: 70%;
-        max-width: 70%;
-            top: 21vh;
+            height: 300px;
+        width: 230px;
+            top: 35.5vh;
             bottom: 0px;
-            left: 100px;
-            right: 0px;
+            left: 0px;
+            right: 100px;
         }
         h3 {
             font-size: 13px;
