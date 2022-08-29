@@ -4,44 +4,43 @@ namespace Portfolio {
         window.addEventListener("load", handleLoad);
 
         function handleLoad(_event: Event) {
-            console.log("hey");
-            let viewPortfolioButton: HTMLButtonElement = <HTMLButtonElement>document.getElementById("viewPortfolioButton");
+            const viewPortfolioButton: HTMLButtonElement = document.getElementById("viewPortfolioButton") as HTMLButtonElement;
             viewPortfolioButton.addEventListener("click", viewPortfolio);
 
-            let buttonContact: HTMLButtonElement = <HTMLButtonElement>document.getElementById("ButtonContact");
+            const buttonContact: HTMLButtonElement = document.getElementById("ButtonContact") as HTMLButtonElement;
             buttonContact.addEventListener("click", contactEmail);
 
-            let skillBoxes: HTMLDivElement = <HTMLDivElement>document.getElementById("skillBoxes");
-            let zertifikateBoxes: HTMLDivElement = <HTMLDivElement>document.getElementById("zertifikateBoxes");
-            let portfolioBoxes: HTMLDivElement = <HTMLDivElement>document.getElementById("portfolioBoxes");
-            let kategorienHTML: HTMLDivElement[] = [skillBoxes, zertifikateBoxes, portfolioBoxes];
-            let kategorienLength: number[] = [jsonImport.skills.length, jsonImport.zertifikate.length, jsonImport.portfolio.length];
-            let kategorien = [jsonImport.skills, jsonImport.zertifikate, jsonImport.portfolio];
+            const skillBoxes: HTMLDivElement = document.getElementById("skillBoxes") as HTMLDivElement;
+            const zertifikateBoxes: HTMLDivElement = document.getElementById("zertifikateBoxes") as HTMLDivElement;
+            const portfolioBoxes: HTMLDivElement = document.getElementById("portfolioBoxes") as HTMLDivElement;
+            const kategorienHTML: HTMLDivElement[] = [skillBoxes, zertifikateBoxes, portfolioBoxes];
+            const kategorienLength: number[] = [jsonImport.skills.length, jsonImport.zertifikate.length, jsonImport.portfolio.length];
+            const kategorien = [jsonImport.skills, jsonImport.zertifikate, jsonImport.portfolio];
 
 
 
             for (let i: number = 0; i < kategorienHTML.length; i++) {
                 for (let y: number = 0; y < kategorienLength[i]; y++) {
-                    let boxDiv: HTMLDivElement = document.createElement("div");
+                    const boxDiv: HTMLDivElement = document.createElement("div");
                     boxDiv.setAttribute("class", "box");
                     kategorienHTML[i].appendChild(boxDiv);
-                    let boxContent: HTMLDivElement = document.createElement("div");
+                    const boxContent: HTMLDivElement = document.createElement("div");
                     boxContent.setAttribute("class", "boxContent");
                     boxDiv.appendChild(boxContent);
-                    let boxImage: HTMLImageElement = document.createElement("img");
+                    const boxImage: HTMLImageElement = document.createElement("img");
                     boxImage.setAttribute("src", kategorien[i][y].image);
                     boxDiv.appendChild(boxImage);
-                    let boxTitel: HTMLParagraphElement = document.createElement("h3");
+                    const boxTitel: HTMLParagraphElement = document.createElement("h3");
                     boxTitel.innerHTML = kategorien[i][y].titel;
                     boxDiv.appendChild(boxTitel);
-                    let boxText: HTMLParagraphElement = document.createElement("p");
+                    const boxText: HTMLParagraphElement = document.createElement("p");
                     boxText.innerHTML = kategorien[i][y].content;
                     boxDiv.appendChild(boxText);
                 }
             }
         }
         function viewPortfolio() {
-            location.href = "#portfolioTitel";
+            location.href = "#aboutMeTitel";
         }
         function contactEmail() {
             window.location.href = "mailto:marcelritterbuisan@gmail.com";

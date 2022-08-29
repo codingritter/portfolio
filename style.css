@@ -13,6 +13,7 @@ html {
     left: 20%;
     right: 0px;
     margin: auto;
+    z-index: 100;
 }
 
 .bildBereich {
@@ -21,7 +22,7 @@ html {
     top: 0px;
     left: 0%;
     height: 70vh;
-    z-index: 3;
+    z-index: 30;
 }
 
 
@@ -32,6 +33,7 @@ html {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    z-index: 5;
 }
 
 .whiteBox {
@@ -53,7 +55,7 @@ html {
     left: 10vw;
     top: 10vh;
     text-align: left;
-    width: 60%;
+    width: 35%;
 }
 
 .introText {
@@ -105,6 +107,7 @@ p {
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
+    z-index: 4;
 }
 
 #ButtonContact {
@@ -145,11 +148,15 @@ p {
     margin-top: 20px;
     font-size: 25px;
     margin-bottom: 30px;
+    line-height: 20px;
+
 }
 
 .textTitel {
     margin-bottom: 30px;
     font-size: 13px;
+    line-height: 15px;
+
 }
 
 .text {
@@ -233,19 +240,45 @@ p {
 }
 
 
+@media (min-width: 1300px) {
+    .bild {
+        max-height: 102%;
+        max-width: 100%;
+        top: 0;
+        bottom: 7px;
+        left: 20%;
+        right: 0px;
+    }
+
+    .bildBereich {
+        position: absolute;
+        width: 100vw;
+        top: 0px;
+        left: 0%;
+        height: 70vh;
+        z-index: 30;
+    }
 
 
-@media (max-width: 800px) {
     .whiteBox {
-        background-color: white;
-        position: relative;
         width: 60vw;
         height: 70vh;
     }
 
     .greenBox {
-        background-color: rgb(27, 164, 109);
-        position: relative;
+        width: 40vw;
+        height: 70vh;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .whiteBox {
+        width: 60vw;
+        height: 70vh;
+    }
+
+    .greenBox {
         width: 40vw;
         height: 70vh;
     }
@@ -258,18 +291,17 @@ p {
         left: 19%;
         right: 0px;
     }
+
     .bildBereich {
-        position: absolute;
         width: 100vw;
         top: 0px;
         left: 0px;
         height: 70vh;
-        z-index: 3;
+        z-index: 30;
     }
 
     h3 {
         font-size: 13px;
-        line-height: 10px;
 
     }
 
@@ -278,7 +310,7 @@ p {
     }
 
     .introTextBox {
-        width: 50%;
+        width: 35%;
     }
 
     .introText {
@@ -301,28 +333,13 @@ p {
     }
 
     #ButtonContact {
-        margin-top: 20px;
-        background-color: transparent;
-        border: 1.5px solid;
-        border-radius: 3px;
-        border-color: black;
-        color: black;
         padding: 8.5px 20.5px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
         font-size: 16px;
-        cursor: pointer;
     }
 
 
     .aboutMeSection {
-        position: relative;
-        margin-top: 50px;
-        top: 80vh;
-        position: relative;
-        left: 50vw;
-        text-align: left;
+
         width: 40%;
     }
 
@@ -331,9 +348,7 @@ p {
     }
 
     .aboutMeTitel {
-        margin-top: 20px;
         font-size: 22px;
-        margin-bottom: 30px;
     }
 
 
@@ -344,60 +359,70 @@ p {
 
     @media (max-width: 550px) {
         .whiteBox {
-            background-color: white;
-            position: relative;
             width: 60vw;
             height: 500px;
         }
 
         .greenBox {
-            background-color: rgb(27, 164, 109);
-            position: relative;
             width: 40vw;
             height: 500px;
         }
 
+        .aboutMeSection {
+            margin-top: 100px;
+            top: 60vh;
+            width: 40%;
+        }
+
         .bildBereich {
-            position: absolute;
             top: 0px;
             width: 100vw;
             left: 0%;
             height: 500px;
-            z-index: 3;
+            z-index: 30;
         }
 
         .bild {
-            position: absolute;
-            height: 200px;
-            width: 150px;
-            top: 300px;
+            height: 220px;
+            width: 170px;
+            top: 280px;
             bottom: 0px;
-            left: 0px;
+            left: 100px;
             right: 0px;
         }
 
         h3 {
             font-size: 13px;
-            line-height: 10px;
 
         }
 
         h2 {
-            margin-top: -10px;
-            line-height: 60px;
             font-size: 40px;
         }
 
         .introTextBox {
-            position: relative;
             left: 10vw;
             top: 10vh;
-            text-align: left;
-            width: 60%;
+            width: 34%;
         }
 
         .introText {
             font-size: 12px;
+        }
+
+        .skills {
+            top: 80vh;
+
+        }
+
+        .zertifikate {
+            top: 95vh;
+
+        }
+
+        .portfolio {
+            top: 110vh;
+
         }
     }
 
