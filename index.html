@@ -12,16 +12,14 @@
 </head>
 
 <body>
-    <div class="bildBereich">
+    <div class="bildBereich" id="top">
 
         <div class="introTextBox">
             <h3>Hallo, ich bin </h3>
-            <h2 class="name" style="color: rgb(27, 164, 109);"> Marcel</h2>
+            <h2 class="name" style="color: rgb(27, 164, 109);">Marcel</h2>
 
-            <p class="introText">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <p id="introText"></p>
             <button id="viewPortfolioButton">Portfolio anzeigen</button>
-
         </div>
         <img src="Bilder/PrimeBild.png" class="bild">
     </div>
@@ -39,39 +37,39 @@
 
     </div>
     <div class="aboutMeSection">
-            <p class="sectionTeaser">Ein bisschen was zu mir</p>
-            <h3 class="aboutMeTitel" style="color: rgb(27, 164, 109);">Über mich</h3>
-            <h3 class="textTitel">Meine Geschichte</h3>
-            <p style="font-size: 12px;" class="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-            <div class="buttonGroup">
-                <a href="lebenslaufMarcelRitterBuisan.pdf" download="Lebenslauf_Marcel_Ritter_Buisan"><button
-                        id="Button">Lebenslauf herunterladen</button></a>
-                <button id="ButtonContact">Kontakt</button>
+        <p class="sectionTeaser">Ein bisschen was zu mir</p>
+        <h3 class="aboutMeTitel" style="color: rgb(27, 164, 109);">Über mich</h3>
+        <h3 class="textTitel">Meine Geschichte</h3>
+        <p style="font-size: 12px;" id="aboutMeText"></p>
+        <div class="buttonGroup">
+            <a href="lebenslaufMarcelRitterBuisan.pdf" download="Lebenslauf_Marcel_Ritter_Buisan"><button
+                    id="Button">Lebenslauf herunterladen</button></a>
+            <button id="ButtonContact">Kontakt</button>
+
+        </div>
+
+    </div>
+    <div class="wrapper">
+        <div class="skills">
+            <p class="sectionTeaser">Was ich kann</p>
+            <h3 class="aboutMeTitel" style="color: rgb(27, 164, 109);">Skills</h3>
+            <div id="skillBoxes">
+            </div>
+        </div>
+
+        <div class="zertifikate">
+            <p class="sectionTeaser">Meine Abschlüsse</p>
+            <h3 class="aboutMeTitel" style="color: rgb(27, 164, 109);">Zertifikate</h3>
+            <div id="zertifikateBoxes">
+            </div>
+        </div>
+
+        <div class="portfolio">
+            <p class="sectionTeaser">Meine Projekte in der Studien Zeit</p>
+            <h3 class="aboutMeTitel" id="aboutMeTitel" style="color: rgb(27, 164, 109);">Portfolio</h3>
+            <div id="portfolioBoxes">
 
             </div>
-     
-    </div>
-
-    <div class="skills">
-        <p class="sectionTeaser">Was ich kann</p>
-        <h3 class="aboutMeTitel" style="color: rgb(27, 164, 109);">Skills</h3>
-        <div id="skillBoxes">
-        </div>
-    </div>
-
-    <div class="zertifikate">
-        <p class="sectionTeaser">Meine Abschlüsse</p>
-        <h3 class="aboutMeTitel" style="color: rgb(27, 164, 109);">Zertifikate</h3>
-        <div id="zertifikateBoxes">
-        </div>
-    </div>
-
-    <div class="portfolio">
-        <p class="sectionTeaser">Meine Projekte in der Studien Zeit</p>
-        <h3 class="aboutMeTitel" id="aboutMeTitel" style="color: rgb(27, 164, 109);">Portfolio</h3>
-        <div id="portfolioBoxes">
-
         </div>
     </div>
 </body>

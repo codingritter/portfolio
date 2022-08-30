@@ -4,6 +4,11 @@ namespace Portfolio {
         window.addEventListener("load", handleLoad);
 
         function handleLoad(_event: Event) {
+            const introText: HTMLParagraphElement = document.getElementById("introText") as HTMLParagraphElement;
+            introText.innerHTML = jsonImport.webTexte[0].introText;
+            const aboutMeText: HTMLParagraphElement = document.getElementById("aboutMeText") as HTMLParagraphElement;
+            aboutMeText.innerHTML = jsonImport.webTexte[0].aboutMeText;
+
             const viewPortfolioButton: HTMLButtonElement = document.getElementById("viewPortfolioButton") as HTMLButtonElement;
             viewPortfolioButton.addEventListener("click", viewPortfolio);
 
@@ -24,7 +29,8 @@ namespace Portfolio {
                     const boxDiv: HTMLDivElement = document.createElement("div");
                     boxDiv.setAttribute("class", "box");
                     kategorienHTML[i].appendChild(boxDiv);
-                    if (kategorien[i][y].link) {
+                    if (kategorien[i][y].link && kategorien[i][y].link !== "") {
+                        boxDiv.style.cursor = "pointer";
                         boxDiv.addEventListener("click", () => {
                             window.location.href = kategorien[i][y].link;
                         })

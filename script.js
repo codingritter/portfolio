@@ -5,6 +5,10 @@ var Portfolio;
     function main() {
         window.addEventListener("load", handleLoad);
         function handleLoad(_event) {
+            const introText = document.getElementById("introText");
+            introText.innerHTML = Portfolio.jsonImport.webTexte[0].introText;
+            const aboutMeText = document.getElementById("aboutMeText");
+            aboutMeText.innerHTML = Portfolio.jsonImport.webTexte[0].aboutMeText;
             const viewPortfolioButton = document.getElementById("viewPortfolioButton");
             viewPortfolioButton.addEventListener("click", viewPortfolio);
             const buttonContact = document.getElementById("ButtonContact");
@@ -20,7 +24,8 @@ var Portfolio;
                     const boxDiv = document.createElement("div");
                     boxDiv.setAttribute("class", "box");
                     kategorienHTML[i].appendChild(boxDiv);
-                    if (kategorien[i][y].link) {
+                    if (kategorien[i][y].link && kategorien[i][y].link !== "") {
+                        boxDiv.style.cursor = "pointer";
                         boxDiv.addEventListener("click", () => {
                             window.location.href = kategorien[i][y].link;
                         });

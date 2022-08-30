@@ -1,6 +1,10 @@
 // tslint:disable-next-line: no-namespace
 namespace Portfolio {
 export interface JsonImport {
+    webTexte: [{
+        introText: string;
+        aboutMeText: string;
+    }]
 skills: [{
     image: string;
     titel: string;

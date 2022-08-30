@@ -1,4 +1,10 @@
 {
+    "webTexte": [
+        {
+            "introText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumyeirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+            "aboutMeText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+        }
+    ],
     "skills": [
         {
             "image": "Bilder/websiteCoding.png",
@@ -9,42 +15,36 @@
             "image": "Bilder/websiteCoding.png",
             "titel": "Web Programmierung",
             "content": "Typescript, Angular"
-
         },
         {
             "image": "Bilder/websiteCoding.png",
             "titel": "Fitness",
             "content": "Trainingspläne erstellen"
-
         },
         {
             "image": "Bilder/websiteCoding.png",
             "titel": "Video Bearbeitung",
             "content": "Erfahrung mit Adobe Premiere, DaVinci Resolve und Magix"
-
         }
-        
     ],
-   
     "zertifikate": [
         {
             "image": "Bilder/udemyabschlussbescheinigung.jpg",
-            "titel": "Angular Zertifikat auf Udemy",
+            "titel": "Angular Abschlussbescheinigung auf Udemy",
             "content": "",
             "link": "Bilder/udemyabschlussbescheinigung.jpg"
         },
         {
-            "image": "Bilder/websiteCoding.png",
-            "titel": "Web Programmierung",
+            "image": "Bilder/zertifikatBild.jpg",
+            "titel": "Fitnesstrainer B-Lizenz",
             "content": "Typescript, Angular",
-            "link": "https://www.typescriptlang.org/docs/handbook/functions.html"
+            "link": "Bilder/zertifikat.pdf"
         },
         {
             "image": "Bilder/websiteCoding.png",
             "titel": "Video Bearbeitung",
             "content": "Erfahrung mit Adobe Premiere, DaVinci Resolve und Magix",
             "link": ""
-
         },
         {
             "image": "Bilder/websiteCoding.png",
@@ -58,23 +58,29 @@
             "image": "Bilder/websiteCoding.png",
             "titel": "Diese Webseite :)",
             "content": "Gemacht mit HTML, CSS, Typescript und JSON",
+            "link": "#top"
+        },
+        {
+            "image": "Bilder/eisdielenWebseite.jpg",
+            "titel": "Eisdielen Webseite",
+            "content": "Für ein Fach Im 2 Semester programmierte ich einen Eisdielen Web-Shop. Mit Integriertem Server und Datenbank.<br>Genutzt wurden HTML, CSS, Typescript,JSON, Heroku und MongoDB ",
             "link": ""
         },
         {
             "image": "Bilder/websiteCoding.png",
-            "titel": "Web Programmierung",
-            "content": "Typescript, Angular",
-            "link": ""
-        },
-        {
-            "image": "Bilder/websiteCoding.png",
-            "titel": "Video Bearbeitung",
+            "titel": "Fußball Spiel Webseite",
             "content": "Erfahrung mit Adobe Premiere, DaVinci Resolve und Magix",
             "link": ""
         },
         {
             "image": "Bilder/websiteCoding.png",
-            "titel": "Fitness",
+            "titel": "Kurzfilm Omnipotentia",
+            "content": "Trainingspläne erstellen",
+            "link": ""
+        },
+        {
+            "image": "Bilder/websiteCoding.png",
+            "titel": "Dokumentarfilm/Webseite über den Klimawandel im Schwarzwald",
             "content": "Trainingspläne erstellen",
             "link": ""
         }
