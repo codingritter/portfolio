@@ -20,6 +20,11 @@ var Portfolio;
                     const boxDiv = document.createElement("div");
                     boxDiv.setAttribute("class", "box");
                     kategorienHTML[i].appendChild(boxDiv);
+                    if (kategorien[i][y].link) {
+                        boxDiv.addEventListener("click", () => {
+                            window.location.href = kategorien[i][y].link;
+                        });
+                    }
                     const boxContent = document.createElement("div");
                     boxContent.setAttribute("class", "boxContent");
                     boxDiv.appendChild(boxContent);

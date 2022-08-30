@@ -24,6 +24,12 @@ namespace Portfolio {
                     const boxDiv: HTMLDivElement = document.createElement("div");
                     boxDiv.setAttribute("class", "box");
                     kategorienHTML[i].appendChild(boxDiv);
+                    if (kategorien[i][y].link) {
+                        boxDiv.addEventListener("click", () => {
+                            window.location.href = kategorien[i][y].link;
+                        })
+                    }
+
                     const boxContent: HTMLDivElement = document.createElement("div");
                     boxContent.setAttribute("class", "boxContent");
                     boxDiv.appendChild(boxContent);
@@ -45,5 +51,6 @@ namespace Portfolio {
         function contactEmail() {
             window.location.href = "mailto:marcelritterbuisan@gmail.com";
         }
+
     }
 }

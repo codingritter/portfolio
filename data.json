@@ -9,60 +9,74 @@
             "image": "Bilder/websiteCoding.png",
             "titel": "Web Programmierung",
             "content": "Typescript, Angular"
-        },
-        {
-            "image": "Bilder/websiteCoding.png",
-            "titel": "Video Bearbeitung",
-            "content": "Erfahrung mit Adobe Premiere, DaVinci Resolve und Magix"
+
         },
         {
             "image": "Bilder/websiteCoding.png",
             "titel": "Fitness",
             "content": "Trainingspläne erstellen"
+
+        },
+        {
+            "image": "Bilder/websiteCoding.png",
+            "titel": "Video Bearbeitung",
+            "content": "Erfahrung mit Adobe Premiere, DaVinci Resolve und Magix"
+
+        }
+        
+    ],
+   
+    "zertifikate": [
+        {
+            "image": "Bilder/udemyabschlussbescheinigung.jpg",
+            "titel": "Angular Zertifikat auf Udemy",
+            "content": "",
+            "link": "Bilder/udemyabschlussbescheinigung.jpg"
+        },
+        {
+            "image": "Bilder/websiteCoding.png",
+            "titel": "Web Programmierung",
+            "content": "Typescript, Angular",
+            "link": "https://www.typescriptlang.org/docs/handbook/functions.html"
+        },
+        {
+            "image": "Bilder/websiteCoding.png",
+            "titel": "Video Bearbeitung",
+            "content": "Erfahrung mit Adobe Premiere, DaVinci Resolve und Magix",
+            "link": ""
+
+        },
+        {
+            "image": "Bilder/websiteCoding.png",
+            "titel": "Fitness",
+            "content": "Trainingspläne erstellen",
+            "link": ""
         }
     ],
     "portfolio": [
         {
             "image": "Bilder/websiteCoding.png",
-            "titel": "Web Design",
-            "content": "HTML, CSS"
+            "titel": "Diese Webseite :)",
+            "content": "Gemacht mit HTML, CSS, Typescript und JSON",
+            "link": ""
         },
         {
             "image": "Bilder/websiteCoding.png",
             "titel": "Web Programmierung",
-            "content": "Typescript, Angular"
+            "content": "Typescript, Angular",
+            "link": ""
         },
         {
             "image": "Bilder/websiteCoding.png",
             "titel": "Video Bearbeitung",
-            "content": "Erfahrung mit Adobe Premiere, DaVinci Resolve und Magix"
+            "content": "Erfahrung mit Adobe Premiere, DaVinci Resolve und Magix",
+            "link": ""
         },
         {
             "image": "Bilder/websiteCoding.png",
             "titel": "Fitness",
-            "content": "Trainingspläne erstellen"
-        }
-    ],
-    "zertifikate": [
-        {
-            "image": "Bilder/websiteCoding.png",
-            "titel": "Web Design",
-            "content": "HTML, CSS"
-        },
-        {
-            "image": "Bilder/websiteCoding.png",
-            "titel": "Web Programmierung",
-            "content": "Typescript, Angular"
-        },
-        {
-            "image": "Bilder/websiteCoding.png",
-            "titel": "Video Bearbeitung",
-            "content": "Erfahrung mit Adobe Premiere, DaVinci Resolve und Magix"
-        },
-        {
-            "image": "Bilder/websiteCoding.png",
-            "titel": "Fitness",
-            "content": "Trainingspläne erstellen"
+            "content": "Trainingspläne erstellen",
+            "link": ""
         }
     ]
 }

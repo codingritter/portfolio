@@ -191,6 +191,7 @@ p {
 }
 
 .boxContent {
+    
     text-align: left;
     margin-left: 10px;
 }
@@ -203,12 +204,14 @@ p {
 
 .box h3 {
     font-size: 11px;
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 15px;
 }
 
 .box p {
     margin-top: 15px;
     font-size: 8px;
-
 }
 
 .zertifikate {
@@ -272,22 +275,22 @@ p {
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 830px) {
     .whiteBox {
         width: 60vw;
-        height: 70vh;
+        height: 54.5vh;
     }
 
     .greenBox {
         width: 40vw;
-        height: 70vh;
+        height: 54.5vh;
     }
 
     .bild {
-        max-height: 90%;
-        max-width: 90%;
-        top: 7vh;
-        bottom: 0px;
+        max-height: 80%;
+        max-width: 80%;
+        top: 11vh;
+        bottom: 0vh;
         left: 19%;
         right: 0px;
     }
@@ -296,7 +299,7 @@ p {
         width: 100vw;
         top: 0px;
         left: 0px;
-        height: 70vh;
+        height: 54.5vh;
         z-index: 30;
     }
 
@@ -339,7 +342,8 @@ p {
 
 
     .aboutMeSection {
-
+        margin-top: 100px;
+        top: 58vh;
         width: 40%;
     }
 
@@ -350,8 +354,19 @@ p {
     .aboutMeTitel {
         font-size: 22px;
     }
+    .skills {
+        top: 75vh;
+    
+    }
 
-
+    .zertifikate {
+        top: 90vh;
+    
+    }
+    .portfolio {
+        top: 105vh;
+    
+    }
 
 
 
@@ -360,17 +375,17 @@ p {
     @media (max-width: 550px) {
         .whiteBox {
             width: 60vw;
-            height: 500px;
+            height: 400px;
         }
 
         .greenBox {
             width: 40vw;
-            height: 500px;
+            height: 400px;
         }
 
         .aboutMeSection {
             margin-top: 100px;
-            top: 60vh;
+            top: 400px;
             width: 40%;
         }
 
@@ -378,16 +393,16 @@ p {
             top: 0px;
             width: 100vw;
             left: 0%;
-            height: 500px;
+            height: 400px;
             z-index: 30;
         }
 
         .bild {
             height: 220px;
             width: 170px;
-            top: 280px;
+            top: 180px;
             bottom: 0px;
-            left: 100px;
+            left: 140px;
             right: 0px;
         }
 
@@ -411,17 +426,17 @@ p {
         }
 
         .skills {
-            top: 80vh;
+            top: 500px;
 
         }
 
         .zertifikate {
-            top: 95vh;
+            top: 600px;
 
         }
 
         .portfolio {
-            top: 110vh;
+            top: 700px;
 
         }
     }

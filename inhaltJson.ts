@@ -5,16 +5,19 @@ skills: [{
     image: string;
     titel: string;
     content: string;
+    link: string;
 }];
 portfolio: [{
     image: string;
     titel: string;
     content: string;
+    link: string;
 }];
 zertifikate: [{
     image: string;
     titel: string;
     content: string;
+    link: string;
 }];
 }
 
