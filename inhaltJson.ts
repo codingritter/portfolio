@@ -7,18 +7,21 @@ export interface JsonImport {
     }]
 skills: [{
     image: string;
+    imageWidth: string;
     titel: string;
     content: string;
     link: string;
 }];
 portfolio: [{
     image: string;
+    imageWidth: string;
     titel: string;
     content: string;
     link: string;
 }];
 zertifikate: [{
     image: string;
+    imageWidth: string;
     titel: string;
     content: string;
     link: string;

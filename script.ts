@@ -41,10 +41,20 @@ namespace Portfolio {
                     boxDiv.appendChild(boxContent);
                     const boxImage: HTMLImageElement = document.createElement("img");
                     boxImage.setAttribute("src", kategorien[i][y].image);
+
+                    if (kategorien[i][y].imageWidth && kategorien[i][y].imageWidth !== "") {
+                        boxImage.style.width = kategorien[i][y].imageWidth;
+                    }
                     boxDiv.appendChild(boxImage);
+                    
+
                     const boxTitel: HTMLParagraphElement = document.createElement("h3");
                     boxTitel.innerHTML = kategorien[i][y].titel;
                     boxDiv.appendChild(boxTitel);
+                    if(!kategorien[i][y].image) {
+                        boxDiv.removeChild(boxImage);
+                        boxTitel.style.marginTop = "82px";
+                    }
                     const boxText: HTMLParagraphElement = document.createElement("p");
                     boxText.innerHTML = kategorien[i][y].content;
                     boxDiv.appendChild(boxText);

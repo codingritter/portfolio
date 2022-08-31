@@ -7,24 +7,33 @@
     ],
     "skills": [
         {
-            "image": "Bilder/websiteCoding.png",
+            "image": "Bilder/web_design.png",
             "titel": "Web Design",
             "content": "HTML, CSS"
         },
         {
-            "image": "Bilder/websiteCoding.png",
+            "image": "Bilder/web_coding.png",
+            "imageWidth": "100px",
             "titel": "Web Programmierung",
             "content": "Typescript, Angular"
         },
         {
-            "image": "Bilder/websiteCoding.png",
-            "titel": "Fitness",
-            "content": "Trainingspläne erstellen"
-        },
-        {
-            "image": "Bilder/websiteCoding.png",
+            "image": "Bilder/video.png",
+            "imageWidth": "50px",
             "titel": "Video Bearbeitung",
             "content": "Erfahrung mit Adobe Premiere, DaVinci Resolve und Magix"
+        },
+        {
+            "image": "Bilder/kamera.png",
+            "imageWidth": "60px",
+            "titel": "Video Aufnahme",
+            "content": "Erfahrung mit Adobe Premiere, DaVinci Resolve und Magix"
+        },
+        {
+            "image": "Bilder/fitness.png",
+            "imageWidth": "60px",
+            "titel": "Fitness",
+            "content": "Trainings/Ernährungspläne erstellen und Trainingsanweisung geben"
         }
     ],
     "zertifikate": [
@@ -37,25 +46,12 @@
         {
             "image": "Bilder/zertifikatBild.jpg",
             "titel": "Fitnesstrainer B-Lizenz",
-            "content": "Typescript, Angular",
+            "content": "",
             "link": "Bilder/zertifikat.pdf"
-        },
-        {
-            "image": "Bilder/websiteCoding.png",
-            "titel": "Video Bearbeitung",
-            "content": "Erfahrung mit Adobe Premiere, DaVinci Resolve und Magix",
-            "link": ""
-        },
-        {
-            "image": "Bilder/websiteCoding.png",
-            "titel": "Fitness",
-            "content": "Trainingspläne erstellen",
-            "link": ""
         }
     ],
     "portfolio": [
         {
-            "image": "Bilder/websiteCoding.png",
             "titel": "Diese Webseite :)",
             "content": "Gemacht mit HTML, CSS, Typescript und JSON",
             "link": "#top"
@@ -64,25 +60,19 @@
             "image": "Bilder/eisdielenWebseite.jpg",
             "titel": "Eisdielen Webseite",
             "content": "Für ein Fach Im 2 Semester programmierte ich einen Eisdielen Web-Shop. Mit Integriertem Server und Datenbank.<br>Genutzt wurden HTML, CSS, Typescript,JSON, Heroku und MongoDB ",
-            "link": ""
-        },
-        {
-            "image": "Bilder/websiteCoding.png",
-            "titel": "Fußball Spiel Webseite",
-            "content": "Erfahrung mit Adobe Premiere, DaVinci Resolve und Magix",
-            "link": ""
+            "link": "https://rittermarcel.github.io/GIS-SoSe-2020/Abgaben/endprojekt/index.html"
         },
         {
             "image": "Bilder/websiteCoding.png",
             "titel": "Kurzfilm Omnipotentia",
-            "content": "Trainingspläne erstellen",
+            "content": "In diesem Kurzfilm, durfte ich vorallem die Kamera und die Videobearbeitung übernehmen. Bearbeitet habe ich mit dem Programm Adobe Premiere",
             "link": ""
         },
         {
-            "image": "Bilder/websiteCoding.png",
+            "image": "Bilder/klimawandelSchwarzwald.jpg",
             "titel": "Dokumentarfilm/Webseite über den Klimawandel im Schwarzwald",
             "content": "Trainingspläne erstellen",
-            "link": ""
+            "link": "https://rittermarcel.github.io/Klimawandel-Schwarzwald/micropage/"
         }
     ]
 }
