@@ -390,7 +390,9 @@ p {
         top: 105vh;
     
     }
-
+    .weitereInteressen {
+        top: 120vh;
+    }
 
 
 
@@ -462,6 +464,10 @@ p {
             top: 700px;
 
         }
+        .weitereInteressen {
+            top: 800px;
+        }
+    
     }
 
 }
