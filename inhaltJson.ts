@@ -12,6 +12,13 @@ skills: [{
     content: string;
     link: string;
 }];
+zertifikate: [{
+    image: string;
+    imageWidth: string;
+    titel: string;
+    content: string;
+    link: string;
+}];
 portfolio: [{
     image: string;
     imageWidth: string;
@@ -19,7 +26,7 @@ portfolio: [{
     content: string;
     link: string;
 }];
-zertifikate: [{
+weitereInteressen: [{
     image: string;
     imageWidth: string;
     titel: string;

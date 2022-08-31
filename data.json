@@ -26,14 +26,8 @@
         {
             "image": "Bilder/kamera.png",
             "imageWidth": "60px",
-            "titel": "Video Aufnahme",
-            "content": "Erfahrung mit Adobe Premiere, DaVinci Resolve und Magix"
-        },
-        {
-            "image": "Bilder/fitness.png",
-            "imageWidth": "60px",
-            "titel": "Fitness",
-            "content": "Trainings/Ernährungspläne erstellen und Trainingsanweisung geben"
+            "titel": "Film",
+            "content": "Umgang mit Filmkameras"
         }
     ],
     "zertifikate": [
@@ -42,24 +36,18 @@
             "titel": "Angular Abschlussbescheinigung auf Udemy",
             "content": "",
             "link": "Bilder/udemyabschlussbescheinigung.jpg"
-        },
-        {
-            "image": "Bilder/zertifikatBild.jpg",
-            "titel": "Fitnesstrainer B-Lizenz",
-            "content": "",
-            "link": "Bilder/zertifikat.pdf"
         }
     ],
     "portfolio": [
         {
             "titel": "Diese Webseite :)",
-            "content": "Gemacht mit HTML, CSS, Typescript und JSON",
+            "content": "Erstellt mit HTML, CSS, Typescript und JSON",
             "link": "#top"
         },
         {
             "image": "Bilder/eisdielenWebseite.jpg",
             "titel": "Eisdielen Webseite",
-            "content": "Für ein Fach Im 2 Semester programmierte ich einen Eisdielen Web-Shop. Mit Integriertem Server und Datenbank.<br>Genutzt wurden HTML, CSS, Typescript,JSON, Heroku und MongoDB ",
+            "content": "Im 2 Semester programmierte ich einen Eisdielen Web-Shop. Mit Integriertem Server und Datenbank.<br>Genutzt wurden HTML, CSS, Typescript,JSON, Heroku und MongoDB ",
             "link": "https://rittermarcel.github.io/GIS-SoSe-2020/Abgaben/endprojekt/index.html"
         },
         {
@@ -70,9 +58,23 @@
         },
         {
             "image": "Bilder/klimawandelSchwarzwald.jpg",
-            "titel": "Dokumentarfilm/Webseite über den Klimawandel im Schwarzwald",
-            "content": "Trainingspläne erstellen",
+            "titel": "Dokumentarfilm/Webseite: Klimawandel im Schwarzwald",
+            "content": "Im vierten Semester filmte und bearbeitete ich ein kurzen Film über den Klimawandel im Schwarzwald. Dazu habe ich noch eine kleine interaktive Webseite mit einem Quiz programmiert.",
             "link": "https://rittermarcel.github.io/Klimawandel-Schwarzwald/micropage/"
+        }
+    ],
+    "weitereInteressen": [
+        {
+            "image": "Bilder/fitness.png",
+            "imageWidth": "60px",
+            "titel": "Fitness",
+            "content": "Trainings/Ernährungspläne erstellen und Trainingsanweisung geben"
+        },
+        {
+            "image": "Bilder/zertifikatBild.jpg",
+            "titel": "Fitnesstrainer B-Lizenz",
+            "content": "",
+            "link": "Bilder/zertifikat.pdf"
         }
     ]
 }

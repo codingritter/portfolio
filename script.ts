@@ -18,9 +18,10 @@ namespace Portfolio {
             const skillBoxes: HTMLDivElement = document.getElementById("skillBoxes") as HTMLDivElement;
             const zertifikateBoxes: HTMLDivElement = document.getElementById("zertifikateBoxes") as HTMLDivElement;
             const portfolioBoxes: HTMLDivElement = document.getElementById("portfolioBoxes") as HTMLDivElement;
-            const kategorienHTML: HTMLDivElement[] = [skillBoxes, zertifikateBoxes, portfolioBoxes];
-            const kategorienLength: number[] = [jsonImport.skills.length, jsonImport.zertifikate.length, jsonImport.portfolio.length];
-            const kategorien = [jsonImport.skills, jsonImport.zertifikate, jsonImport.portfolio];
+            const weitereInteressen: HTMLDivElement = document.getElementById("weitereInteressenBoxes") as HTMLDivElement;
+            const kategorienHTML: HTMLDivElement[] = [skillBoxes, zertifikateBoxes, portfolioBoxes, weitereInteressen];
+            const kategorienLength: number[] = [jsonImport.skills.length, jsonImport.zertifikate.length, jsonImport.portfolio.length, jsonImport.weitereInteressen.length];
+            const kategorien = [jsonImport.skills, jsonImport.zertifikate, jsonImport.portfolio, jsonImport.weitereInteressen];
 
 
 
@@ -39,22 +40,22 @@ namespace Portfolio {
                     const boxContent: HTMLDivElement = document.createElement("div");
                     boxContent.setAttribute("class", "boxContent");
                     boxDiv.appendChild(boxContent);
-                    const boxImage: HTMLImageElement = document.createElement("img");
-                    boxImage.setAttribute("src", kategorien[i][y].image);
-
-                    if (kategorien[i][y].imageWidth && kategorien[i][y].imageWidth !== "") {
+                    if (kategorien[i][y].image) {
+                        const boxImage: HTMLImageElement = document.createElement("img");
+                        boxImage.setAttribute("src", kategorien[i][y].image);
+                        if(kategorien[i][y].imageWidth && kategorien[i][y].imageWidth !== ""){
                         boxImage.style.width = kategorien[i][y].imageWidth;
                     }
-                    boxDiv.appendChild(boxImage);
-                    
+                        boxDiv.appendChild(boxImage);
+                    }
 
                     const boxTitel: HTMLParagraphElement = document.createElement("h3");
                     boxTitel.innerHTML = kategorien[i][y].titel;
                     boxDiv.appendChild(boxTitel);
-                    if(!kategorien[i][y].image) {
-                        boxDiv.removeChild(boxImage);
-                        boxTitel.style.marginTop = "82px";
-                    }
+                    // if (!kategorien[i][y].image) {
+                    //     boxDiv.removeChild(boxImage);
+                    //     boxTitel.style.marginTop = "82px";
+                    // }
                     const boxText: HTMLParagraphElement = document.createElement("p");
                     boxText.innerHTML = kategorien[i][y].content;
                     boxDiv.appendChild(boxText);
@@ -67,6 +68,6 @@ namespace Portfolio {
         function contactEmail() {
             window.location.href = "mailto:marcelritterbuisan@gmail.com";
         }
-
+        // und ich programmiere leidenschaftlich im Front End Bereich. bin Student an der Hochschule Furtwangen
     }
 }
