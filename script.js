@@ -45,6 +45,9 @@ var Portfolio;
                     const boxTitel = document.createElement("h3");
                     boxTitel.innerHTML = kategorien[i][y].titel;
                     boxDiv.appendChild(boxTitel);
+                    if (!kategorien[i][y].image) {
+                        boxTitel.style.marginTop = "82px";
+                    }
                     // if (!kategorien[i][y].image) {
                     //     boxDiv.removeChild(boxImage);
                     //     boxTitel.style.marginTop = "82px";
