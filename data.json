@@ -1,13 +1,13 @@
 {
     "webTexte": [
         {
-            "introText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumyeirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-            "aboutMeText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+            "introText": "und ich programmiere leidenschaftlich im Front End Bereich.<br>Auch die Themen rund um Foto und Video begeistert mich. <br>Ich bin Student an der Hochschule Furtwangen und studiere Medienkonzeption.",
+            "aboutMeText": "Geboren bin ich München und ging dort auch auf die Schule. Schon früh fing ich an, mich für die Erstellung von Webseiten und die Themen rund um Foto und Video zu begeistern. Diese Leidenschaft konnte ich dann in meinem Studium ausbauen."
         }
     ],
     "skills": [
         {
-            "image": "Bilder/web_design.png",
+            "image": "Bilder/web_design1.png",
             "titel": "Web Design",
             "content": "HTML, CSS"
         },
@@ -41,25 +41,28 @@
     "portfolio": [
         {
             "titel": "Diese Webseite :)",
-            "content": "Erstellt mit HTML, CSS, Typescript und JSON",
+            "content": "Erstellt mit HTML, CSS, Typescript und JSON. Responsive Design.",
             "link": "#top"
         },
         {
             "image": "Bilder/eisdielenWebseite.jpg",
+            "imageWidth": "90px",
             "titel": "Eisdielen Webseite",
-            "content": "Im 2 Semester programmierte ich einen Eisdielen Web-Shop. Mit Integriertem Server und Datenbank.<br>Genutzt wurden HTML, CSS, Typescript,JSON, Heroku und MongoDB ",
+            "content": "Im 2 Semester programmierte ich einen Eisdielen-Web-Shop. Mit integriertem Server und Datenbank.<br>Genutzt wurden HTML, CSS, Typescript,JSON, Heroku und MongoDB.",
             "link": "https://rittermarcel.github.io/GIS-SoSe-2020/Abgaben/endprojekt/index.html"
         },
         {
-            "image": "Bilder/websiteCoding.png",
+            "image": "Bilder/omnipotentia.jpg",
+            "imageWidth": "100px",
             "titel": "Kurzfilm Omnipotentia",
-            "content": "In diesem Kurzfilm, durfte ich vorallem die Kamera und die Videobearbeitung übernehmen. Bearbeitet habe ich mit dem Programm Adobe Premiere",
-            "link": ""
+            "content": "In diesem Kurzfilm durfte ich vor allem die Kamera und die Videobearbeitung übernehmen. Bearbeitet habe ich mit dem Programm Adobe Premiere.",
+            "link": "https://drive.google.com/file/d/1GL3Db227JYhCb9uHGyhkaKyfuwM6-ooz/view?usp=sharing"
         },
         {
             "image": "Bilder/klimawandelSchwarzwald.jpg",
+            "imageWidth": "90px",
             "titel": "Dokumentarfilm/Webseite: Klimawandel im Schwarzwald",
-            "content": "Im vierten Semester filmte und bearbeitete ich ein kurzen Film über den Klimawandel im Schwarzwald. Dazu habe ich noch eine kleine interaktive Webseite mit einem Quiz programmiert.",
+            "content": "Im vierten Semester filmte und bearbeitete ich einen kurzen Film über den Klimawandel im Schwarzwald. Dazu habe ich noch eine kleine interaktive Webseite mit einem Quiz programmiert.",
             "link": "https://rittermarcel.github.io/Klimawandel-Schwarzwald/micropage/"
         }
     ],
@@ -72,6 +75,7 @@
         },
         {
             "image": "Bilder/zertifikatBild.jpg",
+            "imageWidth": "70px",
             "titel": "Fitnesstrainer B-Lizenz",
             "content": "",
             "link": "Bilder/zertifikat.pdf"

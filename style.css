@@ -5,11 +5,11 @@ html {
 }
 
 .bild {
-    max-height: 102%;
+    max-height: 100%;
     max-width: 100%;
     position: absolute;
     top: 0;
-    bottom: 7px;
+    bottom: 0vh;
     left: 20%;
     right: 0px;
     margin: auto;
@@ -59,28 +59,28 @@ html {
 }
 
 #introText {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 10px;
 
 }
 
 h2 {
-    margin-top: -10px;
-    line-height: 60px;
+    margin-top: 20px;
+    line-height: 30px;
     font-size: 50px;
 }
 
 p {
-    margin-top: -20px;
-    font-size: 15px;
+    margin-top: -10px;
+    font-size: 12px;
 
 }
 
-#Button {
+#ButtonContact {
     margin-top: 10px;
     background-color: rgb(27, 164, 109);
     border: none;
@@ -91,7 +91,7 @@ p {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
     cursor: pointer;
 }
 
@@ -105,12 +105,12 @@ p {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
     cursor: pointer;
     z-index: 4;
 }
 
-#ButtonContact {
+#Button {
     margin-top: 20px;
     background-color: transparent;
     border: 1.5px solid;
@@ -121,11 +121,11 @@ p {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
     cursor: pointer;
 }
 
-#ButtonContact:hover {
+#Button:hover {
     background-color: rgb(27, 164, 109);
     color: white;
 }
@@ -144,23 +144,23 @@ p {
     font-size: 10px;
 }
 
-.aboutMeTitel {
+.titel {
     margin-top: 20px;
     font-size: 25px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     line-height: 20px;
 
 }
 
 .textTitel {
-    margin-bottom: 30px;
-    font-size: 13px;
+    margin-bottom: 15px;
+    font-size: 12px;
     line-height: 15px;
 
 }
 
 #aboutMeText {
-    font-size: 10px;
+    font-size: 12px;
     color: gray;
 }
 .wrapper {
@@ -188,11 +188,11 @@ p {
 .box {
     background-color: white;
     position: relative;
-    width: 190px;
+    width: 195px;
     margin-bottom: 25px;
     margin-right: 12.5px;
     margin-left: 12.5px;
-    height: 175px;
+    height: 180px;
     border-radius: 3px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
@@ -205,7 +205,7 @@ p {
 }
 
 .box img {
-    margin-top: 20px;
+    margin-top: 22px;
     width: 70px;
     height: 50px;
 }
@@ -219,7 +219,7 @@ p {
 
 
 .box p {
-    margin-top: -5px;
+    margin-top: -2px;
     font-size: 8px;
     margin-left: 7px;
     margin-right: 7px;
@@ -265,40 +265,104 @@ p {
     justify-content: center;
 }
 
+@media (min-width: 1600px) {
+.box {
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 245px;
+    height: 230px;
 
-@media (min-width: 1300px) {
-    .bild {
-        max-height: 102%;
-        max-width: 100%;
-        top: 0;
-        bottom: 7px;
-        left: 20%;
-        right: 0px;
-    }
+}
+.box img {
+    margin-bottom: 15px;
+    margin-top: 30px;
+    width: 70px;
+    height: 50px;
+}
 
-    .bildBereich {
-        position: absolute;
-        width: 100vw;
-        top: 0px;
-        left: 0%;
-        height: 70vh;
-        z-index: 30;
-    }
-
-
-    .whiteBox {
-        width: 60vw;
-        height: 70vh;
-    }
-
-    .greenBox {
-        width: 40vw;
-        height: 70vh;
-    }
+.box h3 {
+    font-size: 12px;
+    margin-left: 7px;
+    margin-right: 7px;
+    line-height: 15px;
 }
 
 
-@media (max-width: 830px) {
+.box p {
+    margin-top: -5px;
+    font-size: 11px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.introTextBox {
+    width: 45%;
+}
+
+#introText {
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 17px;
+    line-height: 10px;
+
+}
+
+h2 {
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 53px;
+}
+
+p {
+    margin-top: -15px;
+    font-size: 15px;
+
+}
+#Button {
+    padding: 16.5px 33.5px;
+
+    font-size: 15px;
+}
+
+#viewPortfolioButton {
+    padding: 18px 35px;
+
+    font-size: 15px;
+}
+
+#ButtonContact {
+    font-size: 15px;
+    padding: 18px 35px;
+
+}
+
+.sectionTeaser {
+    font-size: 12px;
+}
+
+.titel {
+    margin-top: 10px;
+    font-size: 31px;
+    margin-bottom: 25px;
+    line-height: 20px;
+
+}
+
+.textTitel {
+    margin-bottom: 28px;
+    font-size: 15px;
+    line-height: 15px;
+
+}
+
+#aboutMeText{
+    font-size: 13px;
+}
+
+}
+@media (max-width: 880px) {
     .whiteBox {
         width: 60vw;
         height: 54.5vh;
@@ -312,7 +376,7 @@ p {
     .bild {
         max-height: 80%;
         max-width: 80%;
-        top: 11vh;
+        top: 10.8vh;
         bottom: 0vh;
         left: 19%;
         right: 0px;
@@ -374,7 +438,7 @@ p {
         font-size: 10px;
     }
 
-    .aboutMeTitel {
+    .titel {
         font-size: 22px;
     }
     .skills {
@@ -400,12 +464,12 @@ p {
     @media (max-width: 550px) {
         .whiteBox {
             width: 67vw;
-            height: 400px;
+            height: 420px;
         }
 
         .greenBox {
             width: 33vw;
-            height: 400px;
+            height: 420px;
         }
 
         .aboutMeSection {
@@ -418,14 +482,14 @@ p {
             top: 0px;
             width: 100vw;
             left: 0%;
-            height: 400px;
+            height: 420px;
             z-index: 30;
         }
 
         .bild {
             height: 220px;
             width: 170px;
-            top: 180px;
+            top: 200px;
             bottom: 0px;
             left: 140px;
             right: 0px;
@@ -443,7 +507,7 @@ p {
         .introTextBox {
             left: 10vw;
             top: 10vh;
-            width: 34%;
+            width: 40%;
         }
 
         #introText {

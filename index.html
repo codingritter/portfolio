@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-    <script src="inhaltJson.js" defer></script>
+    <script src="script.js" async></script>
+    <script src="inhaltJson.js" async></script>
     <title>Marcel Ritter Buisan</title>
 </head>
 
@@ -38,14 +38,14 @@
     </div>
     <div class="aboutMeSection">
         <p class="sectionTeaser">Ein bisschen was zu mir</p>
-        <h3 class="aboutMeTitel" style="color: rgb(27, 164, 109);">Über mich</h3>
+        <h3 class="titel" style="color: rgb(27, 164, 109);">Über mich</h3>
         <h3 class="textTitel">Meine Geschichte</h3>
-        <p style="font-size: 12px;" id="aboutMeText"></p>
+        <p id="aboutMeText"></p>
         <div class="buttonGroup">
-            <!-- <a href="lebenslaufMarcelRitterBuisan.pdf" download="Lebenslauf_Marcel_Ritter_Buisan"> -->
-                <button
-                    id="Button">Lebenslauf herunterladen</button></a>
-            <button id="ButtonContact">Kontakt</button>
+                <button id="ButtonContact">Kontakt</button>
+                    <!-- <a href="lebenslaufMarcelRitterBuisan.pdf" download="Lebenslauf_Marcel_Ritter_Buisan"> -->
+                        <button id="Button">Lebenslauf herunterladen</button>
+                    <!-- </a> -->
 
         </div>
 
@@ -53,28 +53,28 @@
     <div class="wrapper">
         <div class="skills">
             <p class="sectionTeaser">Was ich kann</p>
-            <h3 class="aboutMeTitel" style="color: rgb(27, 164, 109);">Skills</h3>
+            <h3 class="titel" style="color: rgb(27, 164, 109);">Skills</h3>
             <div id="skillBoxes">
             </div>
         </div>
 
         <div class="zertifikate">
             <p class="sectionTeaser">Meine Abschlüsse</p>
-            <h3 class="aboutMeTitel" style="color: rgb(27, 164, 109);">Zertifikate</h3>
+            <h3 class="titel" style="color: rgb(27, 164, 109);">Zertifikate</h3>
             <div id="zertifikateBoxes">
             </div>
         </div>
 
         <div class="portfolio">
-            <p class="sectionTeaser">Meine Projekte in der Studien Zeit</p>
-            <h3 class="aboutMeTitel" id="aboutMeTitel" style="color: rgb(27, 164, 109);">Portfolio</h3>
+            <p class="sectionTeaser" id="aboutMeTitel">Meine Projekte in der Studien Zeit</p>
+            <h3 class="titel" id="titel"style="color: rgb(27, 164, 109);">Portfolio</h3>
             <div id="portfolioBoxes">
 
             </div>
         </div>
         <div class="weitereInteressen">
-            <p class="sectionTeaser">Weitere Skills und Abschlüsse</p>
-            <h3 class="aboutMeTitel" id="aboutMeTitel" style="color: rgb(27, 164, 109);">Weitere Interessen</h3>
+            <p class="sectionTeaser">Skills und Abschlüsse aus anderen Themenbereichen</p>
+            <h3 class="titel" id="titel" style="color: rgb(27, 164, 109);">Weitere Interessen</h3>
             <div id="weitereInteressenBoxes">
 
             </div>
