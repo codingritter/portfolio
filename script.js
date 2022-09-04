@@ -58,7 +58,7 @@ var Portfolio;
             location.href = "#aboutMeTitel";
         }
         function contactEmail() {
-            window.location.href = "mailto:marcelritterbuisan@gmail.com";
+            window.location.href = "mailto:kontakt@marcelritterbuisan.de";
         }
     }
     Portfolio.main = main;
