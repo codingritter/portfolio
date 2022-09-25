@@ -531,6 +531,17 @@ p {
         .weitereInteressen {
             top: 800px;
         }
+        .box p {
+            font-size: 10px;
+        }
+        .box h3 {
+            font-size: 11px;
+        }
+        .box {
+            width: 220px;
+            height: 220px;
+        
+        }
     
     }
 
