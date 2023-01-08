@@ -22,7 +22,6 @@ var Portfolio;
             for (let y = 0; y < kategorienLength[i]; y++) {
                 const boxDiv = document.createElement("div");
                 boxDiv.setAttribute("class", "box");
-                kategorienHTML[i].appendChild(boxDiv);
                 if (kategorien[i][y].link && kategorien[i][y].link !== "") {
                     boxDiv.style.cursor = "pointer";
                     boxDiv.addEventListener("click", () => {
@@ -52,6 +51,7 @@ var Portfolio;
                 const boxText = document.createElement("p");
                 boxText.innerHTML = kategorien[i][y].content;
                 boxDiv.appendChild(boxText);
+                kategorienHTML[i].appendChild(boxDiv);
             }
         }
         function viewPortfolio() {

@@ -3,6 +3,27 @@ html {
     font-family: Verdana, Arial, Tahoma, Serif;
     overflow-x: hidden;
 }
+footer {
+    position: relative;
+    top:190vh;
+    left: -10%;
+    bottom: 0px;
+    width: 120%;
+    height:40px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+footer p {
+    position: relative;
+    color: black;
+    top:11px;
+    font-size: 12px;
+}
+footer a {
+    text-decoration: none;
+
+}
 
 .bild {
     max-height: 100%;
@@ -361,6 +382,9 @@ p {
 
 }
 @media (max-width: 880px) {
+    footer {
+        top:130vh;
+    }
     .whiteBox {
         width: 60vw;
         height: 54.5vh;
@@ -460,6 +484,9 @@ p {
 
 
     @media (max-width: 550px) {
+        footer {
+            top:900px;
+        }
         .whiteBox {
             width: 67vw;
             height: 420px;
