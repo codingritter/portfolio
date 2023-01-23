@@ -1,8 +1,8 @@
 {
     "webTexte": [
         {
-            "introText": "und ich programmiere leidenschaftlich im Front End Bereich.<br>Auch die Themen rund um Foto und Video begeistert mich. <br>Ich bin Student an der Hochschule Furtwangen und studiere Medienkonzeption.",
-            "aboutMeText": "Geboren bin ich München und ging dort auch auf die Schule. Schon früh fing ich an, mich für die Erstellung von Webseiten und die Themen rund um Foto und Video zu begeistern. Diese Leidenschaft konnte ich dann in meinem Studium ausbauen."
+            "introText": "und ich bin von Leidenschaft Front-End-Entwickler.<br>Die Welt der Fotografie und Videografie fasziniert mich ebenfalls. <br>Ich bin derzeit Student an der Hochschule Furtwangen, wo ich Medienkonzeption studiere.",
+            "aboutMeText": "Ich bin in München geboren und habe dort auch meine Schulzeit verbracht. Bereits in frühen Jahren entwickelte ich eine Leidenschaft für die Erstellung von Webseiten und alles, was mit Fotografie und Video zu tun hat. Diese Begeisterung konnte ich während meines Studiums vertiefen."
         }
     ],
     "skills": [
@@ -21,7 +21,7 @@
             "image": "Bilder/video.png",
             "imageWidth": "50px",
             "titel": "Video Bearbeitung",
-            "content": "Erfahrung mit Adobe Premiere, After Effects, DaVinci Resolve und Magix Video Deluxe"
+            "content": "Umfangreiche Kenntnisse in der Verwendung von Adobe Premiere, After Effects, DaVinci Resolve und Magix Video Deluxe"
         },
         {
             "image": "Bilder/kamera.png",
@@ -41,35 +41,35 @@
     "portfolio": [
         {
             "titel": "Diese Webseite :)",
-            "content": "Erstellt mit HTML, CSS, Typescript und JSON. Responsive Design.",
+            "content": "Erstellt mit einer Kombination aus HTML, CSS, Typescript und JSON, präsentiert sich diese Webseite mit einem ansprechenden, responsiven Design.",
             "link": "#top"
         },
         {
             "image": "Bilder/eisdielenWebseite.jpg",
             "imageWidth": "90px",
             "titel": "Eisdielen Webseite",
-            "content": "Im 2 Semester programmierte ich einen Eisdielen-Web-Shop. Mit integriertem Server und Datenbank.<br>Genutzt wurden HTML, CSS, Typescript,JSON, Heroku und MongoDB.",
+            "content": "Im zweiten Semester habe ich einen Eisdielen-Web-Shop entwickelt, mit einem integrierten Server und einer Datenbank. <br>Dabei habe ich HTML, CSS, Typescript, JSON, Heroku und MongoDB eingesetzt.",
             "link": "https://rittermarcel.github.io/GIS-SoSe-2020/Abgaben/endprojekt/index.html"
         },
         {
             "image": "Bilder/phonomuseum.jpg",
             "imageWidth": "70px",
             "titel": "Digitale Timeline & Geschichten aus aller Welt",
-            "content": "Hier haben wir in Zusammenarbeit mit dem deutschen Phonomuseum uns das Ziel gesetzt, das Expertenwissen des Arbeiterkreises der Firmen Dual und PE - ein Stück weit zu speichern und zu digitalisieren. Zuständig war ich für die Umsetzung der Interviews.",
+            "content": "In Zusammenarbeit mit dem deutschen Phonomuseum haben wir uns das Ziel gesetzt, das Expertenwissen des Arbeiterkreises der Firmen Dual und PE zu speichern und zu digitalisieren. Ich war für die erfolgreiche Umsetzung der Interviews verantwortlich.",
             "link": "https://www.hs-furtwangen.de/aktuelles/detail/2860-digitale-timeline-geschichten-aus-aller-welt/"
         },
         {
             "image": "Bilder/omnipotentia.jpg",
             "imageWidth": "100px",
             "titel": "Kurzfilm Omnipotentia",
-            "content": "In diesem Kurzfilm habe ich die Kamera und die Videobearbeitung übernommen. Bearbeitet habe ich mit dem Programm Adobe Premiere.",
+            "content": "Ich habe die Verantwortung für die Kameraarbeit und die Nachbearbeitung in diesem Kurzfilm übernommen und dafür das Programm Adobe Premiere verwendet.",
             "link": "https://drive.google.com/file/d/1GL3Db227JYhCb9uHGyhkaKyfuwM6-ooz/view?usp=sharing"
         },
         {
             "image": "Bilder/klimawandelSchwarzwald.jpg",
             "imageWidth": "90px",
             "titel": "Dokumentarfilm/Webseite: Klimawandel im Schwarzwald",
-            "content": "Im vierten Semester filmte und bearbeitete ich einen kurzen Film über den Klimawandel im Schwarzwald. Dazu habe ich noch eine kleine interaktive Webseite mit einem Quiz programmiert.",
+            "content": "Im vierten Semester erschuf ich einen kurzen Film, in dem ich den Schwarzwald in den Fokus rückte und die Auswirkungen des Klimawandels thematisierte. Zusätzlich programmierte ich auch eine interaktive Webseite, auf der das Publikum ihr Wissen über den Klimawandel testen konnte.",
             "link": "https://rittermarcel.github.io/Klimawandel-Schwarzwald/micropage/"
         }
     ],
@@ -78,7 +78,7 @@
             "image": "Bilder/fitness.png",
             "imageWidth": "60px",
             "titel": "Fitness",
-            "content": "Individuelle Trainings/Ernährungspläne erstellen und Trainingsanweisung geben"
+            "content": "Ich gestalte maßgeschneiderte Trainings- und Ernährungspläne und vermittle professionelle Anleitungen für das Training."
         },
         {
             "image": "Bilder/zertifikatBild.jpg",
