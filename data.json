@@ -40,7 +40,7 @@
     ],
     "portfolio": [
         {
-            "titel": "Diese Webseite :)",
+            "titel": "Diese Webseite",
             "content": "Erstellt mit einer Kombination aus HTML, CSS, Typescript und JSON, präsentiert sich diese Webseite mit einem ansprechenden, responsiven Design.",
             "link": "#top"
         },
@@ -55,7 +55,7 @@
             "image": "Bilder/phonomuseum.jpg",
             "imageWidth": "70px",
             "titel": "Digitale Timeline & Geschichten aus aller Welt",
-            "content": "In Zusammenarbeit mit dem deutschen Phonomuseum haben wir uns das Ziel gesetzt, das Expertenwissen des Arbeiterkreises der Firmen Dual und PE zu speichern und zu digitalisieren. Ich war für die erfolgreiche Umsetzung der Interviews verantwortlich.",
+            "content": "In Zusammenarbeit mit dem deutschen Phonomuseum in Sankt Georgen haben wir uns das Ziel gesetzt, das Expertenwissen des Arbeiterkreises der Firmen Dual und PE zu speichern und zu digitalisieren. Ich war für die erfolgreiche Umsetzung der Interviews verantwortlich.",
             "link": "https://www.hs-furtwangen.de/aktuelles/detail/2860-digitale-timeline-geschichten-aus-aller-welt/"
         },
         {
@@ -71,6 +71,20 @@
             "titel": "Dokumentarfilm/Webseite: Klimawandel im Schwarzwald",
             "content": "Im vierten Semester erschuf ich einen kurzen Film, in dem ich den Schwarzwald in den Fokus rückte und die Auswirkungen des Klimawandels thematisierte. Zusätzlich programmierte ich auch eine interaktive Webseite, auf der das Publikum ihr Wissen über den Klimawandel testen konnte.",
             "link": "https://rittermarcel.github.io/Klimawandel-Schwarzwald/micropage/"
+        },
+        {
+            "image": "Bilder/digitalerPlattenspieler.png",
+            "imageWidth": "90px",
+            "titel": "Analog-Digitaler Plattenspieler",
+            "content": "Für ein Hochschulprojekt musste ich einen Audioplayer erstellen. Ich habe mich für einen analog-digitalen Plattenspieler entschieden. Umgesetzt habe ich die 3D-Modellierung des Prototyps in Blender und die Videobearbeitung in Adobe Premiere.",
+            "link": "https://drive.google.com/file/d/1WIb4dUxy7CPJZ8Xn-SlmmYi58J7ufoyk/view?usp=sharing"
+        },
+        {
+            "image": "Bilder/fitnessVideo.png",
+            "imageWidth": "90px",
+            "titel": "Fitness Kurzvideo",
+            "content": "Im Rahmen des Wahlpflichtfachs Videobearbeitung wurde uns die Aufgabe gestellt, ein kurzes, etwa einminütiges Video zu produzieren. Ich habe mich für die Erstellung eines Fitness-Motivationsvideos entschieden und dabei die Programme Adobe Premiere und After Effects genutzt.",
+            "link": "https://drive.google.com/file/d/1ZURu3PakqVBavqYPQiOgjABGxPmOQRYW/view?usp=sharing"
         }
     ],
     "weitereInteressen": [
