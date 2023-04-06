@@ -41,7 +41,7 @@
     "portfolio": [
         {
             "titel": "Diese Webseite",
-            "content": "Erstellt mit einer Kombination aus HTML, CSS, Typescript und JSON, präsentiert sich diese Webseite mit einem ansprechenden, responsiven Design.",
+            "content": "Erstellt mit einer Kombination aus HTML, CSS, Typescript und JSON, präsentiert sich diese Webseite mit einem responsiven Design.",
             "link": "#top"
         },
         {
