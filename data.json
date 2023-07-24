@@ -15,13 +15,19 @@
             "image": "Bilder/web_coding.png",
             "imageWidth": "100px",
             "titel": "Web Programmierung",
-            "content": "Typescript, Angular"
+            "content": "Typescript, Javascript, Angular"
+        },
+        {
+            "image": "Bilder/app_programmierung.png",
+            "imageWidth": "30px",
+            "titel": "App Programmierung",
+            "content": "Kotlin und Android Studio"
         },
         {
             "image": "Bilder/video.png",
             "imageWidth": "50px",
             "titel": "Video Bearbeitung",
-            "content": "Umfangreiche Kenntnisse in der Verwendung von Adobe Premiere, After Effects, DaVinci Resolve und Magix Video Deluxe"
+            "content": "Adobe Premiere, After Effects, DaVinci Resolve und Magix Video Deluxe"
         },
         {
             "image": "Bilder/kamera.png",
@@ -48,8 +54,22 @@
             "image": "Bilder/eisdielenWebseite.jpg",
             "imageWidth": "90px",
             "titel": "Eisdielen Webseite",
-            "content": "Im zweiten Semester habe ich einen Eisdielen-Web-Shop entwickelt, mit einem integrierten Server und einer Datenbank. <br>Dabei habe ich HTML, CSS, Typescript, JSON, Heroku und MongoDB eingesetzt.",
+            "content": "Im zweiten Semester erwarb ich Kenntnisse in der Webprogrammierung mit TypeScript. Ich entwickelte dazu einen Webshop für eine Eisdiele, der über einen integrierten Server und eine Datenbank verfügt. Hierbei nutzte ich HTML, CSS, TypeScript, JSON, Heroku und MongoDB.",
             "link": "https://rittermarcel.github.io/GIS-SoSe-2020/Abgaben/endprojekt/index.html"
+        },
+        {
+            "image": "Bilder/rueckenApp.png",
+            "imageWidth": "25px",
+            "titel": "Körperhaltungs App",
+            "content": "Mit Hilfe des App-Programmierungs-Kurses auf Udemy habe ich eine Körperhaltungs-App entwickelt. Sie präsentiert dem Nutzer gezielte Übungen, die er für eine bestimmte Zeit ausführen soll. Zusätzlich verfügt die App über einen BMI-Rechner und gewährleistet eine Aufzeichnung der Trainingszeiten des Benutzers.",
+            "link": "https://drive.google.com/drive/folders/1bomYM18iNZLooqpC0LOHNuTnPhCgzLmI?usp=sharing"
+        },
+        {
+            "image": "Bilder/app_programmierung.png",
+            "imageWidth": "25px",
+            "titel": "Weitere Android Apps",
+            "content": "Der App-Programmierungs-Kurs auf Udemy wurde sorgfältig durchgearbeitet, und dabei entstanden vielfältige Apps, darunter eine App zum Zeichnen, eine Quiz-App sowie komplett eigene Apps.",
+            "link": ""
         },
         {
             "image": "Bilder/phonomuseum.jpg",
@@ -86,6 +106,7 @@
             "content": "Im Rahmen des Wahlpflichtfachs Videobearbeitung wurde uns die Aufgabe gestellt, ein kurzes, etwa einminütiges Video zu produzieren. Ich habe mich für die Erstellung eines Fitness-Motivationsvideos entschieden und dabei die Programme Adobe Premiere und After Effects genutzt.",
             "link": "https://drive.google.com/file/d/1ZURu3PakqVBavqYPQiOgjABGxPmOQRYW/view?usp=sharing"
         }
+        
     ],
     "weitereInteressen": [
         {

@@ -66,7 +66,7 @@ namespace Portfolio {
             location.href = "#aboutMeTitel";
         }
         function contactEmail() {
-            window.location.href = "mailto:kontakt@marcelritterbuisan.de";
+            window.location.href = "mailto:mail@marcelritterbuisan.de";
         }
     }
 }
