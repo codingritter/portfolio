@@ -28,9 +28,16 @@ var Portfolio;
                         window.location.href = kategorien[i][y].link;
                     });
                 }
-                const boxContent = document.createElement("div");
-                boxContent.setAttribute("class", "boxContent");
-                boxDiv.appendChild(boxContent);
+                if (kategorienHTML[i] === skillBoxes || kategorienHTML[i] === zertifikateBoxes) {
+                    const boxContent = document.createElement("div");
+                    boxContent.setAttribute("class", "boxContentCenter");
+                    boxDiv.appendChild(boxContent);
+                }
+                else {
+                    const boxContent = document.createElement("div");
+                    boxContent.setAttribute("class", "boxContent");
+                    boxDiv.appendChild(boxContent);
+                }
                 if (kategorien[i][y].image) {
                     const boxImage = document.createElement("img");
                     boxImage.setAttribute("src", kategorien[i][y].image);
@@ -43,10 +50,10 @@ var Portfolio;
                 boxTitel.innerHTML = kategorien[i][y].titel;
                 boxDiv.appendChild(boxTitel);
                 if (!kategorien[i][y].image && window.innerWidth < 1600) {
-                    boxTitel.style.marginTop = "82px";
+                    boxTitel.style.marginTop = "90px";
                 }
                 else if (!kategorien[i][y].image && window.innerWidth >= 1600) {
-                    boxTitel.style.marginTop = "110px";
+                    boxTitel.style.marginTop = "118px";
                 }
                 const boxText = document.createElement("p");
                 boxText.innerHTML = kategorien[i][y].content;

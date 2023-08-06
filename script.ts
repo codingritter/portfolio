@@ -32,10 +32,15 @@ namespace Portfolio {
                         window.location.href = kategorien[i][y].link;
                     })
                 }
-
+                if(kategorienHTML[i] === skillBoxes || kategorienHTML[i] === zertifikateBoxes) {
+                    const boxContent: HTMLDivElement = document.createElement("div");
+                boxContent.setAttribute("class", "boxContentCenter");
+                boxDiv.appendChild(boxContent);
+                }else{
                 const boxContent: HTMLDivElement = document.createElement("div");
                 boxContent.setAttribute("class", "boxContent");
                 boxDiv.appendChild(boxContent);
+                }
                 if (kategorien[i][y].image) {
                     const boxImage: HTMLImageElement = document.createElement("img");
                     boxImage.setAttribute("src", kategorien[i][y].image);
@@ -50,10 +55,10 @@ namespace Portfolio {
                 boxDiv.appendChild(boxTitel);
 
                 if (!kategorien[i][y].image && window.innerWidth < 1600) {
-                    boxTitel.style.marginTop = "82px"
+                    boxTitel.style.marginTop = "90px"
 
                 } else if (!kategorien[i][y].image && window.innerWidth >= 1600) {
-                    boxTitel.style.marginTop = "110px"
+                    boxTitel.style.marginTop = "118px"
                 }
                 const boxText: HTMLParagraphElement = document.createElement("p");
                 boxText.innerHTML = kategorien[i][y].content;
