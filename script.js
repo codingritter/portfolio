@@ -28,15 +28,12 @@ var Portfolio;
                         window.location.href = kategorien[i][y].link;
                     });
                 }
+                const boxContent = document.createElement("div");
                 if (kategorienHTML[i] === skillBoxes || kategorienHTML[i] === zertifikateBoxes) {
-                    const boxContent = document.createElement("div");
                     boxContent.setAttribute("class", "box-content-center");
-                    boxDiv.appendChild(boxContent);
                 }
                 else {
-                    const boxContent = document.createElement("div");
                     boxContent.setAttribute("class", "box-content");
-                    boxDiv.appendChild(boxContent);
                 }
                 if (kategorien[i][y].image) {
                     const boxImage = document.createElement("img");
@@ -44,20 +41,24 @@ var Portfolio;
                     if (kategorien[i][y].imageWidth && kategorien[i][y].imageWidth !== "") {
                         boxImage.style.width = kategorien[i][y].imageWidth;
                     }
-                    boxDiv.appendChild(boxImage);
+                    boxContent.appendChild(boxImage);
                 }
                 const boxTitel = document.createElement("h3");
                 boxTitel.innerHTML = kategorien[i][y].title;
-                boxDiv.appendChild(boxTitel);
-                if (!kategorien[i][y].image && window.innerWidth < 1600) {
-                    boxTitel.style.marginTop = "90px";
+                boxContent.appendChild(boxTitel);
+                if (!kategorien[i][y].image && window.innerWidth > 1600) {
+                    boxTitel.style.marginTop = "70px";
                 }
-                else if (!kategorien[i][y].image && window.innerWidth >= 1600) {
-                    boxTitel.style.marginTop = "118px";
+                else if (!kategorien[i][y].image && window.innerWidth < 1000 && window.innerWidth > 690) {
+                    boxTitel.style.marginTop = "65px";
+                }
+                else if (!kategorien[i][y].image && window.innerWidth <= 690) {
+                    boxTitel.style.marginTop = "0px";
                 }
                 const boxText = document.createElement("p");
                 boxText.innerHTML = kategorien[i][y].content;
-                boxDiv.appendChild(boxText);
+                boxContent.appendChild(boxText);
+                boxDiv.appendChild(boxContent);
                 kategorienHTML[i].appendChild(boxDiv);
             }
         }

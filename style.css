@@ -1,5 +1,4 @@
 html {
-    background-color: white;
     font-family: Verdana, Arial, Tahoma, Serif;
 
 }
@@ -20,13 +19,6 @@ h3 {
     color: rgb(83, 13, 8);
     font-size: 1.125em;
     line-height: 0.625em;
-
-}
-
-
-
-p {
-    font-size: 1em;
 
 }
 
@@ -133,9 +125,9 @@ footer a {
 
 #intro-text {
     color: rgb(83, 13, 8);
-text-align: left;
-line-height: 0.9375em;
-font-size: 2em;
+    text-align: left;
+    line-height: 0.9375em;
+    font-size: 2em;
 }
 
 
@@ -143,11 +135,14 @@ font-size: 2em;
 #contact-btn {
     background-color: rgb(83, 13, 8);
     border: none;
-    margin-right: 0.9375em; /* 15px / 16px */
-    border-radius: 0.1875em; /* 3px / 16px */
+    margin-right: 0.9375em;
+    /* 15px / 16px */
+    border-radius: 0.1875em;
+    /* 3px / 16px */
     color: white;
     height: 3.125em;
-    padding: 0.84375em 1.90625em; /* 13.5px / 16px, 30.5px / 16px */
+    padding: 0.84375em 1.90625em;
+    /* 13.5px / 16px, 30.5px / 16px */
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -157,31 +152,40 @@ font-size: 2em;
 
 #portfolio-btn {
     position: relative;
-left: 0em; 
-margin-top: 1.7857em; /* 50px ÷ 28px */
-background-color: rgb(34, 47, 46);
-border: none;
-height: 2.1428em; /* 60px ÷ 28px */
-width: 10.7142em; /* 300px ÷ 28px */
-border-radius: 0.1071em; /* 3px ÷ 28px */
-color: white;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 1.75em;
-cursor: pointer;
-z-index: 2;
+    left: 0em;
+    margin-top: 1.7857em;
+    /* 50px ÷ 28px */
+    background-color: rgb(34, 47, 46);
+    border: none;
+    height: 2.1428em;
+    /* 60px ÷ 28px */
+    width: 10.7142em;
+    /* 300px ÷ 28px */
+    border-radius: 0.1071em;
+    /* 3px ÷ 28px */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.75em;
+    cursor: pointer;
+    z-index: 2;
 }
 
 #cv-download-btn {
-    margin-top: 1.25em; /* 20px / 16px */
+    margin-top: 1.25em;
+    /* 20px / 16px */
     background-color: transparent;
-    border: 0.09375em solid; /* 1.5px / 16px */
-    border-radius: 0.1875em; /* 3px / 16px */
-    height: 3.125em; /* 50px / 16px */
+    border: 0.09375em solid;
+    /* 1.5px / 16px */
+    border-radius: 0.1875em;
+    /* 3px / 16px */
+    height: 3.125em;
+    /* 50px / 16px */
     border-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
-    padding: 0.84375em 1.90625em; /* 13.5px / 16px, 30.5px / 16px */
+    padding: 0.84375em 1.90625em;
+    /* 13.5px / 16px, 30.5px / 16px */
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -195,7 +199,7 @@ z-index: 2;
 }
 
 .about-me-section {
-    margin-top: 10%;
+    margin-top: 15%;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -205,28 +209,33 @@ z-index: 2;
 }
 
 .section-intro {
-    margin-top: 1.875em; /* 30px / 16px */
+    margin-top: 1.875em;
+    /* 30px / 16px */
     color: rgb(255, 255, 255);
-    font-size: 0.625em; /* 10px / 16px */
+    font-size: 0.625em;
+    /* 10px / 16px */
 }
 
 .section-title {
     font-size: 1.5em;
-    line-height: 1.25em; /* 20px / 16px */
+    line-height: 1.25em;
+    /* 20px / 16px */
     color: rgb(255, 255, 255);
 }
 
 #about-text {
-    margin-top: -0.625em; /* -10px / 16px */
+    margin-top: -0.625em;
+    /* -10px / 16px */
     font-size: 1em;
-    line-height: 1.375em; /* 22px / 16px */
+    line-height: 1.375em;
+    /* 22px / 16px */
     color: rgb(255, 255, 255);
 }
 
 
 .skills-section {
     position: relative;
-    margin-top: 20%;
+    margin-top: 15%;
     text-align: center;
 
 }
@@ -242,25 +251,33 @@ z-index: 2;
     background-color: white;
     position: relative;
     width: 17.5em;
-    margin-bottom: 1.5625em; /* 25px / 16px */
-    margin-right: 0.78125em; /* 12.5px / 16px */
-    margin-left: 0.78125em; /* 12.5px / 16px */
+    margin-bottom: 1.5625em;
+    /* 25px / 16px */
+    margin-right: 0.78125em;
+    /* 12.5px / 16px */
+    margin-left: 0.78125em;
+    /* 12.5px / 16px */
     height: 17.5em;
-    border-radius: 0.1875em; /* 3px / 16px */
+    border-radius: 0.1875em;
+    /* 3px / 16px */
     box-shadow: rgb(34, 47, 46) 0px 3px 8px;
 
 }
 
 .box-content {
-    margin-bottom: 1.375em; /* 22px / 16px */
-    text-align: left;
-    margin-left: 0.625em;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+    height: 100%;
 }
 
 .box-content-center {
-    margin-bottom: 50px;
-    text-align: left;
-    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    align-items: center;
+    height: 90%;
 }
 
 .box img {
@@ -270,22 +287,26 @@ z-index: 2;
 
 .box h3 {
     font-size: 1em;
-    margin-left: 0.4375em; /* 7px / 16px */
-    margin-right: 0.4375em; /* 7px / 16px */
-    line-height: 1.375em; 
+    margin-left: 0.4375em;
+    /* 7px / 16px */
+    margin-right: 0.4375em;
+    /* 7px / 16px */
+    line-height: 1.375em;
 }
 
 
 .box p {
-    margin-top: -0.4375em; /* -7px / 16px */
+    margin-top: -0.4375em;
+    /* -7px / 16px */
     font-size: 0.75em;
-    margin-left: 0.4375em; /* 7px / 16px */
+    margin-left: 0.4375em;
+    /* 7px / 16px */
     margin-right: 0.4375em;
 }
 
 .certificates-section {
     position: relative;
-    margin-top: 20%;
+    margin-top: 15%;
     text-align: center;
 
 }
@@ -299,7 +320,7 @@ z-index: 2;
 
 #portfolio-section {
     position: relative;
-    margin-top: 20%;
+    margin-top: 15%;
     text-align: center;
 
 }
@@ -313,7 +334,7 @@ z-index: 2;
 
 .other-interests-section {
     position: relative;
-    margin-top: 20%;
+    margin-top: 15%;
     text-align: center;
     margin-bottom: 20%;
 
@@ -327,141 +348,76 @@ z-index: 2;
 }
 
 @media (min-width: 1600px) {
-    body{
+    body {
         font-size: 18px;
     }
 
 }
 
 @media (max-width: 1000px) {
-
-    .cv-download-btn {}
-
-    #about-text {}
-
-    footer {}
-
-    .description-box {}
-
-    .personal-info-box {}
-
     .profile-image {
         max-height: 50%;
-    max-width: 50%;
+        max-width: 50%;
     }
-
-    .image-section {}
-
-    h3 {}
-
-    h2 {}
 
     .intro-heading {
         width: 100%;
-        top:30%;
+        top: 30%;
     }
 
-    #intro-text {}
 
-    .name-box {}
 
     .name-box h2 {
         margin-left: 0em;
         margin-right: 0em;
     }
 
-    p {}
-
-    #cv-download-btn {}
-
-    #portfolio-btn {}
-
-    #contact-btn {}
 
 
-    .about-me-section {}
 
-    .section-intro {}
 
-    .section-title {}
 
-    .skills-section {}
+    .about-me-section {
+        width: 80%;
+        margin-top: 20%;
+    }
 
-    .certificates-section {}
-
-    #portfolio-section {}
-
-    .other-interests-section {}
-
-    .box p {}
-
-    .box h3 {}
-
-    .box {}
-
-    #contact-btn {}
 
 
 
 
     @media (max-width: 690px) {
-        body{
 
-        }
-        .box-content-center {
-           
-        }
 
-        .section-intro {
-        }
 
-        footer {
-        }
-
-        .description-box {
-       
-        }
-
-        
 
         .about-me-section {
             margin-top: 35%;
             width: 90%;
             margin-bottom: 35%;
 
-            
+
         }
 
-        #about-text {
-        }
+
 
         #portfolio-btn {
-        
-font-size: 1.2em;
-        }
-        .personal-info-box {
-        
 
+            font-size: 1.2em;
         }
 
-        .image-section {
-            
-        }
+
+
 
         .profile-image {
-           visibility:hidden;
+            visibility: hidden;
         }
 
-        h3 {
 
-        }
-
-        h2 {
-        }
 
         .intro-heading {
             width: 100%;
-            top:30%;
+            top: 30%;
         }
 
         #intro-text {
@@ -470,13 +426,11 @@ font-size: 1.2em;
             text-align: center;
         }
 
-        .name-box {
-          
-        }
+
 
         .name-box h2 {
-           margin-left: 0em;
-           font-size: 2.2em;
+            margin-left: 0em;
+            font-size: 2.2em;
 
         }
 
@@ -506,18 +460,13 @@ font-size: 1.2em;
             font-size: 1.125em;
         }
 
-        .box img {
-         
-        }
+
 
         .box {
             width: 22em;
             height: 22em;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            
+
+
         }
 
         .cv-download-btn {
@@ -527,21 +476,31 @@ font-size: 1.2em;
         }
 
         #contact-btn {
-           width: 15.5em;
-           margin-left: 0em;
-           margin-right: 0em;
+            width: 15.5em;
+            margin-left: 0em;
+            margin-right: 0em;
         }
 
         .box-content {
-            margin-bottom: 0px; 
+            margin-top: 0px;
+            margin-bottom: 0px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
 
-         
         }
 
         .box-content-center {
-            margin-bottom: 0px; 
+            margin-top: 0em;
+            margin-bottom: 0px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
 
-           
         }
 
     }

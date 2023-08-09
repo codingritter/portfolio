@@ -32,14 +32,12 @@ namespace Portfolio {
                         window.location.href = kategorien[i][y].link;
                     })
                 }
-                if(kategorienHTML[i] === skillBoxes || kategorienHTML[i] === zertifikateBoxes) {
-                    const boxContent: HTMLDivElement = document.createElement("div");
-                boxContent.setAttribute("class", "box-content-center");
-                boxDiv.appendChild(boxContent);
-                }else{
                 const boxContent: HTMLDivElement = document.createElement("div");
+
+                if(kategorienHTML[i] === skillBoxes || kategorienHTML[i] === zertifikateBoxes) {
+                boxContent.setAttribute("class", "box-content-center");
+                }else{
                 boxContent.setAttribute("class", "box-content");
-                boxDiv.appendChild(boxContent);
                 }
                 if (kategorien[i][y].image) {
                     const boxImage: HTMLImageElement = document.createElement("img");
@@ -47,23 +45,28 @@ namespace Portfolio {
                     if (kategorien[i][y].imageWidth && kategorien[i][y].imageWidth !== "") {
                         boxImage.style.width = kategorien[i][y].imageWidth;
                     }
-                    boxDiv.appendChild(boxImage);
+                    boxContent.appendChild(boxImage);
                 }
 
                 const boxTitel: HTMLParagraphElement = document.createElement("h3");
                 boxTitel.innerHTML = kategorien[i][y].title;
-                boxDiv.appendChild(boxTitel);
+                boxContent.appendChild(boxTitel);
 
-                if (!kategorien[i][y].image && window.innerWidth < 1600) {
-                    boxTitel.style.marginTop = "90px"
+                if (!kategorien[i][y].image && window.innerWidth > 1600) {
+                    boxTitel.style.marginTop = "70px"
 
-                } else if (!kategorien[i][y].image && window.innerWidth >= 1600) {
-                    boxTitel.style.marginTop = "118px"
+                }else if (!kategorien[i][y].image && window.innerWidth < 1000 && window.innerWidth > 690) {
+                    boxTitel.style.marginTop = "65px"
+                }
+                else if (!kategorien[i][y].image && window.innerWidth <= 690) {
+                    boxTitel.style.marginTop = "0px"
                 }
                 const boxText: HTMLParagraphElement = document.createElement("p");
                 boxText.innerHTML = kategorien[i][y].content;
-                boxDiv.appendChild(boxText);
+                boxContent.appendChild(boxText);
+                boxDiv.appendChild(boxContent);
                 kategorienHTML[i].appendChild(boxDiv);
+                
 
             }
         }
