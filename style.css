@@ -1,26 +1,56 @@
 html {
-    background-color: rgb(34, 47, 46);
+    background-color: white;
     font-family: Verdana, Arial, Tahoma, Serif;
-    overflow-x: hidden;
+
+}
+
+body {
+    background-color: rgb(34, 47, 46);
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+h2 {
+    line-height: 1.875em;
+    font-size: 1.5em;
+}
+
+h3 {
+    color: rgb(83, 13, 8);
+    font-size: 1.125em;
+    line-height: 0.625em;
+
+}
+
+
+
+p {
+    font-size: 1em;
+
 }
 
 footer {
     position: relative;
-    top: 190vh;
-    left: -10%;
-    bottom: 0px;
-    width: 120%;
-    height: 40px;
+    box-sizing: border-box;
+    margin: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    height: 2.5em;
+    width: 100%;
     background-color: white;
     color: black;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 footer p {
-    position: relative;
     color: black;
-    top: 12px;
-    font-size: 14px;
+    margin: 0;
 }
 
 footer a {
@@ -28,7 +58,7 @@ footer a {
 
 }
 
-.bild {
+.profile-image {
     max-height: 97%;
     max-width: 100%;
     position: absolute;
@@ -37,194 +67,171 @@ footer a {
     left: 21%;
     right: 0px;
     margin: auto;
-    z-index: 100;
+    z-index: 2;
 }
 
-.bildBereich {
-    position: absolute;
-    width: 100vw;
+.image-section {
+    width: 100%;
     top: 0px;
     left: 0%;
     height: 70vh;
-    z-index: 30;
+    z-index: 1;
 }
 
 
-.header {
+.main-header {
+    width: 100%;
     position: absolute;
     top: 0px;
     left: 0px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    z-index: 5;
+    z-index: 1;
 }
 
-.whiteBox {
+.description-box {
     background-color: rgb(255, 255, 255);
     position: relative;
-    width: 60vw;
+    width: 60%;
+    height: 70vh;
+    z-index: 1;
+}
+
+.personal-info-box {
+    background-color: rgb(83, 13, 8);
+    position: relative;
+    width: 40%;
     height: 70vh;
 }
 
-.greenBox {
-    background-color: rgb(83, 13, 8);
+.name-box {
     position: relative;
-    width: 40vw;
-    height: 70vh;
+    top: 5%;
+    z-index: 2;
 }
 
-.nameBox {
-    position: relative;
-    left: 65vw;
-    top: 50px;
-    text-align: left;
-    width: 35%;
-}
-
-.nameBox h2 {
+.name-box h2 {
+    line-height: 1.1667em;
+    font-size: 3.75em;
     text-align: center;
-    line-height: 70px;
-    font-size: 60px;
-
+    margin-left: 10%;
+    color: white;
 }
 
-.introTextBox {
+
+.intro-heading {
     position: relative;
-    left: 10vw;
-    bottom: 120px;
-    text-align: left;
-    width: 45%;
-
+    top: 20%;
+    width: 90%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-#introText {
+#intro-text {
     color: rgb(83, 13, 8);
-    line-height: 30px;
-    font-size: 32px;
+text-align: left;
+line-height: 0.9375em;
+font-size: 2em;
 }
 
-h3 {
-    color: rgb(83, 13, 8);
-    font-size: 14px;
-    line-height: 10px;
 
-}
 
-h2 {
-    position: relative;
-    margin-top: 20px;
-    line-height: 30px;
-    right: 3px;
-    font-size: 50px;
-}
-
-p {
-    margin-top: -10px;
-    font-size: 12px;
-
-}
-
-#ButtonContact {
+#contact-btn {
     background-color: rgb(83, 13, 8);
     border: none;
-    margin-right: 15px;
-    border-radius: 3px;
+    margin-right: 0.9375em; /* 15px / 16px */
+    border-radius: 0.1875em; /* 3px / 16px */
     color: white;
-    height: 50px;
-    padding: 13.5px 30.5px;
+    height: 3.125em;
+    padding: 0.84375em 1.90625em; /* 13.5px / 16px, 30.5px / 16px */
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1em;
     cursor: pointer;
 }
 
-#viewPortfolioButton {
+#portfolio-btn {
     position: relative;
-    left: 0px;
-    margin-top: 50px;
-    background-color: rgb(34, 47, 46);
-    border: none;
-    height: 60px;
-    width: 300px;
-    border-radius: 3px;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    cursor: pointer;
-    z-index: 4;
+left: 0em; 
+margin-top: 1.7857em; /* 50px ÷ 28px */
+background-color: rgb(34, 47, 46);
+border: none;
+height: 2.1428em; /* 60px ÷ 28px */
+width: 10.7142em; /* 300px ÷ 28px */
+border-radius: 0.1071em; /* 3px ÷ 28px */
+color: white;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 1.75em;
+cursor: pointer;
+z-index: 2;
 }
 
-#Button {
-    margin-top: 20px;
+#cv-download-btn {
+    margin-top: 1.25em; /* 20px / 16px */
     background-color: transparent;
-    border: 1.5px solid;
-    border-radius: 3px;
-    height: 50px;
+    border: 0.09375em solid; /* 1.5px / 16px */
+    border-radius: 0.1875em; /* 3px / 16px */
+    height: 3.125em; /* 50px / 16px */
     border-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
-    padding: 13.5px 30.5px;
+    padding: 0.84375em 1.90625em; /* 13.5px / 16px, 30.5px / 16px */
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1em;
     cursor: pointer;
 }
 
-#Button:hover {
+#cv-download-btn:hover {
     background-color: rgb(83, 13, 8);
     color: white;
 }
 
-.aboutMeSection {
-    margin-top: 100px;
-    top: 80vh;
+.about-me-section {
+    margin-top: 10%;
     position: relative;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     width: 40%;
+    z-index: 2;
 }
 
-.sectionTeaser {
-    margin-top: 30px;
+.section-intro {
+    margin-top: 1.875em; /* 30px / 16px */
     color: rgb(255, 255, 255);
-    font-size: 10px;
+    font-size: 0.625em; /* 10px / 16px */
 }
 
-.titel {
-    font-size: 24px;
-    line-height: 20px;
-
-}
-
-#aboutMeText {
-    margin-top: -10px;
-    font-size: 16px;
-    line-height: 22px;
+.section-title {
+    font-size: 1.5em;
+    line-height: 1.25em; /* 20px / 16px */
     color: rgb(255, 255, 255);
 }
 
-.wrapper {
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 16px;
-    padding-right: 16px;
+#about-text {
+    margin-top: -0.625em; /* -10px / 16px */
+    font-size: 1em;
+    line-height: 1.375em; /* 22px / 16px */
+    color: rgb(255, 255, 255);
 }
 
-.skills {
+
+.skills-section {
     position: relative;
-    top: 105vh;
+    margin-top: 20%;
     text-align: center;
 
 }
 
-#skillBoxes {
+#skills-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -234,23 +241,23 @@ p {
 .box {
     background-color: white;
     position: relative;
-    width: 280px;
-    margin-bottom: 25px;
-    margin-right: 12.5px;
-    margin-left: 12.5px;
-    height: 280px;
-    border-radius: 3px;
+    width: 17.5em;
+    margin-bottom: 1.5625em; /* 25px / 16px */
+    margin-right: 0.78125em; /* 12.5px / 16px */
+    margin-left: 0.78125em; /* 12.5px / 16px */
+    height: 17.5em;
+    border-radius: 0.1875em; /* 3px / 16px */
     box-shadow: rgb(34, 47, 46) 0px 3px 8px;
 
 }
 
-.boxContent {
-    margin-bottom: 22px;
+.box-content {
+    margin-bottom: 1.375em; /* 22px / 16px */
     text-align: left;
-    margin-left: 10px;
+    margin-left: 0.625em;
 }
 
-.boxContentCenter {
+.box-content-center {
     margin-bottom: 50px;
     text-align: left;
     margin-left: 10px;
@@ -262,56 +269,57 @@ p {
 }
 
 .box h3 {
-    font-size: 14px;
-    margin-left: 7px;
-    margin-right: 7px;
-    line-height: 22px;
+    font-size: 1em;
+    margin-left: 0.4375em; /* 7px / 16px */
+    margin-right: 0.4375em; /* 7px / 16px */
+    line-height: 1.375em; 
 }
 
 
 .box p {
-    margin-top: -7px;
-    font-size: 12px;
-    margin-left: 7px;
-    margin-right: 7px;
+    margin-top: -0.4375em; /* -7px / 16px */
+    font-size: 0.75em;
+    margin-left: 0.4375em; /* 7px / 16px */
+    margin-right: 0.4375em;
 }
 
-.zertifikate {
+.certificates-section {
     position: relative;
-    top: 125vh;
+    margin-top: 20%;
     text-align: center;
 
 }
 
-#zertifikateBoxes {
+#certificates-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.portfolio {
+#portfolio-section {
     position: relative;
-    top: 145vh;
+    margin-top: 20%;
     text-align: center;
 
 }
 
-#portfolioBoxes {
+#projects-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.weitereInteressen {
+.other-interests-section {
     position: relative;
-    top: 165vh;
+    margin-top: 20%;
     text-align: center;
+    margin-bottom: 20%;
 
 }
 
-#weitereInteressenBoxes {
+#other-interests-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -319,458 +327,221 @@ p {
 }
 
 @media (min-width: 1600px) {
-    .boxContentCenter {
-        margin-bottom: 40px;
-        text-align: left;
-        margin-left: 10px;
-
-    }
-
-    #aboutMeText {
-        margin-top: 30px;
-
-    }
-
-    .box {
-        margin-top: 20px;
-        margin-right: 15px;
-        margin-left: 15px;
-        width: 290px;
-        height: 290px;
-
-    }
-
-    .box img {
-        margin-bottom: 10px;
-        margin-top: 20px;
-        width: 70px;
-        height: 50px;
-    }
-
-    .box h3 {
-        font-size: 14px;
-        margin-left: 7px;
-        margin-right: 7px;
-        line-height: 15px;
-    }
-
-
-    .box p {
-        margin-top: -5px;
-        font-size: 12px;
-    }
-
-    .nameBox {
-        position: relative;
-        left: 65vw;
-        top: 100px;
-        text-align: left;
-        width: 35%;
-    }
-
-    .nameBox h2 {
-        text-align: center;
-        line-height: 90px;
-        font-size: 95px;
-
-    }
-
-    .introTextBox {
-        bottom: 100px;
-        width: 45%;
-    }
-
-    #introText {
-        line-height: 35px;
-        font-size: 40px;
-    }
-
-    h3 {
-        font-size: 17px;
-        line-height: 10px;
-
-    }
-
-    h2 {
-        margin-top: 20px;
-        line-height: 30px;
-        font-size: 53px;
-    }
-
-    p {
-        margin-top: -15px;
-        font-size: 16px;
-
-    }
-
-    #Button {
-        padding: 16.5px 33.5px;
-        font-size: 16px;
-    }
-
-    #viewPortfolioButton {
-        position: relative;
-        left: 0vw;
-        margin-top: 80px;
-        background-color: rgb(34, 47, 46);
-        border: none;
-        height: 80px;
-        width: 400px;
-        border-radius: 3px;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 24px;
-        cursor: pointer;
-        z-index: 4;
-    }
-
-    #ButtonContact {
-        font-size: 16px;
-        padding: 18px 35px;
-
-    }
-
-    .sectionTeaser {
-        font-size: 12px;
-    }
-
-    .titel {
-        margin-top: 20px;
-        font-size: 31px;
-        margin-bottom: 28px;
-        line-height: 20px;
-
-    }
-
-    #aboutMeText {
-        font-size: 16px;
+    body{
+        font-size: 18px;
     }
 
 }
 
 @media (max-width: 1000px) {
 
-    Button {
-        height: 54px;
+    .cv-download-btn {}
+
+    #about-text {}
+
+    footer {}
+
+    .description-box {}
+
+    .personal-info-box {}
+
+    .profile-image {
+        max-height: 50%;
+    max-width: 50%;
     }
 
-    #aboutMeText {
-        margin-top: -10px;
-        font-size: 16px;
+    .image-section {}
+
+    h3 {}
+
+    h2 {}
+
+    .intro-heading {
+        width: 100%;
+        top:30%;
     }
 
-    footer {
-        top: 130vh;
+    #intro-text {}
+
+    .name-box {}
+
+    .name-box h2 {
+        margin-left: 0em;
+        margin-right: 0em;
     }
 
-    .whiteBox {
-        width: 60vw;
-        height: 54.5vh;
-    }
+    p {}
 
-    .greenBox {
-        width: 40vw;
-        height: 54.5vh;
-    }
+    #cv-download-btn {}
 
-    .bild {
-        max-height: 80%;
-        max-width: 80%;
-        top: 11vh;
-        bottom: 0vh;
-        left: 21%;
-        right: 0px;
-    }
+    #portfolio-btn {}
 
-    .bildBereich {
-        width: 100vw;
-        top: 0px;
-        left: 0px;
-        height: 54.5vh;
-        z-index: 30;
-    }
-
-    h3 {
-        font-size: 16px;
-
-    }
-
-    h2 {
-        font-size: 40px;
-    }
-
-    .introTextBox {
-        width: 47%;
-        position: relative;
-        left: 5vw;
-        bottom: 0px;
-        text-align: left;
-    }
-
-    #introText {
-        font-size: 28px;
-        line-height: 30px;
-    }
-
-    .nameBox {
-        position: relative;
-        left: 64vw;
-        top: 100px;
-        text-align: left;
-        width: 35%;
-    }
-
-    .nameBox h2 {
-        text-align: center;
-        line-height: 45px;
-        font-size: 45px;
-
-    }
-
-    p {
-        font-size: 11.25px;
-
-    }
-
-    #Button {
-        padding: 10px 22px;
-        font-size: 16px;
-    }
-
-    #viewPortfolioButton {
-        position: relative;
-        left: 0px;
-        margin-top: 80px;
-        padding: 10px 22px;
-        font-size: 18px;
-        width: 250px;
-    }
-
-    #ButtonContact {
-        padding: 8.5px 20.5px;
-        font-size: 16px;
-    }
+    #contact-btn {}
 
 
-    .aboutMeSection {
-        top: 58vh;
-        width: 60%;
-    }
+    .about-me-section {}
 
-    .sectionTeaser {
-        font-size: 12px;
-    }
+    .section-intro {}
 
-    .titel {
-        font-size: 22px;
-    }
+    .section-title {}
 
-    .skills {
-        top: 75vh;
+    .skills-section {}
 
-    }
+    .certificates-section {}
 
-    .zertifikate {
-        top: 90vh;
+    #portfolio-section {}
 
-    }
+    .other-interests-section {}
 
-    .portfolio {
-        top: 105vh;
+    .box p {}
 
-    }
+    .box h3 {}
 
-    .weitereInteressen {
-        top: 120vh;
-    }
+    .box {}
 
-    .box p {
-        font-size: 16px;
-    }
-
-    .box h3 {
-        font-size: 18px;
-        line-height: 25px;
-    }
-
-    .box {
-        width: 340px;
-        height: 340px;
-
-    }
-
-    #ButtonContact {
-        margin-top: 30px;
-        width: 230px;
-        height: 55px;
-        margin-right: 10px;
-    }
+    #contact-btn {}
 
 
 
 
     @media (max-width: 690px) {
-        .boxContentCenter {
-            text-align: left;
-            margin-left: 10px;
+        body{
+
+        }
+        .box-content-center {
+           
         }
 
-        .sectionTeaser {
-            font-size: 13px;
+        .section-intro {
         }
 
         footer {
-            top: 900px;
         }
 
-        .whiteBox {
-            width: 63vw;
-            height: 550px;
+        .description-box {
+       
         }
 
-        .greenBox {
-            width: 37vw;
-            height: 550px;
+        
+
+        .about-me-section {
+            margin-top: 35%;
+            width: 90%;
+            margin-bottom: 35%;
+
+            
         }
 
-        .aboutMeSection {
-            margin-top: 270px;
-            top: 400px;
-            width: 80%;
+        #about-text {
         }
 
-        #aboutMeText {
-            font-size: 16px;
+        #portfolio-btn {
+        
+font-size: 1.2em;
+        }
+        .personal-info-box {
+        
+
         }
 
-        #viewPortfolioButton {
-            position: relative;
-            left: 0vh;
-            margin-top: 55px;
-            padding: 10px 22px;
-            font-size: 18px;
-            width: 165px;
+        .image-section {
+            
         }
 
-
-        .bildBereich {
-            top: 0px;
-            width: 100vw;
-            right: 0%;
-            height: 420px;
-            z-index: 30;
-        }
-
-        .bild {
-            max-height: 60%;
-            max-width: 60%;
-            top: 424px;
-            bottom: 0px;
-            left: 27vw;
-            right: 0px;
+        .profile-image {
+           visibility:hidden;
         }
 
         h3 {
-            font-size: 18px;
 
         }
 
         h2 {
-            font-size: 40px;
         }
 
-        .introTextBox {
-            width: 55%;
-            position: relative;
-            left: 3vh;
-            top: 30px;
-            text-align: left;
+        .intro-heading {
+            width: 100%;
+            top:30%;
         }
 
-        #introText {
-            font-size: 24px;
-            line-height: 25px;
-        }
-
-        .nameBox {
-            position: relative;
-            left: 64vw;
-            top: 10px;
-            text-align: left;
-            width: 35%;
-        }
-
-        .nameBox h2 {
+        #intro-text {
+            width: 100%;
+            font-size: 1.5em;
             text-align: center;
-            line-height: 32px;
-            font-size: 32px;
+        }
+
+        .name-box {
+          
+        }
+
+        .name-box h2 {
+           margin-left: 0em;
+           font-size: 2.2em;
 
         }
 
-        .skills {
-            top: 520px;
+        .skills-section {
+            margin-bottom: 35%;
 
         }
 
-        .zertifikate {
-            top: 620px;
+        .certificates-section {
+            margin-bottom: 35%;
+        }
+
+        #portfolio-section {
+            margin-bottom: 35%;
 
         }
 
-        .portfolio {
-            top: 720px;
-
-        }
-
-        .weitereInteressen {
-            top: 800px;
+        .other-interests-section {
+            margin-bottom: 35%;
         }
 
         .box p {
-            font-size: 16px;
+            font-size: 1em;
         }
 
         .box h3 {
-            font-size: 18px;
-            line-height: 25px;
+            font-size: 1.125em;
         }
 
         .box img {
-            width: 70px;
-            height: 50px;
+         
         }
 
         .box {
-            width: 390px;
-            height: 390px;
+            width: 22em;
+            height: 22em;
             display: flex;
-    justify-content: center; /* horizontal zentrieren */
-    align-items: center;  
-    flex-direction: column;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        .cv-download-btn {
+            width: 15.5em;
+
 
         }
 
-        Button {
-            width: 280px;
-
+        #contact-btn {
+           width: 15.5em;
+           margin-left: 0em;
+           margin-right: 0em;
         }
 
-        #ButtonContact {
-            margin-top: 30px;
-            width: 280px;
-            height: 55px;
-            margin-right: 0px;
+        .box-content {
+            margin-bottom: 0px; 
+
+         
         }
-        .boxContent {
-            margin-bottom: 0px;
-        }
-        .boxContentCenter {
-            margin-bottom: 0px;
-            text-align: left;
-            margin-left: 10px;
+
+        .box-content-center {
+            margin-bottom: 0px; 
+
+           
         }
 
     }

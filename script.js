@@ -3,18 +3,18 @@
 var Portfolio;
 (function (Portfolio) {
     function main() {
-        const introText = document.getElementById("introText");
+        const introText = document.getElementById("intro-text");
         introText.innerHTML = Portfolio.jsonImport.webTexte[0].introText;
-        const aboutMeText = document.getElementById("aboutMeText");
+        const aboutMeText = document.getElementById("about-text");
         aboutMeText.innerHTML = Portfolio.jsonImport.webTexte[0].aboutMeText;
-        const viewPortfolioButton = document.getElementById("viewPortfolioButton");
+        const viewPortfolioButton = document.getElementById("portfolio-btn");
         viewPortfolioButton.addEventListener("click", viewPortfolio);
-        const buttonContact = document.getElementById("ButtonContact");
+        const buttonContact = document.getElementById("contact-btn");
         buttonContact.addEventListener("click", contactEmail);
-        const skillBoxes = document.getElementById("skillBoxes");
-        const zertifikateBoxes = document.getElementById("zertifikateBoxes");
-        const portfolioBoxes = document.getElementById("portfolioBoxes");
-        const weitereInteressen = document.getElementById("weitereInteressenBoxes");
+        const skillBoxes = document.getElementById("skills-list");
+        const zertifikateBoxes = document.getElementById("certificates-list");
+        const portfolioBoxes = document.getElementById("projects-list");
+        const weitereInteressen = document.getElementById("other-interests-list");
         const kategorienHTML = [skillBoxes, zertifikateBoxes, portfolioBoxes, weitereInteressen];
         const kategorienLength = [Portfolio.jsonImport.skills.length, Portfolio.jsonImport.zertifikate.length, Portfolio.jsonImport.portfolio.length, Portfolio.jsonImport.weitereInteressen.length];
         const kategorien = [Portfolio.jsonImport.skills, Portfolio.jsonImport.zertifikate, Portfolio.jsonImport.portfolio, Portfolio.jsonImport.weitereInteressen];
@@ -30,12 +30,12 @@ var Portfolio;
                 }
                 if (kategorienHTML[i] === skillBoxes || kategorienHTML[i] === zertifikateBoxes) {
                     const boxContent = document.createElement("div");
-                    boxContent.setAttribute("class", "boxContentCenter");
+                    boxContent.setAttribute("class", "box-content-center");
                     boxDiv.appendChild(boxContent);
                 }
                 else {
                     const boxContent = document.createElement("div");
-                    boxContent.setAttribute("class", "boxContent");
+                    boxContent.setAttribute("class", "box-content");
                     boxDiv.appendChild(boxContent);
                 }
                 if (kategorien[i][y].image) {
@@ -47,7 +47,7 @@ var Portfolio;
                     boxDiv.appendChild(boxImage);
                 }
                 const boxTitel = document.createElement("h3");
-                boxTitel.innerHTML = kategorien[i][y].titel;
+                boxTitel.innerHTML = kategorien[i][y].title;
                 boxDiv.appendChild(boxTitel);
                 if (!kategorien[i][y].image && window.innerWidth < 1600) {
                     boxTitel.style.marginTop = "90px";
@@ -62,7 +62,7 @@ var Portfolio;
             }
         }
         function viewPortfolio() {
-            location.href = "#aboutMeTitel";
+            location.href = "#portfolio-section";
         }
         function contactEmail() {
             window.location.href = "mailto:mail@marcelritterbuisan.de";

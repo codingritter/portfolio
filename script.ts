@@ -1,21 +1,21 @@
 // tslint:disable-next-line: no-namespace
 namespace Portfolio {
     export function main(): void {
-        const introText: HTMLParagraphElement = document.getElementById("introText") as HTMLParagraphElement;
+        const introText: HTMLParagraphElement = document.getElementById("intro-text") as HTMLParagraphElement;
         introText.innerHTML = jsonImport.webTexte[0].introText;
-        const aboutMeText: HTMLParagraphElement = document.getElementById("aboutMeText") as HTMLParagraphElement;
+        const aboutMeText: HTMLParagraphElement = document.getElementById("about-text") as HTMLParagraphElement;
         aboutMeText.innerHTML = jsonImport.webTexte[0].aboutMeText;
 
-        const viewPortfolioButton: HTMLButtonElement = document.getElementById("viewPortfolioButton") as HTMLButtonElement;
+        const viewPortfolioButton: HTMLButtonElement = document.getElementById("portfolio-btn") as HTMLButtonElement;
         viewPortfolioButton.addEventListener("click", viewPortfolio);
 
-        const buttonContact: HTMLButtonElement = document.getElementById("ButtonContact") as HTMLButtonElement;
+        const buttonContact: HTMLButtonElement = document.getElementById("contact-btn") as HTMLButtonElement;
         buttonContact.addEventListener("click", contactEmail);
 
-        const skillBoxes: HTMLDivElement = document.getElementById("skillBoxes") as HTMLDivElement;
-        const zertifikateBoxes: HTMLDivElement = document.getElementById("zertifikateBoxes") as HTMLDivElement;
-        const portfolioBoxes: HTMLDivElement = document.getElementById("portfolioBoxes") as HTMLDivElement;
-        const weitereInteressen: HTMLDivElement = document.getElementById("weitereInteressenBoxes") as HTMLDivElement;
+        const skillBoxes: HTMLDivElement = document.getElementById("skills-list") as HTMLDivElement;
+        const zertifikateBoxes: HTMLDivElement = document.getElementById("certificates-list") as HTMLDivElement;
+        const portfolioBoxes: HTMLDivElement = document.getElementById("projects-list") as HTMLDivElement;
+        const weitereInteressen: HTMLDivElement = document.getElementById("other-interests-list") as HTMLDivElement;
         const kategorienHTML: HTMLDivElement[] = [skillBoxes, zertifikateBoxes, portfolioBoxes, weitereInteressen];
         const kategorienLength: number[] = [jsonImport.skills.length, jsonImport.zertifikate.length, jsonImport.portfolio.length, jsonImport.weitereInteressen.length];
         const kategorien = [jsonImport.skills, jsonImport.zertifikate, jsonImport.portfolio, jsonImport.weitereInteressen];
@@ -34,11 +34,11 @@ namespace Portfolio {
                 }
                 if(kategorienHTML[i] === skillBoxes || kategorienHTML[i] === zertifikateBoxes) {
                     const boxContent: HTMLDivElement = document.createElement("div");
-                boxContent.setAttribute("class", "boxContentCenter");
+                boxContent.setAttribute("class", "box-content-center");
                 boxDiv.appendChild(boxContent);
                 }else{
                 const boxContent: HTMLDivElement = document.createElement("div");
-                boxContent.setAttribute("class", "boxContent");
+                boxContent.setAttribute("class", "box-content");
                 boxDiv.appendChild(boxContent);
                 }
                 if (kategorien[i][y].image) {
@@ -51,7 +51,7 @@ namespace Portfolio {
                 }
 
                 const boxTitel: HTMLParagraphElement = document.createElement("h3");
-                boxTitel.innerHTML = kategorien[i][y].titel;
+                boxTitel.innerHTML = kategorien[i][y].title;
                 boxDiv.appendChild(boxTitel);
 
                 if (!kategorien[i][y].image && window.innerWidth < 1600) {
@@ -68,7 +68,7 @@ namespace Portfolio {
             }
         }
         function viewPortfolio() {
-            location.href = "#aboutMeTitel";
+            location.href = "#portfolio-section";
         }
         function contactEmail() {
             window.location.href = "mailto:mail@marcelritterbuisan.de";

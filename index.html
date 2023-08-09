@@ -21,74 +21,69 @@
 </head>
 
 <body>
-    <div class="bildBereich" id="top">
+    <main class="content-wrapper">
+        <section class="image-section">
+            <header class="main-header">
 
-        <div class="nameBox">
-            <h2 class="name" style="color: white;">Marcel<br> Ritter</h2>
-        </div>
+                <div class="description-box">
+                    <div class="intro-heading">
 
-        <div class="introTextBox">
+                        <h2 id="intro-text"></h2>
+                        <button id="portfolio-btn">Portfolio anzeigen</button>
+                    </div>
+                </div>
 
-            <h2 id="introText"></h2>
-            <button id="viewPortfolioButton">Portfolio anzeigen</button>
-        </div>
-        <img src="Bilder/PrimeBild.png" class="bild" alt="Me">
-    </div>
-    <div class="header">
-
-        <div class="whiteBox">
-        </div>
-
-        <div class="greenBox">
-        </div>
-
-    </div>
-    <div class="aboutMeSection">
-        <p class="sectionTeaser">Ein bisschen was zu mir</p>
-        <h3 class="titel" style="color: rgb(255, 255, 255);">Über mich</h3>
-        <p id="aboutMeText"></p>
-        <div class="buttonGroup">
-            <button id="ButtonContact">Kontakt</button>
-            <!-- <a href="lebenslaufMarcelRitterBuisan.pdf" download="Lebenslauf_Marcel_Ritter_Buisan"> -->
-            <button id="Button">Lebenslauf herunterladen</button>
-            <!-- </a> -->
-        </div>
-
-    </div>
-    <div class="wrapper">
-        <div class="skills">
-            <p class="sectionTeaser">Was ich kann</p>
-            <h3 class="titel" style="color: rgb(255, 255, 255);">Skills</h3>
-            <div id="skillBoxes">
+                <div class="personal-info-box">
+                    <div class="name-box">
+                        <h2 class="person-name">Marcel<br> Ritter</h2>
+                    </div>
+                </div>
+                <img src="Bilder/PrimeBild.png" class="profile-image" alt="Portrait von Marcel Ritter">
+            </header>
+        </section>
+        <section class="about-me-section">
+            <p class="section-intro">Ein bisschen was zu mir</p>
+            <h3 class="section-title">Über mich</h3>
+            <p id="about-text"></p>
+            <div class="action-buttons">
+                <button id="contact-btn">Kontakt</button>
+                <!-- <a href="lebenslaufMarcelRitterBuisan.pdf" download="Lebenslauf_Marcel_Ritter_Buisan"> -->
+                <button id="cv-download-btn">Lebenslauf herunterladen</button>
+                <!-- </a> -->
             </div>
+
+        </section>
+        <div class="details-wrapper">
+            <section class="skills-section">
+                <p class="section-intro">Was ich kann</p>
+                <h3 class="section-title" style="color: rgb(255, 255, 255);">Skills</h3>
+                <div id="skills-list">
+                </section>
+
+            <section class="certificates-section">
+                <p class="section-intro">Meine Abschlüsse</p>
+                <h3 class="section-title">Zertifikate</h3>
+                <div id="certificates-list"></div>
+            </section>
+
+            <section id="portfolio-section">
+                <p class="section-intro">Meine Projekte in der Studienzeit</p>
+                <h3 class="section-title">Portfolio</h3>
+                <div id="projects-list"></div>
+            </section>
+            <section class="other-interests-section">
+                <p class="section-intro">Skills und Abschlüsse aus anderen Themenbereichen</p>
+                <h3 class="section-title">Weitere Interessen</h3>
+                <div id="other-interests-list"></div>
+            </section>
         </div>
-
-        <div class="zertifikate">
-            <p class="sectionTeaser">Meine Abschlüsse</p>
-            <h3 class="titel" style="color: rgb(255, 255, 255);">Zertifikate</h3>
-            <div id="zertifikateBoxes">
-            </div>
-        </div>
-
-        <div class="portfolio">
-            <p class="sectionTeaser" id="aboutMeTitel">Meine Projekte in der Studienzeit</p>
-            <h3 class="titel" style="color: rgb(255, 255, 255);">Portfolio</h3>
-            <div id="portfolioBoxes">
-
-            </div>
-        </div>
-        <div class="weitereInteressen">
-            <p class="sectionTeaser">Skills und Abschlüsse aus anderen Themenbereichen</p>
-            <h3 class="titel" style="color: rgb(255, 255, 255);">Weitere Interessen</h3>
-            <div id="weitereInteressenBoxes">
-
-            </div>
-        </div>
-    </div>
-    <footer>
-        <a href="impressum.html"><p>Impressum</p></a>
-    </footer>
-
+    </main>
 </body>
+
+<footer>
+    <a href="impressum.html">
+        <p>Impressum</p>
+    </a>
+</footer>
 
 </html>
