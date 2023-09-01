@@ -12,6 +12,13 @@ skills: [{
     content: string;
     link: string;
 }];
+practicalExperiences: [{
+    image: string;
+    imageWidth: string;
+    title: string;
+    content: string;
+    link: string;
+}];
 zertifikate: [{
     image: string;
     imageWidth: string;

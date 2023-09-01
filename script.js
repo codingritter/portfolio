@@ -12,12 +12,13 @@ var Portfolio;
         const buttonContact = document.getElementById("contact-btn");
         buttonContact.addEventListener("click", contactEmail);
         const skillBoxes = document.getElementById("skills-list");
+        const practicalExperiencesBoxes = document.getElementById("practical-experiences-list");
         const zertifikateBoxes = document.getElementById("certificates-list");
         const portfolioBoxes = document.getElementById("projects-list");
         const weitereInteressen = document.getElementById("other-interests-list");
-        const kategorienHTML = [skillBoxes, zertifikateBoxes, portfolioBoxes, weitereInteressen];
-        const kategorienLength = [Portfolio.jsonImport.skills.length, Portfolio.jsonImport.zertifikate.length, Portfolio.jsonImport.portfolio.length, Portfolio.jsonImport.weitereInteressen.length];
-        const kategorien = [Portfolio.jsonImport.skills, Portfolio.jsonImport.zertifikate, Portfolio.jsonImport.portfolio, Portfolio.jsonImport.weitereInteressen];
+        const kategorienHTML = [skillBoxes, practicalExperiencesBoxes, zertifikateBoxes, portfolioBoxes, weitereInteressen];
+        const kategorienLength = [Portfolio.jsonImport.skills.length, Portfolio.jsonImport.practicalExperiences.length, Portfolio.jsonImport.zertifikate.length, Portfolio.jsonImport.portfolio.length, Portfolio.jsonImport.weitereInteressen.length];
+        const kategorien = [Portfolio.jsonImport.skills, Portfolio.jsonImport.practicalExperiences, Portfolio.jsonImport.zertifikate, Portfolio.jsonImport.portfolio, Portfolio.jsonImport.weitereInteressen];
         for (let i = 0; i < kategorienHTML.length; i++) {
             for (let y = 0; y < kategorienLength[i]; y++) {
                 const boxDiv = document.createElement("div");

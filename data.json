@@ -36,6 +36,15 @@
             "content": "Umgang mit Drohnen und Filmkameras"
         }
     ],
+    "practicalExperiences": [
+        {
+            "image": "Bilder/immowelt.png",
+            "imageWidth": "220px",
+            "title": "Immowelt",
+            "content": "Während meines sechsmonatigen Vollzeit-Praktikums unterstützte ich Scrum-Teams im Frontend-Bereich bei der Weiterentwicklung von Features der Immowelt-Plattform, wobei Technologien wie Angular, HTML, CSS und TypeScript zum Einsatz kamen.",
+            "link": ""
+        }
+    ],
     "zertifikate": [
         {
             "image": "Bilder/udemyabschlussbescheinigung.jpg",
@@ -72,10 +81,24 @@
             "link": ""
         },
         {
+            "image": "Bilder/doenerGame.png",
+            "imageWidth": "60px",
+            "title": "Döner Imbiss Game mit Canvas",
+            "content": "Hier habe ich einer Studentin bei der Umsetzung ihrer Idee geholfen. Während sie das Konzept entwickelte, übernahm ich die Verantwortung für die Programmierung der gesamten Anwendung.  Für die Realisierung verwendete ich TypeScript, HTML und CSS, sowie das Canvas-Element für Grafikdarstellungen.",
+            "link": "https://rittermarcel.github.io/doenergame/"
+        },
+        {
+            "image": "Bilder/memoryGame.png",
+            "imageWidth": "150px",
+            "title": "Memory Game",
+            "content": "Hier habe ich ein Memory-Spiel programmiert. Mittels einer Anbindung an die API von Unsplash kann der Nutzer die Thematik der Bilder nach Wunsch auswählen.",
+            "link": "https://rittermarcel.github.io/memorygame/"
+        },
+        {
             "image": "Bilder/phonomuseum.jpg",
             "imageWidth": "70px",
             "title": "Digitale Timeline & Geschichten aus aller Welt",
-            "content": "In Zusammenarbeit mit dem deutschen Phonomuseum in Sankt Georgen haben wir uns das Ziel gesetzt, das Expertenwissen des Arbeiterkreises der Firmen Dual und PE zu speichern und zu digitalisieren. Ich war für die erfolgreiche Umsetzung der Interviews verantwortlich.",
+            "content": "In Zusammenarbeit mit dem deutschen Phonomuseum in Sankt Georgen haben wir uns das Ziel gesetzt, das Expertenwissen des Arbeiterkreises der Firmen Dual und PE zu speichern und zu digitalisieren. Ich hatte die Verantwortung für die erfolgreiche Realisierung der Interviews, das beinhaltet die Kameraaufnahmen, das Lichtsetup und die Postproduktion.",
             "link": "https://www.hs-furtwangen.de/aktuelles/detail/2860-digitale-timeline-geschichten-aus-aller-welt/"
         },
         {

@@ -304,6 +304,20 @@ footer a {
     margin-right: 0.4375em;
 }
 
+.practical-experiences-section {
+        position: relative;
+        margin-top: 15%;
+        text-align: center;
+    
+}
+#practical-experiences-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
 .certificates-section {
     position: relative;
     margin-top: 15%;

@@ -13,12 +13,13 @@ namespace Portfolio {
         buttonContact.addEventListener("click", contactEmail);
 
         const skillBoxes: HTMLDivElement = document.getElementById("skills-list") as HTMLDivElement;
+        const practicalExperiencesBoxes: HTMLDivElement = document.getElementById("practical-experiences-list") as HTMLDivElement;
         const zertifikateBoxes: HTMLDivElement = document.getElementById("certificates-list") as HTMLDivElement;
         const portfolioBoxes: HTMLDivElement = document.getElementById("projects-list") as HTMLDivElement;
         const weitereInteressen: HTMLDivElement = document.getElementById("other-interests-list") as HTMLDivElement;
-        const kategorienHTML: HTMLDivElement[] = [skillBoxes, zertifikateBoxes, portfolioBoxes, weitereInteressen];
-        const kategorienLength: number[] = [jsonImport.skills.length, jsonImport.zertifikate.length, jsonImport.portfolio.length, jsonImport.weitereInteressen.length];
-        const kategorien = [jsonImport.skills, jsonImport.zertifikate, jsonImport.portfolio, jsonImport.weitereInteressen];
+        const kategorienHTML: HTMLDivElement[] = [skillBoxes,practicalExperiencesBoxes,zertifikateBoxes, portfolioBoxes, weitereInteressen];
+        const kategorienLength: number[] = [jsonImport.skills.length,jsonImport.practicalExperiences.length, jsonImport.zertifikate.length, jsonImport.portfolio.length, jsonImport.weitereInteressen.length];
+        const kategorien = [jsonImport.skills, jsonImport.practicalExperiences, jsonImport.zertifikate, jsonImport.portfolio, jsonImport.weitereInteressen];
 
 
 
