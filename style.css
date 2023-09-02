@@ -368,7 +368,8 @@ footer a {
 
 }
 
-@media (max-width: 1000px) {
+/* Für Tablets im Hochformat */
+@media (max-width: 1023px) {
     .profile-image {
         max-height: 50%;
         max-width: 50%;
@@ -396,11 +397,11 @@ footer a {
         margin-top: 20%;
     }
 
+}
 
 
 
-
-    @media (max-width: 690px) {
+    @media (max-width: 767px) {
 
 
 
@@ -449,6 +450,11 @@ footer a {
         }
 
         .skills-section {
+            margin-bottom: 35%;
+
+        }
+
+        .practical-experiences-section {
             margin-bottom: 35%;
 
         }
@@ -518,5 +524,20 @@ footer a {
         }
 
     }
+    @media screen and (max-width: 900px) and (orientation: landscape) {
+        .description-box {
+          height: 100vh;
+          /* andere Stile */
+        }
+        .personal-info-box {
+            height: 100vh;
+        }
+        .about-me-section {
+            margin-top: 30%;
+        }
+        .intro-heading {
+            top: 25%;
+        }
+      }
+    
 
-}
