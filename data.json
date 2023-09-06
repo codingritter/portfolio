@@ -63,7 +63,7 @@
             "image": "Bilder/eisdielenWebseite.jpg",
             "imageWidth": "90px",
             "title": "Eisdielen Webseite",
-            "content": "Im zweiten Semester erwarb ich Kenntnisse in der Webprogrammierung mit TypeScript. Ich entwickelte dazu einen Webshop für eine Eisdiele, der über einen integrierten Server und eine Datenbank verfügt. Hierbei nutzte ich HTML, CSS, TypeScript, JSON, Heroku und MongoDB.",
+            "content": "Im zweiten Semester erwarb ich Kenntnisse in der Webprogrammierung mit TypeScript. Ich entwickelte dazu einen Webshop für eine Eisdiele, der über einen integrierten Server und eine Datenbank verfügt. Hierbei nutzte ich HTML, CSS, TypeScript, JSON, Heroku und MongoDB. Die Webseite ist responsive.",
             "link": "https://rittermarcel.github.io/GIS-SoSe-2020/Abgaben/endprojekt/index.html"
         },
         {
