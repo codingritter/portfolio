@@ -527,7 +527,6 @@ footer a {
     @media screen and (max-width: 900px) and (orientation: landscape) {
         .description-box {
           height: 100vh;
-          /* andere Stile */
         }
         .personal-info-box {
             height: 100vh;
@@ -537,6 +536,11 @@ footer a {
         }
         .intro-heading {
             top: 25vh;
+        }
+        #portfolio-btn {
+            position: relative;
+            left: 0em;
+            margin-top: 1.3em;
         }
       }
     
