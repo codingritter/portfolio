@@ -26,7 +26,8 @@ var Portfolio;
                 if (kategorien[i][y].link && kategorien[i][y].link !== "") {
                     boxDiv.style.cursor = "pointer";
                     boxDiv.addEventListener("click", () => {
-                        window.location.href = kategorien[i][y].link;
+                        window.open(kategorien[i][y].link, '_blank' // <- This is what makes it open in a new window.
+                        );
                     });
                 }
                 const boxContent = document.createElement("div");
