@@ -81,18 +81,18 @@
             "link": ""
         },
         {
-            "image": "Bilder/doenerGame.png",
-            "imageWidth": "60px",
-            "title": "Döner Imbiss Game mit Canvas",
-            "content": "Hier habe ich einer Studentin bei der Umsetzung ihrer Idee geholfen. Während sie das Konzept entwickelte, übernahm ich die Verantwortung für die Programmierung der gesamten Anwendung.  Für die Realisierung verwendete ich TypeScript, HTML und CSS, sowie das Canvas-Element für Grafikdarstellungen.",
-            "link": "https://rittermarcel.github.io/doenergame/"
-        },
-        {
             "image": "Bilder/memoryGame.png",
             "imageWidth": "150px",
             "title": "Memory Game",
             "content": "Hier habe ich ein Memory-Spiel programmiert. Mittels einer Anbindung an die API von Unsplash kann der Nutzer die Thematik der Bilder nach Wunsch auswählen.",
             "link": "https://rittermarcel.github.io/memorygame/"
+        },
+        {
+            "image": "Bilder/doenerGame.png",
+            "imageWidth": "60px",
+            "title": "Döner Imbiss Game mit Canvas",
+            "content": "Hier habe ich einer Studentin bei der Umsetzung ihrer Idee geholfen. Während sie das Konzept entwickelte, übernahm ich die Verantwortung für die Programmierung der gesamten Anwendung.  Für die Realisierung verwendete ich TypeScript, HTML und CSS, sowie das Canvas-Element für Grafikdarstellungen.",
+            "link": "https://rittermarcel.github.io/doenergame/"
         },
         {
             "image": "Bilder/phonomuseum.jpg",
