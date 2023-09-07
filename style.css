@@ -524,7 +524,7 @@ footer a {
         }
 
     }
-    @media screen and (max-width: 800px) and (orientation: landscape) {
+    @media screen and (max-width: 915px) and (orientation: landscape) {
         .description-box {
           height: 100vh;
         }
