@@ -136,33 +136,45 @@ footer a {
     background-color: rgb(83, 13, 8);
     border: none;
     margin-right: 0.9375em;
-    /* 15px / 16px */
-    border-radius: 0.1875em;
-    /* 3px / 16px */
+    border-radius: 0.3125em; /* Ein wenig mehr Rundung für ein moderneres Erscheinungsbild */
     color: white;
     height: 3.125em;
     padding: 0.84375em 1.90625em;
-    /* 13.5px / 16px, 30.5px / 16px */
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 1em;
     cursor: pointer;
+
+    /* Schatten und Textschatten */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+
+    /* Übergangseffekt */
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.3s;
 }
+
+#contact-btn:hover {
+    background-color: rgb(103, 33, 28); /* Eine leicht veränderte Farbvariante für den Hover-Effekt */
+    transform: translateY(-2px); /* Ein leichtes Anheben beim Überfahren */
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.15); /* Erhöhter Schatten beim Hover */
+}
+
+#contact-btn:active {
+    transform: translateY(0); /* Button wird beim Klicken leicht nach unten verschoben */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Weniger Schatten beim Klicken für den "gedrückten" Look */
+}
+
 
 #portfolio-btn {
     position: relative;
     left: 0em;
     margin-top: 1.7857em;
-    /* 50px ÷ 28px */
     background-color: rgb(34, 47, 46);
     border: none;
     height: 2.1428em;
-    /* 60px ÷ 28px */
     width: 10.7142em;
-    /* 300px ÷ 28px */
-    border-radius: 0.1071em;
-    /* 3px ÷ 28px */
+    border-radius: 0.3571em; /* Ein bisschen mehr Rundung für Modernität */
     color: white;
     text-align: center;
     text-decoration: none;
@@ -170,32 +182,54 @@ footer a {
     font-size: 1.75em;
     cursor: pointer;
     z-index: 2;
+    
+    /* Schatten hinzugefügt */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+    /* Textschatten hinzugefügt */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+
+    /* Übergangseffekt */
+    transition: transform 0.2s, box-shadow 0.2s;
+
+    /* Hover-Effekt */
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    }
 }
 
 #cv-download-btn {
     margin-top: 1.25em;
-    /* 20px / 16px */
     background-color: transparent;
-    border: 0.09375em solid;
-    /* 1.5px / 16px */
-    border-radius: 0.1875em;
-    /* 3px / 16px */
+    border: 0.09375em solid rgb(255, 255, 255);
+    border-radius: 0.3125em; /* Ein wenig mehr Rundung für ein modernes Aussehen */
     height: 3.125em;
-    /* 50px / 16px */
-    border-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     padding: 0.84375em 1.90625em;
-    /* 13.5px / 16px, 30.5px / 16px */
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 1em;
     cursor: pointer;
+
+    /* Schatten und Textschatten */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+
+    /* Übergangseffekt für sanftere Animationen */
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
 }
 
 #cv-download-btn:hover {
     background-color: rgb(83, 13, 8);
     color: white;
+    transform: translateY(-2px); /* Ein leichtes Anheben beim Überfahren */
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.15); /* Erhöhter Schatten beim Hover */
+}
+
+#cv-download-btn:active {
+    transform: translateY(0); /* Button wird beim Klicken leicht nach unten verschoben */
 }
 
 .about-me-section {
@@ -209,7 +243,7 @@ footer a {
 }
 
 .section-intro {
-    margin-top: 1.875em;
+    margin-top: 20%;
     /* 30px / 16px */
     color: rgb(255, 255, 255);
     font-size: 0.625em;
@@ -246,21 +280,15 @@ footer a {
     flex-wrap: wrap;
     justify-content: center;
 }
-
 .box {
-    background-color: white;
+     background-color: white;
     position: relative;
-    width: 17.5em;
-    margin-bottom: 1.5625em;
-    /* 25px / 16px */
-    margin-right: 0.78125em;
-    /* 12.5px / 16px */
-    margin-left: 0.78125em;
-    /* 12.5px / 16px */
-    height: 17.5em;
-    border-radius: 0.1875em;
-    /* 3px / 16px */
-    box-shadow: rgb(34, 47, 46) 0px 3px 8px;
+    margin: 1.5625em 0.78125em;
+    width: 20em; /* von 17.5em erhöht */
+    height: 20em;
+    border-radius: 0.5em;  /* Sanftere Ecken */
+    box-shadow: 0px 4px 15px rgba(34, 47, 46, 0.15);  /* Dezenterer Schatten */
+    padding: 1em;  /* Innenabstand hinzugefügt */
 
 }
 
@@ -275,7 +303,7 @@ footer a {
 .box-content-center {
     display: flex;
     flex-direction: column;
-    margin-top: 20%;
+    justify-content: center;
     align-items: center;
     height: 90%;
 }
@@ -283,25 +311,27 @@ footer a {
 .box img {
     width: 70px;
     height: 50px;
+    margin-bottom: 0.5em;  /* Abstand zum Titel hinzugefügt */
+
 }
 
 .box h3 {
     font-size: 1em;
-    margin-left: 0.4375em;
-    /* 7px / 16px */
-    margin-right: 0.4375em;
-    /* 7px / 16px */
-    line-height: 1.375em;
+    margin: 0 0.4375em;  /* Abstand vereinfacht */
+    line-height: 1.5em;  /* Größere Zeilenhöhe für bessere Lesbarkeit */
+    font-weight: 600;  /* Fettschrift hinzugefügt */
 }
 
 
 .box p {
-    margin-top: -0.4375em;
+
     /* -7px / 16px */
     font-size: 0.75em;
+    margin-top: 0.5em;  /* Positiver Abstand hinzugefügt */
+    font-size: 0.875em;  /* Etwas größer gemacht */
     margin-left: 0.4375em;
-    /* 7px / 16px */
     margin-right: 0.4375em;
+    line-height: 1.4;  /* Größere Zeilenhöhe für bessere Lesbarkeit */
 }
 
 .practical-experiences-section {
@@ -316,6 +346,11 @@ footer a {
     flex-wrap: wrap;
     justify-content: center;
 
+}
+.details-wrapper{
+        width: 80%;
+        margin: 0 auto;
+    
 }
 
 .certificates-section {
@@ -388,7 +423,15 @@ footer a {
     }
 
 
+.details-wrapper{
+    width: 90%;
+}
+.box {
+    width: 18em;
+    height: 22em;
 
+
+}
 
 
 
@@ -483,12 +526,14 @@ footer a {
 
 
         .box {
-            width: 22em;
-            height: 22em;
+            width: 24em;
+            height: 24em;
 
 
         }
-
+.details-wrapper{
+    width: 100%;
+}
         .cv-download-btn {
             width: 15.5em;
 

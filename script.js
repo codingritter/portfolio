@@ -49,7 +49,7 @@ var Portfolio;
                 boxTitel.innerHTML = kategorien[i][y].title;
                 boxContent.appendChild(boxTitel);
                 if (!kategorien[i][y].image && window.innerWidth > 1600) {
-                    boxTitel.style.marginTop = "70px";
+                    boxTitel.style.marginTop = "60px";
                 }
                 else if (!kategorien[i][y].image && window.innerWidth < 1000 && window.innerWidth > 690) {
                     boxTitel.style.marginTop = "65px";
