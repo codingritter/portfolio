@@ -28,6 +28,7 @@ namespace Portfolio {
                 const boxDiv: HTMLDivElement = document.createElement("div");
                 boxDiv.setAttribute("class", "box");
                 if (kategorien[i][y].link && kategorien[i][y].link !== "") {
+                    boxDiv.setAttribute("class", "boxMitLink")
                     boxDiv.style.cursor = "pointer";
                     boxDiv.addEventListener("click", () => {
                         window.open(

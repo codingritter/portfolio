@@ -1,3 +1,4 @@
+
 html {
     font-family: Verdana, Arial, Tahoma, Serif;
 
@@ -9,6 +10,7 @@ body {
     padding: 0;
     font-size: 16px;
 }
+
 
 h2 {
     line-height: 1.875em;
@@ -64,7 +66,6 @@ footer a {
 
 .image-section {
     width: 100%;
-    top: 0px;
     left: 0%;
     height: 70vh;
     z-index: 1;
@@ -74,7 +75,6 @@ footer a {
 .main-header {
     width: 100%;
     position: absolute;
-    top: 0px;
     left: 0px;
     display: flex;
     flex-direction: row;
@@ -85,9 +85,13 @@ footer a {
 .description-box {
     background-color: rgb(255, 255, 255);
     position: relative;
+    top:0px;
     width: 60%;
     height: 70vh;
     z-index: 1;
+    display: flex;
+    align-items: center;
+    
 }
 
 .personal-info-box {
@@ -99,13 +103,15 @@ footer a {
 
 .name-box {
     position: relative;
-    top: 5%;
+    top: 0%;
     z-index: 2;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .name-box h2 {
     line-height: 1.1667em;
-    font-size: 3.75em;
+    font-size: 3.4em;
     text-align: center;
     margin-left: 10%;
     color: white;
@@ -114,11 +120,11 @@ footer a {
 
 .intro-heading {
     position: relative;
-    top: 20%;
     width: 90%;
+    top:0px;
     z-index: 1;
+    margin-top: -2%;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -127,7 +133,7 @@ footer a {
     color: rgb(83, 13, 8);
     text-align: left;
     line-height: 0.9375em;
-    font-size: 2em;
+    font-size: 2.2em;
 }
 
 
@@ -291,6 +297,22 @@ footer a {
     padding: 1em;  /* Innenabstand hinzugefügt */
 
 }
+.boxMitLink {
+    background-color: white;
+    position: relative;
+    margin: 1.5625em 0.78125em;
+    width: 20em;
+    height: 20em;
+    border-radius: 0.5em;
+    box-shadow: 0px 4px 15px rgba(34, 47, 46, 0.15);
+    padding: 1em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Für eine weiche Animation */
+
+}
+.boxMitLink:hover {
+    transform: scale(1.05); /* Box vergrößert sich um 5% */
+    box-shadow: 0px 6px 20px rgba(34, 47, 46, 0.25); /* Schatten wird intensiver */
+}
 
 .box-content {
     display: flex;
@@ -303,19 +325,19 @@ footer a {
 .box-content-center {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 90%;
+    margin-top: 30%;
+    height: 100%;
 }
 
-.box img {
+.box img, .boxMitLink img {
     width: 70px;
     height: 50px;
     margin-bottom: 0.5em;  /* Abstand zum Titel hinzugefügt */
 
 }
 
-.box h3 {
+.box h3, .boxMitLink h3 {
     font-size: 1em;
     margin: 0 0.4375em;  /* Abstand vereinfacht */
     line-height: 1.5em;  /* Größere Zeilenhöhe für bessere Lesbarkeit */
@@ -323,7 +345,7 @@ footer a {
 }
 
 
-.box p {
+.box p, .boxMitLink p {
 
     /* -7px / 16px */
     font-size: 0.75em;
@@ -412,7 +434,6 @@ footer a {
 
     .intro-heading {
         width: 100%;
-        top: 30%;
     }
 
 
@@ -439,6 +460,9 @@ footer a {
         width: 80%;
         margin-top: 20%;
     }
+    #intro-text {
+        font-size: 2em;
+    }
 
 }
 
@@ -446,8 +470,9 @@ footer a {
 
     @media (max-width: 767px) {
 
-
-
+        .name-box {
+            width: 100%;
+        }
 
         .about-me-section {
             margin-top: 35%;
@@ -475,7 +500,6 @@ footer a {
 
         .intro-heading {
             width: 100%;
-            top: 30%;
         }
 
         #intro-text {
@@ -526,10 +550,12 @@ footer a {
 
 
         .box {
-            width: 24em;
-            height: 24em;
-
-
+            width: 22em;
+            height: 22em;
+        }
+        .boxMitLink {
+            width: 22em;
+            height: 22em;
         }
 .details-wrapper{
     width: 100%;
@@ -556,6 +582,7 @@ footer a {
             justify-content: center;
 
         }
+      
 
         .box-content-center {
             margin-top: 0em;
@@ -579,14 +606,24 @@ footer a {
         .about-me-section {
             margin-top: 30%;
         }
-        .intro-heading {
-            top: 25vh;
-        }
+      
         #portfolio-btn {
             position: relative;
             left: 0em;
             margin-top: 1.3em;
         }
+        .box {
+            width: 22em;
+            height: 22em;
+        }
+        .boxMitLink {
+            width: 22em;
+            height: 22em;
+        }
+        .details-wrapper{
+            width: 100%;
+        }
+    
       }
     
 

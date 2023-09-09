@@ -9,11 +9,12 @@
         {
             "image": "Bilder/web_design1.png",
             "title": "Web Design",
+            "imageWidth": "60px",
             "content": "HTML, CSS"
         },
         {
             "image": "Bilder/web_coding.png",
-            "imageWidth": "100px",
+            "imageWidth": "60px",
             "title": "Web Programmierung",
             "content": "Typescript, Javascript, Angular"
         },
@@ -31,9 +32,15 @@
         },
         {
             "image": "Bilder/kamera.png",
-            "imageWidth": "60px",
+            "imageWidth": "40px",
             "title": "Film",
             "content": "Umgang mit Drohnen und Filmkameras"
+        },
+        {
+            "image": "Bilder/sprachen.png",
+            "imageWidth": "60px",
+            "title": "Fremdsprachen",
+            "content": "Deutsch, Englisch, Spanisch, Katalanisch"
         }
     ],
     "practicalExperiences": [
