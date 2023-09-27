@@ -1,7 +1,7 @@
 {
     "webTexte": [
         {
-            "introText": "Front-End-Entwicklung<br><br>Videografie",
+            "introText": "Web- & App-Entwicklung<br><br>Videografie",
             "aboutMeText": "Ich bin in München geboren und habe dort auch meine Schulzeit verbracht. Bereits in frühen Jahren entwickelte ich eine Leidenschaft für die Erstellung von Webseiten und alles, was mit Fotografie und Video zu tun hat. Diese Begeisterung konnte ich während meines Studiums vertiefen."
         }
     ],
@@ -32,7 +32,7 @@
         },
         {
             "image": "Bilder/kamera.png",
-            "imageWidth": "40px",
+            "imageWidth": "50px",
             "title": "Film",
             "content": "Umgang mit Drohnen und Filmkameras"
         },
@@ -84,22 +84,15 @@
             "image": "Bilder/app_programmierung.png",
             "imageWidth": "25px",
             "title": "Weitere Android Apps",
-            "content": "Der App-Programmierungs-Kurs auf Udemy wurde sorgfältig durchgearbeitet, und dabei entstanden vielfältige Apps, darunter eine App zum Zeichnen, eine Quiz-App sowie komplett eigene Apps.",
+            "content": "Ich absolvierte den App-Programmierkurs auf Udemy mit großer Sorgfalt. Dabei entstanden diverse Apps, unter anderem eine Zeichen-App, eine Quiz-App und eine App zur Verwaltung von Lieblingsorten mit Hilfe der Google Maps API und Standorterfassung. Darüber hinaus entwickelte ich auch einige eigene Anwendungen.",
             "link": ""
         },
         {
             "image": "Bilder/memoryGame.png",
             "imageWidth": "150px",
-            "title": "Memory Game",
+            "title": "Memory Game Webseite",
             "content": "Hier habe ich ein Memory-Spiel programmiert. Mittels einer Anbindung an die API von Unsplash kann der Nutzer die Thematik der Bilder nach Wunsch auswählen.",
             "link": "https://rittermarcel.github.io/memorygame/"
-        },
-        {
-            "image": "Bilder/doenerGame.png",
-            "imageWidth": "60px",
-            "title": "Döner Imbiss Game mit Canvas",
-            "content": "Hier habe ich einer Studentin bei der Umsetzung ihrer Idee geholfen. Während sie das Konzept entwickelte, übernahm ich die Verantwortung für die Programmierung der gesamten Anwendung.  Für die Realisierung verwendete ich TypeScript, HTML und CSS, sowie das Canvas-Element für Grafikdarstellungen.",
-            "link": "https://rittermarcel.github.io/doenergame/"
         },
         {
             "image": "Bilder/phonomuseum.jpg",

@@ -10,6 +10,10 @@ body {
     padding: 0;
     font-size: 16px;
 }
+.name-mobile-version {
+    visibility: collapse;
+    display: none;
+}
 
 
 h2 {
@@ -74,16 +78,23 @@ footer a {
 
 .main-header {
     width: 100%;
-    position: absolute;
+    background: linear-gradient(to right, 
+    rgb(255, 255, 255) 0%, 
+    rgb(255, 255, 255) 50%, 
+    rgb(200, 150, 150) 60%, 
+    rgb(83, 13, 8) 70%, 
+    rgb(83, 13, 8) 100%);
+    position: relative;
     left: 0px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     z-index: 1;
+    clip-path: polygon(0 0, 100% 0, 100% 97%, 75% 95%, 25% 95%, 0 97%);
+
 }
 
 .description-box {
-    background-color: rgb(255, 255, 255);
     position: relative;
     top:0px;
     width: 60%;
@@ -95,7 +106,6 @@ footer a {
 }
 
 .personal-info-box {
-    background-color: rgb(83, 13, 8);
     position: relative;
     width: 40%;
     height: 70vh;
@@ -103,9 +113,9 @@ footer a {
 
 .name-box {
     position: relative;
-    top: 0%;
+    top: -4%;
     z-index: 2;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -113,7 +123,7 @@ footer a {
     line-height: 1.1667em;
     font-size: 3.4em;
     text-align: center;
-    margin-left: 10%;
+    margin-left: 12%;
     color: white;
 }
 
@@ -348,7 +358,6 @@ footer a {
 .box p, .boxMitLink p {
 
     /* -7px / 16px */
-    font-size: 0.75em;
     margin-top: 0.5em;  /* Positiver Abstand hinzugefügt */
     font-size: 0.875em;  /* Etwas größer gemacht */
     margin-left: 0.4375em;
@@ -422,20 +431,32 @@ footer a {
     body {
         font-size: 18px;
     }
+    .name-box {
+        position: relative;
+        top: 0%;
+        z-index: 2;
+        width: 90%;
+        margin: 0 auto;
+    }
 
 }
 
 /* Für Tablets im Hochformat */
 @media (max-width: 1023px) {
     .profile-image {
-        max-height: 50%;
-        max-width: 50%;
+        max-height: 55%;
+        max-width: 55%;
     }
 
     .intro-heading {
         width: 100%;
     }
+    #intro-text{
+        width: 100%;
+        line-height: 1em;
 
+        text-align: center;
+    }
 
 
     .name-box h2 {
@@ -451,6 +472,11 @@ footer a {
     width: 18em;
     height: 22em;
 
+
+}
+.boxMitLink {
+    width: 18em;
+    height: 22em;
 
 }
 
@@ -469,7 +495,14 @@ footer a {
 
 
     @media (max-width: 767px) {
+        .box p, .boxMitLink p {
 
+            /* -7px / 16px */
+            font-size: 0.98em;  /* Etwas größer gemacht */
+            margin-left: 0em;
+            margin-right: 0em;
+            line-height: 1.4;  /* Größere Zeilenhöhe für bessere Lesbarkeit */
+        }
         .name-box {
             width: 100%;
         }
@@ -485,7 +518,8 @@ footer a {
 
 
         #portfolio-btn {
-
+            height: 3.1428em;
+            width: 10.7142em;
             font-size: 1.2em;
         }
 
@@ -539,16 +573,11 @@ footer a {
             margin-bottom: 35%;
         }
 
-        .box p {
-            font-size: 1em;
-        }
-
         .box h3 {
-            font-size: 1.125em;
+            font-size: 1.125em;         
+               margin:0em;  /* Abstand vereinfacht */
+
         }
-
-
-
         .box {
             width: 22em;
             height: 22em;
@@ -594,6 +623,50 @@ footer a {
             justify-content: center;
 
         }
+        .main-header {
+            background: linear-gradient(to bottom, #FFFFFF, rgb(83, 13, 8));
+
+            clip-path: polygon(0 0, 100% 0, 100% 99%, 80% 98%, 20% 98%, 0 99%);
+
+        }
+
+        
+        .description-box {
+            position: relative;
+            top:0px;
+            width: 100%;
+            height: 70vh;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+        
+        .personal-info-box {
+          visibility:collapse;
+          display: none;
+        }
+        .name-mobile-version {
+            position: relative;
+            top:-8%;
+            width: 80%;
+            visibility: visible;
+            display: block;
+            
+        }
+        .name-mobile-version h2{
+                line-height: 1.1667em;
+                font-size: 2.2em;
+                text-align: center;
+                color: rgb(83, 13, 8);
+
+            
+        }
+        #intro-text{
+            color: white;
+        }
 
     }
     @media screen and (max-width: 915px) and (orientation: landscape) {
@@ -623,6 +696,15 @@ footer a {
         .details-wrapper{
             width: 100%;
         }
+        .name-box h2 {
+            line-height: 1.1667em;
+            font-size: 3em;
+        }
+        .profile-image {
+            max-height: 70%;
+            max-width: 70%;
+        }
+  
     
       }
     
