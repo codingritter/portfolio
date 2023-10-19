@@ -57,13 +57,10 @@ namespace Portfolio {
                 boxTitel.innerHTML = kategorien[i][y].title;
                 boxContent.appendChild(boxTitel);
 
-                if (!kategorien[i][y].image && window.innerWidth > 1600) {
+                if (!kategorien[i][y].image && window.innerWidth > 1000) {
                     boxTitel.style.marginTop = "59px"
 
-                }else if (!kategorien[i][y].image && window.innerWidth < 1000 && window.innerWidth > 690) {
-                    boxTitel.style.marginTop = "65px"
-                }
-                else if (!kategorien[i][y].image && window.innerWidth <= 690) {
+                }else if (!kategorien[i][y].image && window.innerWidth <= 690) {
                     boxTitel.style.marginTop = "0px"
                 }
                 const boxText: HTMLParagraphElement = document.createElement("p");
