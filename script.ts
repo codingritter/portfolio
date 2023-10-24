@@ -33,7 +33,7 @@ namespace Portfolio {
                     boxDiv.addEventListener("click", () => {
                         window.open(
                             kategorien[i][y].link,
-                            '_blank' // <- This is what makes it open in a new window.
+                            '_blank' 
                           );
                     })
                 }

@@ -27,8 +27,7 @@ var Portfolio;
                     boxDiv.setAttribute("class", "boxMitLink");
                     boxDiv.style.cursor = "pointer";
                     boxDiv.addEventListener("click", () => {
-                        window.open(kategorien[i][y].link, '_blank' // <- This is what makes it open in a new window.
-                        );
+                        window.open(kategorien[i][y].link, '_blank');
                     });
                 }
                 const boxContent = document.createElement("div");

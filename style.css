@@ -1,4 +1,3 @@
-
 html {
     font-family: Verdana, Arial, Tahoma, Serif;
 
@@ -10,11 +9,6 @@ body {
     padding: 0;
     font-size: 16px;
 }
-.name-mobile-version {
-    visibility: collapse;
-    display: none;
-}
-
 
 h2 {
     line-height: 1.875em;
@@ -56,48 +50,16 @@ footer a {
 
 }
 
-.profile-image {
-    max-height: 100%;
-    max-width: 100%;
-    position: absolute;
-    top: 10;
-    bottom: 0vh;
-    left: 26%;
-    right: 0px;
-    margin: auto;
-    z-index: 2;
-}
-.profile-image-mobile {
-    visibility:collapse;
-    display: none; 
-}
-.center-image-mobile {
-    visibility:collapse;
-    display: none;  
-}
-.circle-image-mobile {
-    visibility:collapse;
-    display: none; 
-}
-
-.image-section {
-    width: 100%;
-    left: 0%;
-    height: 70vh;
-    z-index: 1;
-}
-
-
 .main-header {
     width: 100%;
-    background: linear-gradient(to right, 
-    rgb(255, 255, 255) 0%, 
-    rgb(255, 255, 255) 40%, 
-    rgb(200, 150, 150) 50%, 
-    rgb(83, 13, 8) 78%, 
-    rgb(83, 13, 8) 100%);
+    height: 80vh;
+    background: linear-gradient(to right,
+            rgb(255, 255, 255) 0%,
+            rgb(255, 255, 255) 40%,
+            rgb(200, 150, 150) 55%,
+            rgb(83, 13, 8) 87%,
+            rgb(83, 13, 8) 100%);
     position: relative;
-    left: 0px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -107,50 +69,47 @@ footer a {
 }
 
 .description-box {
+    flex-grow: 2;
     position: relative;
-    top:0px;
-    width: 60%;
-    height: 80vh;
+    top: 0px;
+    margin-left: 0%;
+    left: 0%;
     z-index: 1;
     display: flex;
     align-items: center;
-    
-}
+    justify-content: center;
 
-.personal-info-box {
-    position: relative;
-    width: 40%;
-    height: 80vh;
 }
-
-.name-box {
-    position: relative;
-    top: -1%;
-    left:0%;
-    z-index: 2;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.name-box h2 {
-    line-height: 1.1667em;
-    font-size: 3em;
-    text-align: center;
-    margin-left: 12%;
-    color: white;
-}
-
 
 .intro-heading {
     position: relative;
-    width: 90%;
-    top:0px;
     z-index: 1;
-    margin-top: -2%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+
 }
+
+.button-center {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.imageCenter {
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.profile-image {
+    position: relative;
+    width: 100%;
+    max-width: 65vh;
+    height: auto;
+    z-index: 2;
+}
+
 
 #intro-text {
     color: rgb(83, 13, 8);
@@ -165,7 +124,7 @@ footer a {
     background-color: rgb(83, 13, 8);
     border: none;
     margin-right: 0.9375em;
-    border-radius: 0.3125em; /* Ein wenig mehr Rundung für ein moderneres Erscheinungsbild */
+    border-radius: 0.3125em;
     color: white;
     height: 3.125em;
     padding: 0.84375em 1.90625em;
@@ -174,25 +133,23 @@ footer a {
     display: inline-block;
     font-size: 1em;
     cursor: pointer;
-
-    /* Schatten und Textschatten */
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-
-    /* Übergangseffekt */
     transition: transform 0.2s, box-shadow 0.2s, background-color 0.3s;
 }
 
 #contact-btn:hover {
-    background-color: rgb(103, 33, 28); /* Eine leicht veränderte Farbvariante für den Hover-Effekt */
-    transform: translateY(-2px); /* Ein leichtes Anheben beim Überfahren */
-    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.15); /* Erhöhter Schatten beim Hover */
+    background-color: rgb(103, 33, 28);
+    transform: translateY(-2px);
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.15);
 }
 
 #contact-btn:active {
-    transform: translateY(0); /* Button wird beim Klicken leicht nach unten verschoben */
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Weniger Schatten beim Klicken für den "gedrückten" Look */
+    transform: translateY(0);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
+
+
 
 
 #portfolio-btn {
@@ -203,7 +160,7 @@ footer a {
     border: none;
     height: 2.1428em;
     width: 10.7142em;
-    border-radius: 0.3571em; /* Ein bisschen mehr Rundung für Modernität */
+    border-radius: 0.3571em;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -211,28 +168,36 @@ footer a {
     font-size: 1.75em;
     cursor: pointer;
     z-index: 2;
-    
-    /* Schatten hinzugefügt */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-
-    /* Textschatten hinzugefügt */
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-
-    /* Übergangseffekt */
     transition: transform 0.2s, box-shadow 0.2s;
 
-    /* Hover-Effekt */
     &:hover {
         transform: translateY(-3px);
         box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
     }
 }
 
+.profile-image-mobile {
+    visibility: collapse;
+    display: none;
+}
+
+.center-image-mobile {
+    visibility: collapse;
+    display: none;
+}
+
+.circle-image-mobile {
+    visibility: collapse;
+    display: none;
+}
+
 #cv-download-btn {
     margin-top: 1.25em;
     background-color: transparent;
     border: 0.09375em solid rgb(255, 255, 255);
-    border-radius: 0.3125em; /* Ein wenig mehr Rundung für ein modernes Aussehen */
+    border-radius: 0.3125em;
     height: 3.125em;
     color: rgb(255, 255, 255);
     padding: 0.84375em 1.90625em;
@@ -241,28 +206,24 @@ footer a {
     display: inline-block;
     font-size: 1em;
     cursor: pointer;
-
-    /* Schatten und Textschatten */
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-
-    /* Übergangseffekt für sanftere Animationen */
     transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
 }
 
 #cv-download-btn:hover {
     background-color: rgb(83, 13, 8);
     color: white;
-    transform: translateY(-2px); /* Ein leichtes Anheben beim Überfahren */
-    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.15); /* Erhöhter Schatten beim Hover */
+    transform: translateY(-2px);
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.15);
 }
 
 #cv-download-btn:active {
-    transform: translateY(0); /* Button wird beim Klicken leicht nach unten verschoben */
+    transform: translateY(0);
 }
 
 .about-me-section {
-    margin-top: 20%;
+    margin-top: 10%;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -272,26 +233,20 @@ footer a {
 }
 
 .section-intro {
-    margin-top: 20%;
-    /* 30px / 16px */
     color: rgb(255, 255, 255);
     font-size: 0.625em;
-    /* 10px / 16px */
 }
 
 .section-title {
     font-size: 1.5em;
     line-height: 1.25em;
-    /* 20px / 16px */
     color: rgb(255, 255, 255);
 }
 
 #about-text {
     margin-top: -0.625em;
-    /* -10px / 16px */
     font-size: 1em;
     line-height: 1.375em;
-    /* 22px / 16px */
     color: rgb(255, 255, 255);
 }
 
@@ -309,17 +264,19 @@ footer a {
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .box {
-     background-color: white;
+    background-color: white;
     position: relative;
     margin: 1.5625em 0.78125em;
-    width: 20em; /* von 17.5em erhöht */
+    width: 20em;
     height: 20em;
-    border-radius: 0.5em;  /* Sanftere Ecken */
-    box-shadow: 0px 4px 15px rgba(34, 47, 46, 0.15);  /* Dezenterer Schatten */
-    padding: 1em;  /* Innenabstand hinzugefügt */
+    border-radius: 0.5em;
+    box-shadow: 0px 4px 15px rgba(34, 47, 46, 0.15);
+    padding: 1em;
 
 }
+
 .boxMitLink {
     background-color: white;
     position: relative;
@@ -329,12 +286,13 @@ footer a {
     border-radius: 0.5em;
     box-shadow: 0px 4px 15px rgba(34, 47, 46, 0.15);
     padding: 1em;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Für eine weiche Animation */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 
 }
+
 .boxMitLink:hover {
-    transform: scale(1.05); /* Box vergrößert sich um 5% */
-    box-shadow: 0px 6px 20px rgba(34, 47, 46, 0.25); /* Schatten wird intensiver */
+    transform: scale(1.05);
+    box-shadow: 0px 6px 20px rgba(34, 47, 46, 0.25);
 }
 
 .box-content {
@@ -356,34 +314,35 @@ footer a {
 .box img, .boxMitLink img {
     width: 70px;
     height: 50px;
-    margin-bottom: 0.5em;  /* Abstand zum Titel hinzugefügt */
+    margin-bottom: 0.5em;
 
 }
 
 .box h3, .boxMitLink h3 {
     font-size: 1em;
-    margin: 0 0.4375em;  /* Abstand vereinfacht */
-    line-height: 1.5em;  /* Größere Zeilenhöhe für bessere Lesbarkeit */
-    font-weight: 600;  /* Fettschrift hinzugefügt */
+    margin: 0 0.4375em;
+    line-height: 1.5em;
+    font-weight: 600;
 }
 
 
 .box p, .boxMitLink p {
 
     /* -7px / 16px */
-    margin-top: 0.5em;  /* Positiver Abstand hinzugefügt */
-    font-size: 0.875em;  /* Etwas größer gemacht */
+    margin-top: 0.5em;
+    font-size: 0.875em;
     margin-left: 0.4375em;
     margin-right: 0.4375em;
-    line-height: 1.4;  /* Größere Zeilenhöhe für bessere Lesbarkeit */
+    line-height: 1.4;
 }
 
 .practical-experiences-section {
-        position: relative;
-        margin-top: 15%;
-        text-align: center;
-    
+    position: relative;
+    margin-top: 15%;
+    text-align: center;
+
 }
+
 #practical-experiences-list {
     display: flex;
     flex-direction: row;
@@ -391,10 +350,11 @@ footer a {
     justify-content: center;
 
 }
-.details-wrapper{
-        width: 80%;
-        margin: 0 auto;
-    
+
+.details-wrapper {
+    width: 80%;
+    margin: 0 auto;
+
 }
 
 .certificates-section {
@@ -444,408 +404,189 @@ footer a {
     body {
         font-size: 18px;
     }
-    .name-box {
-        position: relative;
-        top: 0%;
-        z-index: 2;
-        width: 90%;
-        margin: 0 auto;
-    }
-    .name-box h2{
-        font-size: 3.5em;
+
+
+}
+
+@media (max-width: 1283px) {
+    #intro-text {
+        color: rgb(83, 13, 8);
+        text-align: center;
+        line-height: 0.9375em;
+        font-size: 2.2em;
     }
 
 }
 
 /* Für Tablets im Hochformat */
 @media (max-width: 1023px) {
-    .profile-image {
-        max-height: 58%;
-        max-width: 58%;
-        margin-left: 18%;
-    }
-
-    .intro-heading {
-        width: 100%;
-    }
-    #intro-text{
-        width: 100%;
-        line-height: 1em;
-
+    #intro-text {
+        color: rgb(83, 13, 8);
         text-align: center;
+        line-height: 0.9375em;
+        font-size: 2.2em;
     }
 
-
-    .name-box h2 {
-        margin-left: 0em;
-        margin-right: 0em;
-        margin-left: -40%;
-        font-size: 3.4em;
-        margin-top: 100px;
-
-    }
-    .name-box {
-        position: relative;
-        top: -1%;
-        left:0%;
-        z-index: 2;
+    .details-wrapper {
         width: 100%;
-        margin: 0 auto;
     }
-    
-    /* .name-box h2 {
-        line-height: 1.1667em;
-        font-size: 3em;
-        text-align: center;
-        margin-left: 12%;
-        color: white;
-    } */ 
-    
-
-
-.details-wrapper{
-    width: 90%;
-}
-.box {
-    width: 18em;
-    height: 22em;
-
-
-}
-.boxMitLink {
-    width: 18em;
-    height: 22em;
-
-}
-
-
 
     .about-me-section {
         width: 80%;
-        margin-top: 30%;
+
+
     }
-    #intro-text {
-        font-size: 2em;
-        color: rgb(34, 47, 46);
+
+}
+
+@media (max-width: 767px) {
+    .imageCenter {
+        visibility: collapse;
+        display: none;
     }
+
     .main-header {
-        width: 100%;
-        background: linear-gradient(to right, 
-        rgb(255, 255, 255) 0%, 
-        rgb(83, 13, 8) 100%);
+        height: 100vh;
+        background: linear-gradient(to right,
+                rgb(255, 255, 255) 0%,
+                rgb(255, 255, 255) 70%,
+                rgb(200, 150, 150) 100%);
+    }
+
+    .center-image-mobile {
         position: relative;
-        left: 0px;
+
+        visibility: visible;
         display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        z-index: 1;
-        clip-path: polygon(0 0, 100% 0, 100% 97%, 75% 95%, 25% 95%, 0 97%);
-    
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10%;
     }
-    #portfolio-btn {
+
+    .circle-image-mobile {
         position: relative;
-        top:130px;
-        margin-right: 15%;
+        visibility: visible;
+        display: contents;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid white;
+        box-sizing: border-box;
 
-        background-color: rgb(34, 47, 46);
-        border: none;
-        height: 3em;
-        width: 10.7142em;
-        border-radius: 0.3571em; /* Ein bisschen mehr Rundung für Modernität */
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 1.75em;
-        cursor: pointer;
+    }
+
+
+    .profile-image-mobile {
+        position: relative;
+        max-height: 100%;
+        max-width: 100%;
         z-index: 2;
+        visibility: visible;
+        display: flex;
+        left: 22px;
+
+
     }
 
-}
-
-
-
-    @media (max-width: 767px) {
-        .box p, .boxMitLink p {
-
-            /* -7px / 16px */
-            font-size: 0.98em;  /* Etwas größer gemacht */
-            margin-left: 0em;
-            margin-right: 0em;
-            line-height: 1.4;  /* Größere Zeilenhöhe für bessere Lesbarkeit */
-        }
-        .name-box {
-            width: 100%;
-        }
-
-        .about-me-section {
-            margin-top: 65%;
-            width: 90%;
-            margin-bottom: 35%;
-
-
-        }
-
-
-
-        #portfolio-btn {
-            height: 3.1428em;
-            width: 10.7142em;
-            font-size: 1.2em;
-        }
-
-
-
-
-        .profile-image {
-            visibility: collapse;
-    display: none;
-        }
-
-
-
-        .intro-heading {
-            width: 100%;
-        }
-
-        #intro-text {
-            width: 100%;
-            font-size: 1.5em;
-            text-align: center;
-        }
-
-
-
-        .name-box h2 {
-            margin-left: 0em;
-            font-size: 2.2em;
-
-        }
-
-        .skills-section {
-            margin-bottom: 35%;
-
-        }
-
-        .practical-experiences-section {
-            margin-bottom: 35%;
-
-        }
-
-        .certificates-section {
-            margin-bottom: 35%;
-        }
-
-        #portfolio-section {
-            margin-bottom: 35%;
-
-        }
-
-        .other-interests-section {
-            margin-bottom: 35%;
-        }
-
-        .box h3 {
-            font-size: 1.125em;         
-               margin:0em;  /* Abstand vereinfacht */
-
-        }
-        .box {
-            width: 22em;
-            height: 22em;
-        }
-        .boxMitLink {
-            width: 22em;
-            height: 22em;
-        }
-.details-wrapper{
-    width: 100%;
-}
-        .cv-download-btn {
-            width: 15.5em;
-
-
-        }
-
-        #contact-btn {
-            width: 15.5em;
-            margin-left: 0em;
-            margin-right: 0em;
-        }
-
-        .box-content {
-            margin-top: 0px;
-            margin-bottom: 0px;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-
-        }
-      
-
-        .box-content-center {
-            margin-top: 0em;
-            margin-bottom: 0px;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-
-        }
-        .main-header {
-            background: linear-gradient(to bottom, #FFFFFF, rgb(83, 13, 8));
-
-            clip-path: polygon(0 0, 100% 0, 100% 99%, 80% 98%, 20% 98%, 0 99%);
-
-        }
-
-        
-        .description-box {
-            position: relative;
-            top:0px;
-            width: 100%;
-            height: 90vh;
-            z-index: 1;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-            
-        }
-        
-        .personal-info-box {
-          visibility:collapse;
-          display: none;
-          height: 90vh;
-        }
-        .name-mobile-version {
-            position: relative;
-            top:-8%;
-            width: 80%;
-            visibility: visible;
-            display: block;
-            
-        }
-        .name-mobile-version h2{
-                line-height: 1.1667em;
-                font-size: 2.2em;
-                text-align: center;
-                color: rgb(83, 13, 8);
-
-            
-        }
-        #intro-text{
-            color: white;
-        }
-        .center-image-mobile {
-            position: relative;
-
-            visibility:visible;
-            display: flex;
-    flex-direction: column;
-    align-items: center; 
-        }
-        .circle-image-mobile {
-            position: relative;
-            visibility:visible;
-            display:contents;
-            width: 180px;     
-    height: 180px;   
-    border-radius: 50%;
-    overflow: hidden; 
-    display: flex;
-    justify-content: center; 
-    align-items: center;   
-    border: 3px solid white; 
-    box-sizing: border-box;
-    
-        }
-
-
-        .profile-image-mobile {
-            position: relative;
-            max-height: 100%;
-            max-width: 100%;
-            z-index: 2;
-            visibility:visible;
-            display:flex; 
-            left: 22px; 
-
-        
-        }
-        #portfolio-btn {
-            top:0px;
-            margin-right: 0%;
-        }
-        
+    .about-me-section {
+        width: 90%;
+        margin-bottom: 35%;
+        margin-top: 30%;
 
     }
-    @media screen and (max-width: 916px) and (orientation: landscape) {
-        .description-box {
-          height: 100vh;
-        }
-        .personal-info-box {
-            height: 100vh;
-        }
-        .about-me-section {
-            margin-top: 30%;
-        }
-      
-        #portfolio-btn {
-            position: relative;
-            left: 0em;
-            top:0px;
-            margin-top: 1.3em;
-        }
-        .box {
-            width: 22em;
-            height: 22em;
-        }
-        .boxMitLink {
-            width: 22em;
-            height: 22em;
-        }
-        .details-wrapper{
-            width: 100%;
-        }
-        .name-box {
-            width: 70%;
-            top:-60px;
-            left:13%;
-        }
-        .name-box h2 {
-            line-height: 1.1667em;
-            font-size: 2.5em;
-        }
-        .profile-image {
-            max-height: 70%;
-            max-width: 70%;
-            left:29%;
-        }
-        #intro-text {
-            position: relative;
-            color: rgb(83, 13, 8);
-            text-align: center;
-            line-height: 0.9375em;
-            font-size: 1.5em;
-        }
-        .intro-heading {
-            position: relative;
-            width: 100%;
-            top:0px;
-            z-index: 1;
-            margin-top: 0%;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-        }
-       
-      
-  
-    
-      }
-    
 
+    .box h3 {
+        font-size: 1.125em;
+        margin: 0em;
+
+    }
+
+    .box p, .boxMitLink p {
+
+        /* -7px / 16px */
+        font-size: 0.98em;
+        margin-left: 0em;
+        margin-right: 0em;
+        line-height: 1.4;
+    }
+
+    .box {
+        width: 22em;
+        height: 22em;
+    }
+
+    .boxMitLink {
+        width: 22em;
+        height: 22em;
+    }
+
+    .box-content {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    .box-content-center {
+        margin-top: 0em;
+        margin-bottom: 0px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .cv-download-btn {
+        width: 15.5em;
+
+
+    }
+
+    #contact-btn {
+        width: 15.5em;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+
+    .skills-section {
+        margin-bottom: 35%;
+
+    }
+
+    .practical-experiences-section {
+        margin-bottom: 35%;
+
+    }
+
+    .certificates-section {
+        margin-bottom: 35%;
+    }
+
+    #portfolio-section {
+        margin-bottom: 35%;
+
+    }
+
+    .other-interests-section {
+        margin-bottom: 35%;
+    }
+
+    .details-wrapper {
+        width: 100%;
+    }
+
+    /* @media screen and (max-width: 916px) and (orientation: landscape) {
+ 
+    } */
+}
