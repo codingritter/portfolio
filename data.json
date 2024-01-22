@@ -2,10 +2,16 @@
     "webTexte": [
         {
             "introText": "Web- & App-Entwicklung<br><br>Videografie",
-            "aboutMeText": "Hi, ich bin Marcel. Ich bin in München geboren und habe dort auch meine Schulzeit verbracht. Bereits in frühen Jahren entwickelte ich eine Leidenschaft für die Erstellung von Webseiten und alles, was mit Fotografie und Video zu tun hat. Diese Begeisterung konnte ich während meines Studiums vertiefen."
+            "aboutMeText": "Hi, ich bin Marcel. Ich bin in München geboren und habe dort auch meine Schulzeit verbracht. Bereits in frühen Jahren entwickelte ich eine Leidenschaft für die Programmierung von Webseiten und alles, was mit Fotografie und Video zu tun hat. Diese Begeisterung konnte ich während meines Studiums vertiefen. Neben meinem Studium nutzte ich Online-Kurse, um vor allem meine Programmierfähigkeiten gezielt und umfassend zu erweitern."
         }
     ],
     "skills": [
+        {
+            "image": "Bilder/app_programmierung.png",
+            "imageWidth": "28px",
+            "title": "App Programmierung",
+            "content": "Kotlin und Android Studio.<br> Jetpack Compose, XML"
+        },
         {
             "image": "Bilder/web_design1.png",
             "title": "Web Design",
@@ -19,12 +25,6 @@
             "content": "Typescript, Javascript, Angular"
         },
         {
-            "image": "Bilder/app_programmierung.png",
-            "imageWidth": "30px",
-            "title": "App Programmierung",
-            "content": "Kotlin und Android Studio"
-        },
-        {
             "image": "Bilder/video.png",
             "imageWidth": "50px",
             "title": "Video Bearbeitung",
@@ -32,7 +32,7 @@
         },
         {
             "image": "Bilder/kamera.png",
-            "imageWidth": "50px",
+            "imageWidth": "45px",
             "title": "Film",
             "content": "Umgang mit Drohnen und Filmkameras"
         },
@@ -54,6 +54,12 @@
     ],
     "zertifikate": [
         {
+            "image": "Bilder/androidabschlussbescheinigung.jpg",
+            "title": "Android Abschlussbescheinigung auf Udemy",
+            "content": "",
+            "link": "Bilder/androidabschlussbescheinigung.jpg"
+        },
+        {
             "image": "Bilder/udemyabschlussbescheinigung.jpg",
             "title": "Angular Abschlussbescheinigung auf Udemy",
             "content": "",
@@ -74,6 +80,13 @@
             "link": "https://rittermarcel.github.io/GIS-SoSe-2020/Abgaben/endprojekt/index.html"
         },
         {
+            "image": "Bilder/projectmanager.jpg",
+            "imageWidth": "80px",
+            "title": "Projektmanager App",
+            "content": "Durch den Udemy-Kurs in App-Entwicklung habe ich eine Projektmanagement-App kreiert, die Nutzerregistrierung, Board-Erstellung, Todo-Listung mit Unterpunkten und die Möglichkeit, andere Nutzer zu Boards und Todos hinzuzufügen, ermöglicht.",
+            "link": "https://drive.google.com/drive/folders/1icONmNrMSlBuzs-RQ4IBVwBuZTOmP0cT?usp=sharing"
+        },
+        {
             "image": "Bilder/rueckenApp.png",
             "imageWidth": "25px",
             "title": "Körperhaltungs App",
@@ -82,9 +95,9 @@
         },
         {
             "image": "Bilder/app_programmierung.png",
-            "imageWidth": "25px",
+            "imageWidth": "28px",
             "title": "Weitere Android Apps",
-            "content": "Ich schloss den Udemy App-Programmierkurs sorgfältig ab und kreierte dabei mehrere Apps, darunter eine Zeichen-App, Quiz-App, eine Favoritenort-Verwaltung mit Google Maps API, eine Wetter-App via Open Weather API und einen Projektmanager à la Trello. Zudem entwickelte ich eigene innovative Anwendungen.",
+            "content": "Ich absolvierte auf Udemy die 2 Kurse, The Complete Android 12 und 14 Kotlin Development Masterclass und erstellte dabei diverse Apps. Neben der Workout App und dem Trello-artigen Projektmanager erstellte ich eine Zeichen App, eine Quiz-App, ein Favoritenort-Manager via Google Maps API und eine Wetter-App mittels Open Weather API.",
             "link": ""
         },
         {
@@ -143,7 +156,7 @@
             "imageWidth": "70px",
             "title": "Fitnesstrainer B-Lizenz",
             "content": "",
-            "link": "Bilder/zertifikat.pdf"
+            "link": "Dateien/fitnessZertifikat.pdf"
         }
     ]
 }
