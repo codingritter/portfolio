@@ -10,7 +10,7 @@
             "image": "Bilder/app_programmierung.png",
             "imageWidth": "28px",
             "title": "App Programmierung",
-            "content": "Kotlin und Android Studio.<br> Jetpack Compose, XML"
+            "content": "Kotlin und Android Studio.<br> Jetpack Compose, XML. <br>MVVM Architecture Pattern."
         },
         {
             "image": "Bilder/web_design1.png",
