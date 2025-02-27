@@ -80,18 +80,25 @@
             "link": "https://rittermarcel.github.io/GIS-SoSe-2020/Abgaben/endprojekt/index.html"
         },
         {
-            "image": "Bilder/projectmanager.jpg",
-            "imageWidth": "80px",
-            "title": "Projektmanager App",
-            "content": "Durch den Udemy-Kurs in App-Entwicklung habe ich eine Projektmanagement-App kreiert, die Nutzerregistrierung, Board-Erstellung, Todo-Listung mit Unterpunkten und die Möglichkeit, andere Nutzer zu Boards und Todos hinzuzufügen, ermöglicht.",
-            "link": "https://drive.google.com/drive/folders/1icONmNrMSlBuzs-RQ4IBVwBuZTOmP0cT?usp=sharing"
+            "image": "Bilder/meetingcompanion.png",
+            "imageWidth": "50px",
+            "title": "Meeting Companion",
+            "content": "Im Rahmen meines Master-Projekts entwickelte ich das Frontend einer Web-App, die Meetings aufzeichnet, in Text umwandelt und kategorisiert. Mit HTML, CSS & JavaScript schuf ich ein intuitives UI mit Responsive Design, Animationen & einfacher Navigation. Zudem optimierte ich das Backend, um strukturierte und flexibel editierbare Protokolle bereitzustellen.",
+            "link": "https://drive.google.com/drive/folders/1yGkhzhQ07VX8Bl7Q5ZavkKyfe4_a1IrA?usp=drive_link"
         },
         {
             "image": "Bilder/rueckenApp.png",
             "imageWidth": "25px",
             "title": "Körperhaltungs App",
-            "content": "Mit Hilfe des App-Programmierungs-Kurses auf Udemy habe ich eine Körperhaltungs-App entwickelt. Sie präsentiert dem Nutzer gezielte Übungen, die er für eine bestimmte Zeit ausführen soll. Zusätzlich verfügt die App über einen BMI-Rechner und gewährleistet eine Aufzeichnung der Trainingszeiten des Benutzers.",
+            "content": "Hier habe ich eine App entwickelt, die gezielte Workouts für eine gerade Haltung und gegen Rückenschmerzen anbietet. Nutzer können zwischen drei Fitnesslevels wählen, zusätzliches Equipment hinzufügen und mit der Shuffle-Funktion die Workouts neu generieren. Nach dem Training kann das Workout unter den Favoriten gespeichert und in der Workout-Historie angezeigt werden.",
             "link": "https://drive.google.com/drive/folders/1bomYM18iNZLooqpC0LOHNuTnPhCgzLmI?usp=sharing"
+        },
+        {
+            "image": "Bilder/projectmanager.jpg",
+            "imageWidth": "80px",
+            "title": "Projektmanager App",
+            "content": "Durch den Udemy-Kurs in App-Entwicklung habe ich eine Projektmanagement-App erstellt, die Firebase nutzt. Diese App ermöglicht die Nutzerregistrierung, die Erstellung von Boards, das Anlegen von To-Do-Listen mit Unterpunkten sowie das Hinzufügen anderer Nutzer zu Boards und Aufgaben.",
+            "link": "https://drive.google.com/drive/folders/1icONmNrMSlBuzs-RQ4IBVwBuZTOmP0cT?usp=sharing"
         },
         {
             "image": "Bilder/app_programmierung.png",
