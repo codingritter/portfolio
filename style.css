@@ -1,6 +1,5 @@
 html {
     font-family: Verdana, Arial, Tahoma, Serif;
-
 }
 
 body {
@@ -13,13 +12,14 @@ body {
 h2 {
     line-height: 1.875em;
     font-size: 1.5em;
+    animation: fadeInUp 1s ease-in-out;
 }
 
 h3 {
     color: rgb(83, 13, 8);
     font-size: 1.125em;
     line-height: 0.625em;
-
+    animation: fadeInUp 1s ease-in-out;
 }
 
 footer {
@@ -37,7 +37,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    animation: fadeInUp 1s ease-in-out;
 }
 
 footer p {
@@ -47,50 +47,48 @@ footer p {
 
 footer a {
     text-decoration: none;
-
 }
 
 .main-header {
     width: 100%;
     height: 80vh;
     background: linear-gradient(to right,
-            rgb(255, 255, 255) 0%,
-            rgb(255, 255, 255) 40%,
-            rgb(200, 150, 150) 55%,
-            rgb(83, 13, 8) 87%,
-            rgb(83, 13, 8) 100%);
+        rgb(255, 255, 255) 0%,
+        rgb(255, 255, 255) 40%,
+        rgb(200, 150, 150) 55%,
+        rgb(83, 13, 8) 87%,
+        rgb(83, 13, 8) 100%);
     position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     z-index: 1;
     clip-path: polygon(0 0, 100% 0, 100% 97%, 75% 95%, 25% 95%, 0 97%);
+    animation: fadeInNormal 1s ease-out;
 }
 
 .description-box {
     flex-grow: 2;
     position: relative;
-    top: 0px;
-    margin-left: 0%;
-    left: 0%;
+    top: 0;
+    margin-left: 0;
+    left: 0;
     z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    animation: slideIn 1s ease-out;
 }
 
 .intro-heading {
     position: relative;
     z-index: 1;
-
 }
 
 .button-center {
     position: relative;
     display: flex;
     justify-content: center;
-
 }
 
 .imageCenter {
@@ -98,7 +96,7 @@ footer a {
     position: relative;
     display: flex;
     align-items: flex-end;
-
+    animation: fadeInUp 1s ease-in-out;
 }
 
 .profile-image {
@@ -107,8 +105,8 @@ footer a {
     max-width: 65vh;
     height: auto;
     z-index: 2;
+    animation: scaleIn 1s ease-in-out;
 }
-
 
 #intro-text {
     color: rgb(83, 13, 8);
@@ -116,8 +114,6 @@ footer a {
     line-height: 0.9375em;
     font-size: 2.2em;
 }
-
-
 
 #contact-btn {
     background-color: rgb(83, 13, 8);
@@ -148,12 +144,9 @@ footer a {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-
-
-
 #portfolio-btn {
     position: relative;
-    left: 0em;
+    left: 0;
     margin-top: 1.7857em;
     background-color: rgb(34, 47, 46);
     border: none;
@@ -171,23 +164,15 @@ footer a {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s, box-shadow 0.2s;
-
-    &:hover {
-        transform: translateY(-3px);
-        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
-    }
 }
 
-.profile-image-mobile {
-    visibility: collapse;
-    display: none;
+#portfolio-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
 }
 
-.center-image-mobile {
-    visibility: collapse;
-    display: none;
-}
-
+.profile-image-mobile,
+.center-image-mobile,
 .circle-image-mobile {
     visibility: collapse;
     display: none;
@@ -230,6 +215,7 @@ footer a {
     text-align: center;
     width: 40%;
     z-index: 2;
+    animation: fadeIn 1s ease-in-out;
 }
 
 .section-intro {
@@ -250,12 +236,11 @@ footer a {
     color: rgb(255, 255, 255);
 }
 
-
 .skills-section {
     position: relative;
     margin-top: 15%;
     text-align: center;
-
+    animation: fadeIn 1s ease-in-out;
 }
 
 #skills-list {
@@ -274,7 +259,7 @@ footer a {
     border-radius: 0.5em;
     box-shadow: 0px 4px 15px rgba(34, 47, 46, 0.15);
     padding: 1em;
-
+    animation: fadeInUp 1s ease-in-out;
 }
 
 .boxMitLink {
@@ -287,7 +272,7 @@ footer a {
     box-shadow: 0px 4px 15px rgba(34, 47, 46, 0.15);
     padding: 1em;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-
+    animation: fadeInUp 1s ease-in-out;
 }
 
 .boxMitLink:hover {
@@ -315,7 +300,6 @@ footer a {
     width: 70px;
     height: 50px;
     margin-bottom: 0.5em;
-
 }
 
 .box h3, .boxMitLink h3 {
@@ -325,10 +309,7 @@ footer a {
     font-weight: 600;
 }
 
-
 .box p, .boxMitLink p {
-
-    /* -7px / 16px */
     margin-top: 0.5em;
     font-size: 0.875em;
     margin-left: 0.4375em;
@@ -340,7 +321,7 @@ footer a {
     position: relative;
     margin-top: 15%;
     text-align: center;
-
+    animation: fadeIn 1s ease-in-out;
 }
 
 #practical-experiences-list {
@@ -348,20 +329,18 @@ footer a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .details-wrapper {
     width: 80%;
     margin: 0 auto;
-
 }
 
 .certificates-section {
     position: relative;
     margin-top: 15%;
     text-align: center;
-
+    animation: fadeIn 1s ease-in-out;
 }
 
 #certificates-list {
@@ -375,8 +354,7 @@ footer a {
     position: relative;
     margin-top: 15%;
     text-align: center;
-
-
+    animation: fadeIn 1s ease-in-out;
 }
 
 #projects-list {
@@ -391,7 +369,7 @@ footer a {
     margin-top: 15%;
     text-align: center;
     margin-bottom: 20%;
-
+    animation: fadeIn 1s ease-in-out;
 }
 
 #other-interests-list {
@@ -401,6 +379,7 @@ footer a {
     justify-content: center;
 }
 
+/* Keyframes */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -411,14 +390,52 @@ footer a {
         transform: translateY(0);
     }
 }
-@keyframes rotate {
-    0% {
-        transform: rotate(0deg);
+
+@keyframes fadeInNormal {
+    from {
+        opacity: 0;
     }
-    100% {
-        transform: rotate(360deg);
+    to {
+        opacity: 1;
     }
 }
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+
+
 
 
 
