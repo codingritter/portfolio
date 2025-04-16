@@ -100,19 +100,25 @@ footer a {
 }
 
 .profile-image {
-    position: relative;
     width: 100%;
     max-width: 65vh;
     height: auto;
     z-index: 2;
     animation: scaleIn 1s ease-in-out;
+    border-radius: 24px; /* etwas weicher */
+
+    box-shadow:
+        0 -8px 18px rgba(0, 0, 0, 0.15),  /* weicherer Oben-Schatten */
+        0 12px 25px rgba(0, 0, 0, 0.1);   /* etwas mehr Bodenschatten */
 }
 
 #intro-text {
     color: rgb(83, 13, 8);
     text-align: left;
-    line-height: 0.9375em;
+    line-height: 1.4em; /* statt 0.9375em */
     font-size: 2.2em;
+    font-weight: 600; /* optional für etwas mehr Präsenz */
+    margin-bottom: 1em; /* bisschen Abstand zum Button */
 }
 
 #contact-btn {
@@ -526,7 +532,7 @@ footer a {
         z-index: 2;
         visibility: visible;
         display: flex;
-        left: 22px;
+        left: 0px;
 
 
     }
