@@ -1,7 +1,7 @@
 {
     "webTexte": [
         {
-            "introText": "Web- & App-Entwicklung<br><br>Videografie",
+            "introText": "Entwicklung für Web, App, Game & VR<br><br>Videografie",
             "aboutMeText": "Hi, ich bin Marcel. Ich bin in München geboren und habe dort auch meine Schulzeit verbracht. Bereits in frühen Jahren entwickelte ich eine Leidenschaft für die Programmierung von Webseiten und alles, was mit Fotografie und Video zu tun hat. Diese Begeisterung konnte ich während meines Studiums vertiefen. Neben meinem Studium nutzte ich Online-Kurse, um vor allem meine Programmierfähigkeiten gezielt und umfassend zu erweitern."
         }
     ],
@@ -11,6 +11,18 @@
             "imageWidth": "28px",
             "title": "App Programmierung",
             "content": "Kotlin und Android Studio.<br> Jetpack Compose, XML. <br>MVVM Architecture Pattern."
+        },
+        {
+            "image": "Bilder/vr_entwicklung.png",
+            "imageWidth": "50px",
+            "title": "VR Entwicklung",
+            "content": "Unity, C#"
+        },
+        {
+            "image": "Bilder/spiel_entwicklung.png",
+            "imageWidth": "80px",
+            "title": "Spiel Entwicklung",
+            "content": "Godot Engine, GDScript"
         },
         {
             "image": "Bilder/web_design1.png",
@@ -79,11 +91,18 @@
             "content": "Im zweiten Semester erwarb ich Kenntnisse in der Webprogrammierung mit TypeScript. Ich entwickelte dazu einen Webshop für eine Eisdiele, der über einen integrierten Server und eine Datenbank verfügt. Hierbei nutzte ich HTML, CSS, TypeScript, JSON, Heroku und MongoDB. Die Webseite ist responsive.",
             "link": "https://rittermarcel.github.io/GIS-SoSe-2020/Abgaben/endprojekt/index.html"
         },
+         {
+            "image": "Bilder/gamejam_waves_of_freedom.png",
+            "imageWidth": "50px",
+            "title": "Waves of Freedom",
+            "content": "Waves of Freedom ist ein 3D-Puzzlegame, entwickelt in Godot während eines viertägigen Game Jams zum Thema „Welle machen“. Drei Charaktere mit Wellenkräften fliehen aus einem Gefängnis. Gameplay, Story und UI wurden eigenständig entwickelt, viele Assets per Photogrammetrie 3D-rekonstruiert und ins Spiel integriert.",
+            "link": "https://drive.google.com/file/d/1y6yoxqYFNXGvRd-MQhSlrSrT1HMHPOci/view"
+        },
         {
             "image": "Bilder/meetingcompanion.png",
             "imageWidth": "50px",
             "title": "Meeting Companion",
-            "content": "Im Rahmen meines Master-Projekts entwickelte ich das Frontend einer Web-App, die Meetings aufzeichnet, in Text umwandelt und kategorisiert. Mit HTML, CSS & JavaScript schuf ich ein intuitives UI mit Responsive Design, Animationen & einfacher Navigation. Zudem optimierte ich das Backend, um strukturierte und flexibel editierbare Protokolle bereitzustellen.",
+            "content": "Im Rahmen meines Master-Projekts entwickelte ich im Team eine Web-App, die Meetings aufzeichnet, in Text umwandelt und kategorisiert. Mit HTML, CSS & JavaScript schuf ich ein intuitives UI mit Responsive Design, Animationen & einfacher Navigation. Zudem optimierte ich das Backend, um strukturierte und flexibel editierbare Protokolle bereitzustellen.",
             "link": "https://drive.google.com/drive/folders/1yGkhzhQ07VX8Bl7Q5ZavkKyfe4_a1IrA?usp=drive_link"
         },
         {
@@ -119,7 +138,7 @@
             "imageWidth": "70px",
             "title": "Digitale Timeline & Geschichten aus aller Welt",
             "content": "In Zusammenarbeit mit dem deutschen Phonomuseum in Sankt Georgen haben wir uns das Ziel gesetzt, das Expertenwissen des Arbeiterkreises der Firmen Dual und PE zu speichern und zu digitalisieren. Ich hatte die Verantwortung für die erfolgreiche Realisierung der Interviews, das beinhaltet die Kameraaufnahmen, das Lichtsetup und die Postproduktion.",
-            "link": "https://www.hs-furtwangen.de/aktuelles/detail/2860-digitale-timeline-geschichten-aus-aller-welt/"
+            "link": "https://deutsches-phonomuseum.de/timeline/"
         },
         {
             "image": "Bilder/omnipotentia.jpg",
@@ -127,20 +146,6 @@
             "title": "Kurzfilm Omnipotentia",
             "content": "Ich habe die Verantwortung für die Kameraarbeit und die Nachbearbeitung in diesem Kurzfilm übernommen und dafür das Programm Adobe Premiere verwendet.",
             "link": "https://drive.google.com/file/d/1GL3Db227JYhCb9uHGyhkaKyfuwM6-ooz/view?usp=sharing"
-        },
-        {
-            "image": "Bilder/klimawandelSchwarzwald.jpg",
-            "imageWidth": "90px",
-            "title": "Film/Webseite: Klimawandel im Schwarzwald",
-            "content": "Im vierten Semester erschuf ich einen kurzen Film, in dem ich den Schwarzwald in den Fokus rückte und die Auswirkungen des Klimawandels thematisierte. Zusätzlich programmierte ich auch eine interaktive Webseite, auf der das Publikum ihr Wissen über den Klimawandel testen konnte.",
-            "link": "https://rittermarcel.github.io/Klimawandel-Schwarzwald/micropage/"
-        },
-        {
-            "image": "Bilder/digitalerPlattenspieler.png",
-            "imageWidth": "90px",
-            "title": "Analog-Digitaler Plattenspieler",
-            "content": "Für ein Hochschulprojekt musste ich einen Audioplayer erstellen. Ich habe mich für einen analog-digitalen Plattenspieler entschieden. Umgesetzt habe ich die 3D-Modellierung des Prototyps in Blender und die Videobearbeitung in Adobe Premiere.",
-            "link": "https://drive.google.com/file/d/1WIb4dUxy7CPJZ8Xn-SlmmYi58J7ufoyk/view?usp=sharing"
         },
         {
             "image": "Bilder/fitnessVideo.png",

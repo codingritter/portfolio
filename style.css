@@ -119,6 +119,8 @@ footer a {
     font-size: 2.2em;
     font-weight: 600; /* optional für etwas mehr Präsenz */
     margin-bottom: 1em; /* bisschen Abstand zum Button */
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 #contact-btn {
@@ -468,7 +470,7 @@ footer a {
     #intro-text {
         color: rgb(83, 13, 8);
         text-align: center;
-        line-height: 0.9375em;
+        line-height: 1.2em;
         font-size: 2.2em;
     }
 
